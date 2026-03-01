@@ -400,3 +400,31 @@ cy.get('div.container div.row div.col-md-6 form input[type="email"]');
 - **Test Organization**: BDD/Cucumber patterns
 - **API Testing**: REST API best practices
 - **Debugging**: Cypress Inspector and Chrome DevTools
+
+## Test Data: Fixtures and Configuration
+
+### Fixture Files
+**Location:** `cypress/fixtures/` — Use for static test data (CSV, JSON, etc.)
+
+```typescript
+// Load fixture as file path (CSV uploads, etc.)
+cy.get("#CSVFileChooser").selectFile("cypress/fixtures/test_import.csv");
+
+// Load fixture as JSON object
+cy.fixture('users.json').then((users) => {
+  cy.request('POST', '/api/admin/users', users[0]);
+});
+```
+
+### Environment & Config
+**Local:** Create `cypress.env.json` (gitignored) for test credentials.  
+**Override baseUrl:** `CYPRESS_BASE_URL=http://localhost:8080 npm run test`
+
+### npm Scripts (Learn These)
+- `npm run test` — Run full e2e suite headless  
+- `npm run test:open` — Open interactive runner  
+- `npm run test:api` — API tests only  
+- `npm run test:ui` — UI tests only  
+- `npm run test:new-system` — Setup wizard tests
+
+Migration note: Move static test data from `cypress/data/` → `cypress/fixtures/`; keep `cypress/data/seed.sql` (Docker mounts it).

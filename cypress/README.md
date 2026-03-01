@@ -10,19 +10,17 @@ Overview
 Running tests (recommended)
 - Open interactive runner (local):
   ```bash
-  npm run cypress:open
+  npm run test:open
   ```
 - Run headless (local):
   ```bash
-  npm run cypress:run
+  npm run test
   ```
-- Run CI (headless, CI config):
+- Run specific tests:
   ```bash
-  npm run cypress:run:ci
-  ```
-- Run using Docker-specific config:
-  ```bash
-  npm run cypress:run:docker
+  npm run test:api     # API tests only
+  npm run test:ui      # UI tests only
+  npm run test:new-system  # Setup wizard tests
   ```
 
 Quick migration notes
@@ -57,9 +55,11 @@ npx cypress run --config baseUrl=http://localhost:8080 --config-file cypress/con
 ```
 
 - Common developer commands:
-  - `npm run test` — run headless using the canonical Docker/CI config (good for quick verification)
-  - `npm run test:ui` — open the Cypress interactive runner (local debugging)
-  - `npm run cypress:open` / `npm run cypress:run` — shorthand for the canonical `cypress.config.ts` usage
+  - `npm run test` — run full e2e suite headless (api + ui)
+  - `npm run test:open` — open interactive test runner
+  - `npm run test:api` — run API tests only
+  - `npm run test:ui` — run UI tests only
+  - `npm run test:new-system` — run setup wizard tests
 
 - Security: ensure `cypress.env.json` is added to your `.gitignore` and never committed.
 
