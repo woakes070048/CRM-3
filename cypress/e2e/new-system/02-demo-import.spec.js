@@ -195,8 +195,6 @@ describe('02 - Demo Data Import', () => {
         });
 
         it('should have payments in the system after demo import', () => {
-            // Use /api/deposits/{id}/pledges instead of /api/payments/ because the
-            // payments endpoint filters by user ShowPayments setting (off by default)
             cy.request({
                 method: 'GET',
                 url: '/api/deposits',
@@ -207,17 +205,18 @@ describe('02 - Demo Data Import', () => {
                 const deposits = response.body.Deposits;
                 expect(deposits.length).to.be.greaterThan(0);
 
+                // Use the first deposit (oldest, closed) — it always has payments linked via dep_id
                 const depositId = deposits[0].Id;
                 return cy.request({
                     method: 'GET',
-                    url: `/api/deposits/${depositId}/pledges`,
+                    url: `/api/deposits/${depositId}/payments`,
                     timeout: 30000
                 });
-            }).then((pledgesResponse) => {
-                expect(pledgesResponse.status).to.equal(200);
-                expect(pledgesResponse.body).to.be.an('array');
-                expect(pledgesResponse.body.length).to.be.greaterThan(0);
-                cy.log(`Found ${pledgesResponse.body.length} payment(s) in deposit`);
+            }).then((paymentsResponse) => {
+                expect(paymentsResponse.status).to.equal(200);
+                expect(paymentsResponse.body).to.be.an('array');
+                expect(paymentsResponse.body.length).to.be.greaterThan(0);
+                cy.log(`Found ${paymentsResponse.body.length} payment(s) in deposit`);
             });
         });
 
