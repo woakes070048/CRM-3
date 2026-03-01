@@ -240,5 +240,23 @@ describe('02 - Demo Data Import', () => {
             // Should see the finance dashboard title
             cy.contains('Finance Dashboard').should('be.visible');
         });
+
+        it('should reset admin password back to changeme for subsequent tests', () => {
+            // Tests 03-04 expect 'changeme' as the default password
+            // Change password from 'Cypress@01!' back to 'changeme'
+            cy.visit('/v2/user/current/changepassword');
+
+            const currentPassword = 'Cypress@01!';
+            const newPassword = 'changeme';
+
+            // Fill in change password form
+            cy.get('#OldPassword').type(currentPassword);
+            cy.get('#NewPassword1').type(newPassword);
+            cy.get('#NewPassword2').type(newPassword);
+            cy.get('input[type=submit]').click();
+
+            // Should show success message
+            cy.contains('Password Change Successful', { timeout: 10000 }).should('be.visible');
+        });
     });
 });
