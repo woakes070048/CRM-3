@@ -119,6 +119,7 @@ jobs:
 
   test-root:
     needs: build
+    timeout-minutes: 30
     permissions:
       contents: read
     runs-on: ubuntu-latest
@@ -219,6 +220,7 @@ jobs:
 
   test-subdir:
     needs: build
+    timeout-minutes: 30
     permissions:
       contents: read
     runs-on: ubuntu-latest
@@ -319,6 +321,7 @@ jobs:
 
   test-new-system:
     needs: build
+    timeout-minutes: 30
     permissions:
       contents: read
     runs-on: ubuntu-latest
@@ -432,6 +435,7 @@ jobs:
 
   test-new-system-subdir:
     needs: build
+    timeout-minutes: 30
     permissions:
       contents: read
     runs-on: ubuntu-latest
