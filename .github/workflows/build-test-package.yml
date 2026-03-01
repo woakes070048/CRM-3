@@ -2,7 +2,7 @@ name: Build, Test and Package
 
 on:
   pull_request:
-    branches:    
+    branches:
       - master
       - develop
       - 'hotfix/**'
@@ -11,6 +11,7 @@ on:
       - 'docs/**'
       - 'LICENSE'
       - '.gitignore'
+      - '.ddev/**'
   push:
     branches:
     - master
@@ -21,6 +22,7 @@ on:
       - 'docs/**'
       - 'LICENSE'
       - '.gitignore'
+      - '.ddev/**'
 
 jobs:
   build:
