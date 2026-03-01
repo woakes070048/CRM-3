@@ -141,18 +141,73 @@ describe('02 - Demo Data Import', () => {
 
         it('should show people listing with demo data', () => {
             cy.visit('/v2/people');
-            
+
             // Should see the people listing
             cy.contains('People').should('be.visible');
-            
+
             // Should have table with people data
             cy.get('table', { timeout: 10000 }).should('exist');
-            
+
             // Wait for table to populate (DataTable lazy loading)
             cy.wait(2000);
-            
+
             // Should have rows with people
             cy.get('table tbody tr').should('have.length.at.least', 1);
+        });
+    });
+
+    describe('Verify Finance Demo Data', () => {
+        beforeEach(() => {
+            loginAsAdmin();
+        });
+
+        it('should have deposits in the system after demo import', () => {
+            cy.request({
+                method: 'GET',
+                url: '/api/deposits',
+                timeout: 30000
+            }).then((response) => {
+                expect(response.status).to.equal(200);
+                expect(response.body).to.be.an('array');
+                expect(response.body.length).to.be.greaterThan(0);
+                cy.log(`Found ${response.body.length} deposit(s)`);
+            });
+        });
+
+        it('should have at least one open deposit', () => {
+            cy.request({
+                method: 'GET',
+                url: '/api/deposits',
+                timeout: 30000
+            }).then((response) => {
+                expect(response.status).to.equal(200);
+                expect(response.body).to.be.an('array');
+
+                // Closed is stored as bool (false = open, true = closed)
+                const openDeposits = response.body.filter(d => !d.Closed);
+                expect(openDeposits.length).to.be.greaterThan(0);
+                cy.log(`Found ${openDeposits.length} open deposit(s) out of ${response.body.length} total`);
+            });
+        });
+
+        it('should have payments in the system after demo import', () => {
+            cy.request({
+                method: 'GET',
+                url: '/api/payments/',
+                timeout: 30000
+            }).then((response) => {
+                expect(response.status).to.equal(200);
+                expect(response.body).to.have.property('payments');
+                expect(response.body.payments.length).to.be.greaterThan(0);
+                cy.log(`Found ${response.body.payments.length} payment(s)`);
+            });
+        });
+
+        it('should show finance dashboard after demo import', () => {
+            cy.visit('/finance/');
+
+            // Should see the finance dashboard title
+            cy.contains('Finance Dashboard').should('be.visible');
         });
     });
 });
