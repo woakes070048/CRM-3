@@ -32,6 +32,7 @@ $app->group('/deposits', function (RouteCollectorProxy $group): void {
      *     ),
      *     @OA\Response(response=200, description="Newly created deposit object"),
      *     @OA\Response(response=400, description="Invalid or missing deposit type"),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */
@@ -65,6 +66,7 @@ $app->group('/deposits', function (RouteCollectorProxy $group): void {
      *     tags={"Finance"},
      *     security={{"ApiKeyAuth":{}}},
      *     @OA\Response(response=200, description="Array of deposits within the last 90 days"),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */
@@ -83,6 +85,7 @@ $app->group('/deposits', function (RouteCollectorProxy $group): void {
      *     tags={"Finance"},
      *     security={{"ApiKeyAuth":{}}},
      *     @OA\Response(response=200, description="JSON array of all deposits"),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */
@@ -102,6 +105,7 @@ $app->group('/deposits', function (RouteCollectorProxy $group): void {
      *     security={{"ApiKeyAuth":{}}},
      *     @OA\Parameter(name="id", in="path", required=true, @OA\Schema(type="integer")),
      *     @OA\Response(response=200, description="Deposit object"),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */
@@ -127,6 +131,7 @@ $app->group('/deposits', function (RouteCollectorProxy $group): void {
      *         )
      *     ),
      *     @OA\Response(response=200, description="Updated deposit object"),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */
@@ -151,6 +156,7 @@ $app->group('/deposits', function (RouteCollectorProxy $group): void {
      *     @OA\Parameter(name="id", in="path", required=true, @OA\Schema(type="integer")),
      *     @OA\Response(response=200, description="OFX content for the deposit"),
      *     @OA\Response(response=404, description="Deposit not found"),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */
@@ -174,6 +180,7 @@ $app->group('/deposits', function (RouteCollectorProxy $group): void {
      *     @OA\Parameter(name="id", in="path", required=true, @OA\Schema(type="integer")),
      *     @OA\Response(response=200, description="PDF generated successfully"),
      *     @OA\Response(response=404, description="Deposit not found or has no payments"),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */
@@ -207,6 +214,7 @@ $app->group('/deposits', function (RouteCollectorProxy $group): void {
      *     security={{"ApiKeyAuth":{}}},
      *     @OA\Parameter(name="id", in="path", required=true, @OA\Schema(type="integer")),
      *     @OA\Response(response=200, description="CSV file attachment with pledge/payment data"),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */
@@ -240,6 +248,7 @@ $app->group('/deposits', function (RouteCollectorProxy $group): void {
      *     security={{"ApiKeyAuth":{}}},
      *     @OA\Parameter(name="id", in="path", required=true, @OA\Schema(type="integer")),
      *     @OA\Response(response=200, description="Deposit deleted successfully"),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */
@@ -260,6 +269,7 @@ $app->group('/deposits', function (RouteCollectorProxy $group): void {
      *     security={{"ApiKeyAuth":{}}},
      *     @OA\Parameter(name="id", in="path", required=true, @OA\Schema(type="integer")),
      *     @OA\Response(response=200, description="Pledge items associated with the deposit"),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */
@@ -278,6 +288,7 @@ $app->group('/deposits', function (RouteCollectorProxy $group): void {
      *     security={{"ApiKeyAuth":{}}},
      *     @OA\Parameter(name="id", in="path", required=true, @OA\Schema(type="integer")),
      *     @OA\Response(response=200, description="Payment items associated with the deposit"),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */

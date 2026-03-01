@@ -343,12 +343,17 @@ composer run openapi-public   # → CRM/openapi/public-api.yaml
 composer run openapi-private  # → CRM/openapi/private-api.yaml
 ```
 
-Then copy the YAMLs to `docs.churchcrm.io/openapi/` and run:
+Commit the updated YAML files to the CRM repo. The rest is automated:
+
+- **On PR/branch push**: `validate-openapi.yml` generates both specs and uploads them as artifacts for review.
+- **On merge to master**: `publish-openapi.yml` regenerates specs, commits any changes to `CRM/openapi/`, then dispatches a `repository_dispatch` event to `docs.churchcrm.io`, which pulls the latest YAMLs and regenerates MDX automatically.
+
+To manually sync the docs site (e.g., during local dev):
 ```bash
+cp CRM/openapi/public-api.yaml docs.churchcrm.io/openapi/
+cp CRM/openapi/private-api.yaml docs.churchcrm.io/openapi/
 cd docs.churchcrm.io && npm run regen
 ```
-
-Commit both the YAML files and regenerated MDX files.
 
 ### Global annotations / tags
 

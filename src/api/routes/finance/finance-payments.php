@@ -21,6 +21,7 @@ $app->group('/payments', function (RouteCollectorProxy $group): void {
      *     @OA\Response(response=200, description="Array of payment records",
      *         @OA\JsonContent(@OA\Property(property="payments", type="array", @OA\Items(type="object")))
      *     ),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */
@@ -45,6 +46,7 @@ $app->group('/payments', function (RouteCollectorProxy $group): void {
      *     @OA\Response(response=200, description="Created pledge or payment record",
      *         @OA\JsonContent(@OA\Property(property="payment", type="object"))
      *     ),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */
@@ -75,6 +77,7 @@ $app->group('/payments', function (RouteCollectorProxy $group): void {
      *             @OA\Property(property="Fund", type="string")
      *         )))
      *     ),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */
@@ -121,6 +124,7 @@ $app->group('/payments', function (RouteCollectorProxy $group): void {
      *     security={{"ApiKeyAuth":{}}},
      *     @OA\Parameter(name="groupKey", in="path", required=true, @OA\Schema(type="string")),
      *     @OA\Response(response=200, description="Payment deleted successfully"),
+     *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=403, description="Finance role required")
      * )
      */
