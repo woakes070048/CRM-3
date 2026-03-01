@@ -1,7 +1,7 @@
 services:
   database:
     profiles: [dev, test, ci]
-    image: mariadb
+    image: mariadb:10.11
     ports:
       - ${DATABASE_PORT:-3306}:3306
     env_file:
