@@ -1876,14 +1876,6 @@ msgid "Assign starting at #"
 msgstr "Связать начиная с #"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
-msgstr "Невозможно отобразить карту из-за отсутствия широты или долготы церкви. Пожалуйста, обновите адрес церкви в меню настроек."
-
-#: 
-msgid "Google Map API key is not set. The Map will work for smaller set of locations. Please create a Key in the maps sections of the setting menu."
-msgstr "Ключ API карты Google не задан. Карта будет работать для меньшего набора локаций. Пожалуйста, создайте ключ в разделах карт меню настроек."
-
-#: 
 msgid "Member Role Change"
 msgstr "Участник Роль Изменить"
 
@@ -2381,14 +2373,6 @@ msgstr "Предупреждение"
 #: 
 msgid "This property type is still being used by at least one property."
 msgstr "Это тип недвижимости все еще используется, по крайней мере, одного свойства."
-
-#: 
-msgid "If you delete this type, you will also remove all properties using"
-msgstr "Если Вы удалите этот тип, вы также удалить все свойства, используя"
-
-#: 
-msgid "it and lose any corresponding property assignments."
-msgstr "это и терять соответствующие поручения собственности."
 
 #: 
 #, fuzzy
@@ -3766,10 +3750,6 @@ msgstr "Установите верно, чтобы разрешить испо�
 #: 
 msgid "Unit used to measure distance, miles or km."
 msgstr "Единица измерения расстояния, мили или км."
-
-#: 
-msgid "Names of markers for Google Maps in order of classification"
-msgstr "Названия маркеров для Google Maps в порядке классификации"
 
 #: 
 msgid "Enable non-deductible payments"
@@ -6029,10 +6009,6 @@ msgid "Your Cart is Empty"
 msgstr "Ваша корзина пуста"
 
 #: 
-msgid "View on Map"
-msgstr "Посмотреть на карте"
-
-#: 
 msgid "Legend"
 msgstr "Легенда"
 
@@ -6077,18 +6053,6 @@ msgid "The role could not be assigned."
 msgstr "Не удалось назначить роль."
 
 #: 
-msgid "Bing map API requires a unique key"
-msgstr "API карт Bing требует уникальный ключ"
-
-#: 
-msgid "Google Maps Zoom"
-msgstr "Масштаб Google карт"
-
-#: 
-msgid "Select GeoCoder Provider"
-msgstr "Выберите поставщика геокодирования"
-
-#: 
 msgid "Your ChurchCRM account was locked."
 msgstr "Ваша учетная запись ChurchCRM была заблокирована."
 
@@ -6131,10 +6095,6 @@ msgstr "пароль пользователя изменен администр�
 #: 
 msgid "system user login reset"
 msgstr "сброс логина пользователя"
-
-#: 
-msgid "Missing Families? Update Family Latitude or Longitude now."
-msgstr "Пропущенные семьи? Обновите широту или долготу семьи сейчас."
 
 #: 
 msgid "Families without Geo Info"
@@ -6213,18 +6173,6 @@ msgid "Time zone"
 msgstr "Часовой пояс"
 
 #: 
-msgid "OpenLP URL"
-msgstr "OpenLP URL"
-
-#: 
-msgid "OpenLP Username"
-msgstr "Имя пользователя OpenLP"
-
-#: 
-msgid "OpenLP Password"
-msgstr "Пароль OpenLP"
-
-#: 
 msgid "KioskVisibilityTimestamp"
 msgstr "Метка видимости киоска"
 
@@ -6235,10 +6183,6 @@ msgstr "Показать/скрыть ссылку 'Забыли пароль' �
 #: 
 msgid "Backup"
 msgstr "Резервное копирование"
-
-#: 
-msgid "Integration"
-msgstr "Интеграция"
 
 #: 
 msgid "Guardian(s) of"
@@ -6410,10 +6354,6 @@ msgstr "Индонезийский — Индонезия"
 #: 
 msgid "records(s) successfully added to selected Group."
 msgstr "запись(и) успешно добавлена в выбранную группу."
-
-#: 
-msgid "To export to another For european CharSet use ;"
-msgstr "Для экспорта в другой европейский набор символов используйте ;"
 
 #: 
 msgid "For defining the date in Date-Picker, per default : yyyy-mm-dd, In French : dd/mm/yyyy for example."
@@ -6972,10 +6912,6 @@ msgid "Links"
 msgstr "Ссылки"
 
 #: 
-msgid "Show custom links on the left menu."
-msgstr "Показывать настраиваемые ссылки в левом меню."
-
-#: 
 msgid "Enable Sunday School left menu."
 msgstr "Включить меню Воскресной школы слева."
 
@@ -7002,10 +6938,6 @@ msgstr "Включенные функции"
 #: 
 msgid "Validation Error"
 msgstr "Ошибка валидации"
-
-#: 
-msgid "Link Not found"
-msgstr "Ссылка не найдена"
 
 #: 
 msgid "Email Functions"
@@ -7046,10 +6978,6 @@ msgstr "У пользователя должно быть право на уда
 #: 
 msgid "ChurchCRM Central Notifications URL"
 msgstr "URL центральных уведомлений ChurchCRM"
-
-#: 
-msgid "Follow us on"
-msgstr "Следите за нами в"
 
 #: 
 msgid "invalid event type id"
@@ -7096,10 +7024,6 @@ msgid "Updated People"
 msgstr "Обновленные люди"
 
 #: 
-msgid "Custom Menus"
-msgstr "Настраиваемые меню"
-
-#: 
 msgid "User must have Manage Groups permission"
 msgstr "У пользователя должно быть право на управление группами"
 
@@ -7118,26 +7042,6 @@ msgstr "Нельзя удалить самого себя"
 #: 
 msgid "The role could not be found."
 msgstr "Роль не найдена."
-
-#: 
-msgid "Add Menu"
-msgstr "Добавить меню"
-
-#: 
-msgid "Menu Name"
-msgstr "Название меню"
-
-#: 
-msgid "Link Address"
-msgstr "Адрес ссылки"
-
-#: 
-msgid "Start with http:// or https://"
-msgstr "Начинайте с http:// или https://"
-
-#: 
-msgid "Menus"
-msgstr "Меню"
 
 #: 
 msgid "is disabled"
@@ -7253,10 +7157,6 @@ msgstr "Эстонский"
 #: 
 msgid "Error decoding signature definition file"
 msgstr "Ошибка декодирования файла определений подписей"
-
-#: 
-msgid "Remote Backup Endpoint.  If WebDAV, this must be url encoded. "
-msgstr "Конечная точка удаленного бэкапа. Если WebDAV, URL должен быть закодирован."
 
 #: 
 msgid "Age Histogram"
@@ -7463,28 +7363,12 @@ msgid "LastName, FirstName MiddleName"
 msgstr "Фамилия, Имя Отчество"
 
 #: 
-msgid "Manage 2 Factor Authentication"
-msgstr "Управление двухфакторной аутентификации"
-
-#: 
 msgid "Two Factor Status"
 msgstr "Статус двухфакторной аутентификации"
 
 #: 
 msgid "Please confirm disabling 2 Factor Auth for this user"
 msgstr "Пожалуйста подтвердите отключение двухфакторной аутентификации для данного пользователя"
-
-#: 
-msgid "Please enter 2FA code"
-msgstr "Пожалуйста введите код 2FA"
-
-#: 
-msgid "2FA Code"
-msgstr "Код \t2FA"
-
-#: 
-msgid "2 Factor Authentication enrollment"
-msgstr "Регистрация двухфакторной аутентификации"
 
 #: 
 msgid "Unsupported Two Factor Authentication Configuration"
@@ -7513,10 +7397,6 @@ msgstr "Ключ API карт Google, используемый для геоко
 #: 
 msgid "Send an email notifying users when their account has been deleted"
 msgstr "Отправить эл.письмо, уведомляющее пользователей о том, что их учетная запись была удалена"
-
-#: 
-msgid "Google Maps API Key used for rendering maps in browser"
-msgstr "Ключ API карт Google, используемый для рендеринга карт в браузере"
 
 #: 
 msgid "Incorrect password supplied for current user"
@@ -7563,12 +7443,6 @@ msgstr "загрузка"
 msgid "List not found"
 msgstr "Список не найден"
 
-#. typo
-#: 
-#, fuzzy
-msgid "List not in the list"
-msgstr "Список не в Список"
-
 #: 
 msgid "People not in"
 msgstr "Люди не в"
@@ -7585,20 +7459,6 @@ msgstr "Аудитория не в ChurchCRM"
 msgid "Web Server"
 msgstr "Веб-сервер"
 
-#: 
-msgid "List maintenance"
-msgstr "Обслуживание списка"
-
-#: 
-#, fuzzy
-msgid "People not in list"
-msgstr "Люди не в списке"
-
-#: 
-#, fuzzy
-msgid "Audience not in the CRM"
-msgstr "Аудитория не в CRM"
-
 #. Context: locales
 #: 
 msgid "Hebrew"
@@ -7607,10 +7467,6 @@ msgstr "Иврит"
 #: 
 msgid "open rate"
 msgstr "процент открытий"
-
-#: 
-msgid "Not Subscribed "
-msgstr "Не подписаны␣"
 
 #: 
 msgid "Login Info"
@@ -7675,86 +7531,6 @@ msgstr "Текст"
 #: 
 msgid "Event Description"
 msgstr "Описание события"
-
-#: 
-msgid "Enrolling your ChurchCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
-msgstr "Включение двухфакторной аутентификации (2FA) обеспечивает дополнительный уровень защиты от злоумышленников."
-
-#: 
-msgid "ChurchCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
-msgstr "ChurchCRM поддерживает любое приложение TOTP (Google Authenticator, Authy и др.)."
-
-#: 
-msgid "When you sign in to ChurchCRM, you'll still enter your username and password like normal"
-msgstr "При входе вы по-прежнему будете вводить логин и пароль."
-
-#: 
-msgid "However, you'll also need to supply a one-time code from your authenticator device to complete your login"
-msgstr "Однако вам также нужно будет ввести одноразовый код из вашего приложения."
-
-#: 
-msgid "After successfully entering both your credentials, and the one-time code, you'll be logged in as normal"
-msgstr "После ввода обоих параметров вы войдете в систему как обычно."
-
-#: 
-msgid "To prevent being locked out of your ChurchCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
-msgstr "Чтобы избежать блокировки, убедитесь, что вы готовы завершить настройку 2FA перед началом."
-
-#: 
-msgid "Beginning enrollment will invalidate any previously enrolled 2 factor devices and recovery codes."
-msgstr "Начало процесса аннулирует все предыдущие устройства 2FA и коды восстановления."
-
-#: 
-msgid "When you click next, you'll be prompted to scan a QR code to enroll your authenticator app."
-msgstr "При нажатии 'далее' вам будет предложено отсканировать QR-код."
-
-#: 
-msgid "To confirm enrollment, you'll need to enter the code generated by your authenticator app"
-msgstr "Для подтверждения введите код, сгенерированный вашим приложением."
-
-#: 
-msgid "After confirming app enrollment, single-use recovery codes will be generated and displayed."
-msgstr "После подтверждения будут созданы и показаны одноразовые коды восстановления."
-
-#: 
-msgid "Recovery codes can be used instead of a code generated from your authenticator app."
-msgstr "Коды восстановления можно использовать вместо кодов из приложения."
-
-#: 
-msgid "Store these in a secure location"
-msgstr "Храните их в надежном месте"
-
-#: 
-msgid "Begin Two Factor Authentication Enrollment"
-msgstr "Начать настройку двухфакторной аутентификации"
-
-#: 
-msgid "2 Factor Authentication Secret"
-msgstr "Секрет 2FA"
-
-#: 
-msgid "Regenerate 2 Factor Authentication Secret"
-msgstr "Пересоздать секрет 2FA"
-
-#: 
-msgid "Remove 2 Factor Authentication Secret"
-msgstr "Удалить секрет 2FA"
-
-#: 
-msgid "Enter TOTP code to confirm enrollment"
-msgstr "Введите код TOTP для подтверждения"
-
-#: 
-msgid "2 Factor Authentication Enrollment Success"
-msgstr "Настройка 2FA успешно завершена"
-
-#: 
-msgid "Please store these recovery codes in a safe location"
-msgstr "Пожалуйста, сохраните эти коды восстановления в безопасном месте"
-
-#: 
-msgid "If you ever lose access to your newly enrolled authenticator app, you'll need to use a recovery code to gain access to your account"
-msgstr "Если вы потеряете доступ к приложению, вам понадобится код восстановления."
 
 #: 
 msgid "Help translate this project"
@@ -7985,10 +7761,6 @@ msgid "People who are configured to pay by credit card."
 msgstr "Люди, настроенные на оплату кредитной картой."
 
 #: 
-msgid "As part of the restore, external backups have been disabled.  If you wish to continue automatic backups, you must manually re-enable the bEnableExternalBackupTarget setting."
-msgstr "После восстановления внешнее резервное копирование отключено. Включите его вручную, если нужно."
-
-#: 
 msgid "The previous integrity check passed. All system file hashes match the expected values."
 msgstr "Предыдущая проверка целостности пройдена. Все хеши файлов совпадают."
 
@@ -7999,10 +7771,6 @@ msgstr "Список классификаций через запятую, ко�
 #: 
 msgid "MailChimp is not configured"
 msgstr "MailChimp не настроен"
-
-#: 
-msgid "Please update the MailChimp API key in:"
-msgstr "Пожалуйста, обновите API-ключ MailChimp в:"
 
 #. Context: locales
 #: 
@@ -8374,20 +8142,8 @@ msgid "Address is required"
 msgstr "Адрес обязателен"
 
 #: 
-msgid "Base URL is required"
-msgstr "Базовый URL обязателен"
-
-#: 
 msgid "City is required"
 msgstr "Город обязателен"
-
-#: 
-msgid "Database name is required"
-msgstr "Имя базы данных обязательно"
-
-#: 
-msgid "Database server hostname or IP address is required (e.g., localhost or 127.0.0.1)"
-msgstr "Хост базы данных обязателен"
 
 #: 
 msgid "Database server port is required (e.g., 3306)"
@@ -11714,4 +11470,368 @@ msgstr "обнаружено несоответствие"
 #: 
 msgid "mismatches detected"
 msgstr "обнаружены несоответствия"
+
+#: 
+msgid "About WebDAV Backups"
+msgstr "О резервных копиях WebDAV"
+
+#: 
+msgid "Add Link"
+msgstr "Добавить ссылку"
+
+#: 
+msgid "Add an extra layer of security to your account"
+msgstr "Добавьте дополнительный уровень безопасности к своему аккаунту"
+
+#: 
+msgid "Add custom external links to the navigation menu."
+msgstr "Добавьте пользовательские внешние ссылки в навигационное меню."
+
+#: 
+msgid "Allow Self-Signed Certificates"
+msgstr "Разрешить самоподписанные сертификаты"
+
+#: 
+msgid "An error occurred processing the plugin request"
+msgstr "Произошла ошибка при обработке запроса плагина"
+
+#: 
+msgid "Are you sure you want to disable two-factor authentication? Your account will be less secure."
+msgstr "Вы уверены, что хотите отключить двухфакторную аутентификацию? Ваш аккаунт станет менее защищённым."
+
+#: 
+msgid "As part of the restore, external backups have been disabled. If you wish to continue automatic backups, re-enable the External Backup plugin in Admin > Plugins."
+msgstr "В рамках восстановления внешние резервные копии были отключены. Если вы хотите продолжить автоматическое резервное копирование, повторно включите плагин внешнего резервного копирования в Администрирование > Плагины."
+
+#: 
+msgid "Audiences"
+msgstr "Аудитории"
+
+#: 
+msgid "Authentication failed. Please check username and password."
+msgstr "Аутентификация не удалась. Проверьте имя пользователя и пароль."
+
+#: 
+msgid "Auto-Backup Interval"
+msgstr "Интервал автоматического резервного копирования"
+
+#: 
+msgid "Automatically backup your ChurchCRM database to external cloud storage via WebDAV."
+msgstr "Автоматически создавайте резервные копии базы данных ChurchCRM во внешнем облачном хранилище через WebDAV."
+
+#: 
+msgid "Avg Click Rate"
+msgstr "Средний показатель кликов"
+
+#: 
+msgid "Avg Open Rate"
+msgstr "Средний показатель открытий"
+
+#: 
+msgid "Back to Dashboard"
+msgstr "Назад к панели управления"
+
+#: 
+msgid "Backup created but failed to copy to remote server"
+msgstr "Резервная копия создана, но не удалось скопировать её на удалённый сервер"
+
+#: 
+msgid "Backup to WebDAV Now"
+msgstr "Создать резервную копию на WebDAV сейчас"
+
+#: 
+msgid "Before You Start"
+msgstr "Прежде чем начать"
+
+#: 
+msgid "Browser language preference detected"
+msgstr "Обнаружено языковое предпочтение браузера"
+
+#: 
+msgid "CRM Members Not Subscribed"
+msgstr "Члены CRM без подписки"
+
+#: 
+msgid "Campaigns Sent"
+msgstr "Отправленные кампании"
+
+#: 
+msgid "Can't scan?"
+msgstr "Не можете сканировать?"
+
+#: 
+msgid "Change Your Locale"
+msgstr "Изменить языковые настройки"
+
+#: 
+msgid "ChurchCRM supports a plugin architecture for extending functionality."
+msgstr "ChurchCRM поддерживает архитектуру плагинов для расширения функциональности."
+
+#: 
+msgid "Cleaned"
+msgstr "Очищено"
+
+#: 
+msgid "Click the button below to test your WebDAV connection settings."
+msgstr "Нажмите кнопку ниже, чтобы проверить настройки подключения WebDAV."
+
+#: 
+msgid "Community Plugins"
+msgstr "Плагины сообщества"
+
+#: 
+msgid "Community plugins"
+msgstr "Плагины сообщества"
+
+#: 
+msgid "Configure External Backup"
+msgstr "Настроить внешнее резервное копирование"
+
+#: 
+msgid "Configure MailChimp"
+msgstr "Настроить MailChimp"
+
+#: 
+msgid "Configure these settings in the"
+msgstr "Настройте эти параметры в"
+
+#: 
+msgid "Configure this plugin to automatically backup your ChurchCRM database to WebDAV-compatible cloud storage services like Nextcloud, ownCloud, or any WebDAV server. Backups are encrypted during transfer using HTTPS."
+msgstr "Настройте этот плагин для автоматического резервного копирования базы данных ChurchCRM в облачные хранилища, совместимые с WebDAV, такие как Nextcloud, ownCloud или любой сервер WebDAV. Резервные копии шифруются при передаче с использованием HTTPS."
+
+#: 
+msgid "Configured"
+msgstr "Настроено"
+
+#: 
+msgid "Confirm with a code from your authenticator app"
+msgstr "Подтвердите кодом из приложения аутентификации"
+
+#: 
+msgid "Connected"
+msgstr "Подключено"
+
+#: 
+msgid "Connection failed"
+msgstr "Подключение не удалось"
+
+#: 
+msgid "Connection failed with HTTP code"
+msgstr "Подключение не удалось с кодом HTTP"
+
+#: 
+msgid "Connection successful! WebDAV endpoint is accessible."
+msgstr "Подключение успешно! Конечная точка WebDAV доступна."
+
+#: 
+msgid "Connection test failed"
+msgstr "Тест подключения не удался"
+
+#: 
+msgid "Core Plugins"
+msgstr "Основные плагины"
+
+#: 
+msgid "Core plugins"
+msgstr "Основные плагины"
+
+#: 
+msgid "Create a backup now and upload it to your WebDAV server."
+msgstr "Создайте резервную копию сейчас и загрузите её на сервер WebDAV."
+
+#: 
+msgid "Create an Audience in MailChimp"
+msgstr "Создать аудиторию в MailChimp"
+
+#: 
+msgid "Custom"
+msgstr "Пользовательский"
+
+#: 
+msgid "Custom Menu Links"
+msgstr "Пользовательские ссылки в меню"
+
+#: 
+msgid "Default Image Style"
+msgstr "Стиль изображения по умолчанию"
+
+#: 
+msgid "Default List ID"
+msgstr "Идентификатор списка по умолчанию"
+
+#: 
+msgid "Disable"
+msgstr "Отключить"
+
+#: 
+msgid "Disable Plugin"
+msgstr "Отключить плагин"
+
+#: 
+msgid "Disable Two-Factor Authentication"
+msgstr "Отключить двухфакторную аутентификацию"
+
+#: 
+msgid "Dismiss"
+msgstr "Закрыть"
+
+#: 
+msgid "Done"
+msgstr "Готово"
+
+#: 
+msgid "E.164 format, e.g., +14155551234"
+msgstr "Формат E.164, например +14155551234"
+
+#: 
+msgid "Each plugin requires a"
+msgstr "Каждый плагин требует"
+
+#: 
+msgid "Each time you sign in, you'll need to confirm with a code from your authenticator app"
+msgstr "При каждом входе вам нужно будет подтверждать кодом из приложения аутентификации"
+
+#: 
+msgid "Email Addresses"
+msgstr "Адреса электронной почты"
+
+#: 
+msgid "Enable"
+msgstr "Включить"
+
+#: 
+msgid "Enable External Backup Plugin"
+msgstr "Включить плагин внешнего резервного копирования"
+
+#: 
+msgid "Enable Plugin"
+msgstr "Включить плагин"
+
+#: 
+msgid "Enable Two-Factor Authentication"
+msgstr "Включить двухфакторную аутентификацию"
+
+#: 
+msgid "Enable the External Backup plugin for WebDAV cloud storage."
+msgstr "Включите плагин внешнего резервного копирования для облачного хранилища WebDAV."
+
+#: 
+msgid "Enable this only for local network servers with self-signed SSL certificates. Disables certificate verification."
+msgstr "Включайте это только для серверов в локальной сети с самоподписанными SSL-сертификатами. Отключает проверку сертификата."
+
+#: 
+msgid "Endpoint URL"
+msgstr "URL конечной точки"
+
+#: 
+msgid "Enter the 6-digit code from your authenticator app"
+msgstr "Введите 6-значный код из приложения аутентификации"
+
+#: 
+msgid "Enter your username and password as usual"
+msgstr "Введите имя пользователя и пароль как обычно"
+
+#: 
+msgid "External Backup"
+msgstr "Внешнее резервное копирование"
+
+#: 
+msgid "External Backup (WebDAV)"
+msgstr "Внешнее резервное копирование (WebDAV)"
+
+#: 
+msgid "External Backup Settings"
+msgstr "Настройки внешнего резервного копирования"
+
+#: 
+msgid "External Backup plugin is enabled but not configured."
+msgstr "Плагин внешнего резервного копирования включён, но не настроен."
+
+#: 
+msgid "External Backup plugin is not configured. Please configure WebDAV settings in the plugin."
+msgstr "Плагин внешнего резервного копирования не настроен. Настройте параметры WebDAV в плагине."
+
+#: 
+msgid "External Backup plugin is not enabled. Please enable and configure it in Plugin Management."
+msgstr "Плагин внешнего резервного копирования не включён. Включите и настройте его в управлении плагинами."
+
+#: 
+msgid "Failed to create link"
+msgstr "Не удалось создать ссылку"
+
+#: 
+msgid "Failed to delete link"
+msgstr "Не удалось удалить ссылку"
+
+#: 
+msgid "Failed to disable plugin"
+msgstr "Не удалось отключить плагин"
+
+#: 
+msgid "Failed to enable plugin"
+msgstr "Не удалось включить плагин"
+
+#: 
+msgid "Failed to get plugin details"
+msgstr "Не удалось получить сведения о плагине"
+
+#: 
+msgid "Failed to list plugins"
+msgstr "Не удалось получить список плагинов"
+
+#: 
+msgid "Failed to reset settings"
+msgstr "Не удалось сбросить настройки"
+
+#: 
+msgid "Failed to send SMS"
+msgstr "Не удалось отправить SMS"
+
+#: 
+msgid "Family Status"
+msgstr "Статус семьи"
+
+#: 
+msgid "Family not found"
+msgstr "Семья не найдена"
+
+#: 
+msgid "Find in MailChimp: Audience > Settings > Audience name and defaults > Audience ID"
+msgstr "Найдите в MailChimp: Аудитория > Настройки > Название аудитории и параметры по умолчанию > Идентификатор аудитории"
+
+#: 
+msgid "From Phone Number"
+msgstr "С номера телефона"
+
+#: 
+msgid "From dashboard.vonage.com"
+msgstr "С dashboard.vonage.com"
+
+#: 
+msgid "GA4 Measurement ID"
+msgstr "Идентификатор измерения GA4"
+
+#: 
+msgid "Generate new code"
+msgstr "Сгенерировать новый код"
+
+#: 
+msgid "Get Started"
+msgstr "Начать"
+
+#: 
+msgid "Get your API key from MailChimp: Account Settings > Extras > API Keys"
+msgstr "Получите ключ API из MailChimp: Настройки аккаунта > Дополнения > Ключи API"
+
+#: 
+msgid "Have your authenticator app ready (Google Authenticator, Microsoft Authenticator, Authy, etc.)"
+msgstr "Подготовьте приложение аутентификации (Google Authenticator, Microsoft Authenticator, Authy и т.д.)"
+
+#: 
+msgid "Help"
+msgstr "Справка"
+
+#: 
+msgid "Id"
+msgstr "Ид"
 

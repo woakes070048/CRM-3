@@ -1842,14 +1842,6 @@ msgid "Assign starting at #"
 msgstr "Chỉ định bắt đầu từ #"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
-msgstr "Không thể hiển thị bản đồ do thiếu Kinh độ hoặc Vĩ độ của Nhà thờ. Vui lòng cập nhật Địa chỉ nhà thờ trong menu cài đặt."
-
-#: 
-msgid "Google Map API key is not set. The Map will work for smaller set of locations. Please create a Key in the maps sections of the setting menu."
-msgstr "Khóa API của Google Map chưa được đặt. Bản đồ sẽ hoạt động đối với tập hợp các vị trí nhỏ hơn. Vui lòng tạo Khóa trong phần bản đồ của menu cài đặt."
-
-#: 
 msgid "Member Role Change"
 msgstr "Thay đổi vai trò thành viên"
 
@@ -2338,14 +2330,6 @@ msgstr "Cảnh báo"
 #: 
 msgid "This property type is still being used by at least one property."
 msgstr "Loại thuộc tính này được sử dụng bởi một thuộc tính khác"
-
-#: 
-msgid "If you delete this type, you will also remove all properties using"
-msgstr "Nếu bạn xóa loại này, bạn cũng sẽ xóa tất cả các thuộc tính bằng cách sử dụng"
-
-#: 
-msgid "it and lose any corresponding property assignments."
-msgstr "nó và mất bất kỳ chuyển nhượng tài sản tương ứng."
 
 #: 
 msgid "Please confirm deletion of this Property Type"
@@ -3690,10 +3674,6 @@ msgstr "Đặt true để cho phép sử dụng séc đã quét"
 #: 
 msgid "Unit used to measure distance, miles or km."
 msgstr "Đơn vị dùng để đo khoảng cách, dặm hoặc km."
-
-#: 
-msgid "Names of markers for Google Maps in order of classification"
-msgstr "Tên của các điểm đánh dấu cho Google Maps theo thứ tự phân loại"
 
 #: 
 msgid "Enable non-deductible payments"
@@ -5957,10 +5937,6 @@ msgid "Your Cart is Empty"
 msgstr "Giỏ của bạn đang trống"
 
 #: 
-msgid "View on Map"
-msgstr "Xem trên bản đồ"
-
-#: 
 msgid "Legend"
 msgstr "Huyền thoại"
 
@@ -6005,18 +5981,6 @@ msgid "The role could not be assigned."
 msgstr "Không thể chỉ định vai trò."
 
 #: 
-msgid "Bing map API requires a unique key"
-msgstr "API bản đồ Bing yêu cầu một khóa duy nhất"
-
-#: 
-msgid "Google Maps Zoom"
-msgstr "Thu phóng Google Maps"
-
-#: 
-msgid "Select GeoCoder Provider"
-msgstr "Chọn nhà cung cấp bộ mã hóa địa lý"
-
-#: 
 msgid "Your ChurchCRM account was locked."
 msgstr "Tài khoản ChurchCRM của bạn đã bị khóa."
 
@@ -6059,10 +6023,6 @@ msgstr "mật khẩu thành viên đã được thay đổi bởi Admin"
 #: 
 msgid "system user login reset"
 msgstr "hệ thống thành viên khôi phục đăng nhập"
-
-#: 
-msgid "Missing Families? Update Family Latitude or Longitude now."
-msgstr "Bạn thấy thiếu các gia đình ? Hãy cập nhật Vĩ độ và Kinh độ của các gia đình ngay bây giờ."
 
 #: 
 msgid "Families without Geo Info"
@@ -6141,18 +6101,6 @@ msgid "Time zone"
 msgstr "Múi giờ"
 
 #: 
-msgid "OpenLP URL"
-msgstr "URL OpenLP"
-
-#: 
-msgid "OpenLP Username"
-msgstr "Tên người dùng OpenLP"
-
-#: 
-msgid "OpenLP Password"
-msgstr "Mật khẩu OpenLP"
-
-#: 
 msgid "KioskVisibilityTimestamp"
 msgstr "KioskVisibilityTimestamp"
 
@@ -6163,10 +6111,6 @@ msgstr "Hiển thị / Ẩn liên kết bị mất mật khẩu trên màn hình
 #: 
 msgid "Backup"
 msgstr "Sao lưu"
-
-#: 
-msgid "Integration"
-msgstr "Tích hợp"
 
 #: 
 msgid "Guardian(s) of"
@@ -6339,10 +6283,6 @@ msgstr "Indonesia - Indonesia"
 #: 
 msgid "records(s) successfully added to selected Group."
 msgstr "(các) bản ghi được thêm thành công vào Nhóm đã chọn."
-
-#: 
-msgid "To export to another For european CharSet use ;"
-msgstr "Để xuất sang người khác Để sử dụng CharSet châu Âu;"
 
 #: 
 msgid "For defining the date in Date-Picker, per default : yyyy-mm-dd, In French : dd/mm/yyyy for example."
@@ -6904,10 +6844,6 @@ msgid "Links"
 msgstr "Liên kết"
 
 #: 
-msgid "Show custom links on the left menu."
-msgstr "Hiển thị các liên kết tùy chỉnh trên menu bên trái."
-
-#: 
 msgid "Enable Sunday School left menu."
 msgstr "Bật menu bên trái của Trường học Chủ nhật."
 
@@ -6934,10 +6870,6 @@ msgstr "Tính năng"
 #: 
 msgid "Validation Error"
 msgstr "Lỗi xác nhận"
-
-#: 
-msgid "Link Not found"
-msgstr "Không tìm thấy liên kết"
 
 #: 
 msgid "Email Functions"
@@ -6978,11 +6910,6 @@ msgstr "Người dùng phải có quyền Xóa Bản ghi"
 #: 
 msgid "ChurchCRM Central Notifications URL"
 msgstr "URL thông báo trung tâm của ChurchCRM"
-
-#: 
-#, fuzzy
-msgid "Follow us on"
-msgstr "theo dõi chúng tối trên"
 
 #: 
 msgid "invalid event type id"
@@ -7031,10 +6958,6 @@ msgid "Updated People"
 msgstr "Thành viên vừa cập nhật"
 
 #: 
-msgid "Custom Menus"
-msgstr "Menu khác"
-
-#: 
 msgid "User must have Manage Groups permission"
 msgstr "Người dùng phải có quyền Quản lý nhóm"
 
@@ -7053,26 +6976,6 @@ msgstr "Không thể xóa chính bạn"
 #: 
 msgid "The role could not be found."
 msgstr "Không thể tìm thấy vai trò."
-
-#: 
-msgid "Add Menu"
-msgstr "Thêm menu"
-
-#: 
-msgid "Menu Name"
-msgstr "Tên menu"
-
-#: 
-msgid "Link Address"
-msgstr "Đường dẫn địa chỉ"
-
-#: 
-msgid "Start with http:// or https://"
-msgstr "Bắt đầu với http:// hoặc https://"
-
-#: 
-msgid "Menus"
-msgstr "Menu"
 
 #: 
 msgid "is disabled"
@@ -7188,10 +7091,6 @@ msgstr "Người Estonia"
 #: 
 msgid "Error decoding signature definition file"
 msgstr "Lỗi giải mã tệp định nghĩa chữ ký"
-
-#: 
-msgid "Remote Backup Endpoint.  If WebDAV, this must be url encoded. "
-msgstr "Điểm cuối sao lưu từ xa. Nếu WebDAV, điều này phải được mã hóa url."
 
 #: 
 msgid "Age Histogram"
@@ -7385,28 +7284,12 @@ msgid "LastName, FirstName MiddleName"
 msgstr "LastName, FirstName MiddleName"
 
 #: 
-msgid "Manage 2 Factor Authentication"
-msgstr "Quản lý xác thực 2 yếu tố"
-
-#: 
 msgid "Two Factor Status"
 msgstr "Trạng thái hai yếu tố"
 
 #: 
 msgid "Please confirm disabling 2 Factor Auth for this user"
 msgstr "Vui lòng xác nhận việc tắt 2 Factor Auth cho người dùng này"
-
-#: 
-msgid "Please enter 2FA code"
-msgstr "Vui lòng nhập mã 2FA"
-
-#: 
-msgid "2FA Code"
-msgstr "Mã 2FA"
-
-#: 
-msgid "2 Factor Authentication enrollment"
-msgstr "Đăng ký xác thực 2 yếu tố"
 
 #: 
 msgid "Unsupported Two Factor Authentication Configuration"
@@ -7435,10 +7318,6 @@ msgstr "Khóa API của Google Maps được sử dụng cho các địa chỉ M
 #: 
 msgid "Send an email notifying users when their account has been deleted"
 msgstr "Gửi email thông báo cho người dùng khi tài khoản của họ đã bị xóa"
-
-#: 
-msgid "Google Maps API Key used for rendering maps in browser"
-msgstr "Khóa API của Google Maps được sử dụng để hiển thị bản đồ trong trình duyệt"
 
 #: 
 msgid "Incorrect password supplied for current user"
@@ -7485,12 +7364,6 @@ msgstr "Đang tải"
 msgid "List not found"
 msgstr "Danh sách không tìm thấy"
 
-#. typo
-#: 
-#, fuzzy
-msgid "List not in the list"
-msgstr "Danh sách không có trong Danh sách"
-
 #: 
 msgid "People not in"
 msgstr "Những người không ở"
@@ -7507,18 +7380,6 @@ msgstr "Khán giả không ở trong Nhà thờCRM"
 msgid "Web Server"
 msgstr "Máy chủ web"
 
-#: 
-msgid "List maintenance"
-msgstr "Bảo trì danh sách"
-
-#: 
-msgid "People not in list"
-msgstr "Những người không có trong danh sách"
-
-#: 
-msgid "Audience not in the CRM"
-msgstr "Đối tượng không có trong CRM"
-
 #. Context: locales
 #: 
 msgid "Hebrew"
@@ -7527,10 +7388,6 @@ msgstr "Tiếng Do Thái"
 #: 
 msgid "open rate"
 msgstr "tỉ lệ mở"
-
-#: 
-msgid "Not Subscribed "
-msgstr "Chưa đăng ký"
 
 #: 
 msgid "Login Info"
@@ -7595,86 +7452,6 @@ msgstr "Bản văn"
 #: 
 msgid "Event Description"
 msgstr "Mô tả sự kiện"
-
-#: 
-msgid "Enrolling your ChurchCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
-msgstr "Việc đăng ký tài khoản người dùng ChurchCRM của bạn trong Xác thực hai yếu tố cung cấp một lớp bảo vệ bổ sung chống lại những kẻ xấu cố gắng truy cập vào tài khoản của bạn."
-
-#: 
-msgid "ChurchCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
-msgstr "ChurchCRM Two factor hỗ trợ bất kỳ ứng dụng xác thực TOTP nào, vì vậy bạn có thể thoải mái lựa chọn giữa Microsoft Authenticator, Google Authenticator, Authy, LastPass và các ứng dụng khác"
-
-#: 
-msgid "When you sign in to ChurchCRM, you'll still enter your username and password like normal"
-msgstr "Khi bạn đăng nhập vào ChurchCRM, bạn sẽ vẫn nhập tên người dùng và mật khẩu của mình như bình thường"
-
-#: 
-msgid "However, you'll also need to supply a one-time code from your authenticator device to complete your login"
-msgstr "Tuy nhiên, bạn cũng cần cung cấp mã một lần từ thiết bị xác thực của mình để hoàn tất đăng nhập"
-
-#: 
-msgid "After successfully entering both your credentials, and the one-time code, you'll be logged in as normal"
-msgstr "Sau khi nhập thành công cả thông tin đăng nhập và mã một lần, bạn sẽ đăng nhập như bình thường"
-
-#: 
-msgid "To prevent being locked out of your ChurchCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
-msgstr "Để tránh bị khóa tài khoản ChurchCRM của bạn, hãy đảm bảo rằng bạn đã sẵn sàng hoàn tất đăng ký hai yếu tố trước khi nhấp vào bắt đầu"
-
-#: 
-msgid "Beginning enrollment will invalidate any previously enrolled 2 factor devices and recovery codes."
-msgstr "Bắt đầu đăng ký sẽ làm mất hiệu lực của mọi thiết bị 2 yếu tố đã đăng ký trước đó và mã khôi phục."
-
-#: 
-msgid "When you click next, you'll be prompted to scan a QR code to enroll your authenticator app."
-msgstr "Khi nhấp vào tiếp theo, bạn sẽ được nhắc quét mã QR để đăng ký ứng dụng xác thực của mình."
-
-#: 
-msgid "To confirm enrollment, you'll need to enter the code generated by your authenticator app"
-msgstr "Để xác nhận đăng ký, bạn cần nhập mã được tạo bởi ứng dụng xác thực của bạn"
-
-#: 
-msgid "After confirming app enrollment, single-use recovery codes will be generated and displayed."
-msgstr "Sau khi xác nhận đăng ký ứng dụng, mã khôi phục sử dụng một lần sẽ được tạo và hiển thị."
-
-#: 
-msgid "Recovery codes can be used instead of a code generated from your authenticator app."
-msgstr "Mã khôi phục có thể được sử dụng thay vì mã được tạo từ ứng dụng xác thực của bạn."
-
-#: 
-msgid "Store these in a secure location"
-msgstr "Lưu trữ những thứ này ở một vị trí an toàn"
-
-#: 
-msgid "Begin Two Factor Authentication Enrollment"
-msgstr "Bắt đầu đăng ký xác thực hai yếu tố"
-
-#: 
-msgid "2 Factor Authentication Secret"
-msgstr "Bí mật xác thực 2 yếu tố"
-
-#: 
-msgid "Regenerate 2 Factor Authentication Secret"
-msgstr "Tạo lại bí mật xác thực 2 yếu tố"
-
-#: 
-msgid "Remove 2 Factor Authentication Secret"
-msgstr "Xóa bí mật xác thực 2 yếu tố"
-
-#: 
-msgid "Enter TOTP code to confirm enrollment"
-msgstr "Nhập mã TOTP để xác nhận đăng ký"
-
-#: 
-msgid "2 Factor Authentication Enrollment Success"
-msgstr "Xác thực 2 Yếu tố Đăng ký Thành công"
-
-#: 
-msgid "Please store these recovery codes in a safe location"
-msgstr "Vui lòng lưu trữ các mã khôi phục này ở một vị trí an toàn"
-
-#: 
-msgid "If you ever lose access to your newly enrolled authenticator app, you'll need to use a recovery code to gain access to your account"
-msgstr "Nếu bạn mất quyền truy cập vào ứng dụng trình xác thực mới đăng ký của mình, bạn sẽ cần sử dụng mã khôi phục để có quyền truy cập vào tài khoản của mình"
 
 #: 
 msgid "Help translate this project"
@@ -7905,10 +7682,6 @@ msgid "People who are configured to pay by credit card."
 msgstr "Những người được cài đặt thanh toán bằng thẻ tín dụng."
 
 #: 
-msgid "As part of the restore, external backups have been disabled.  If you wish to continue automatic backups, you must manually re-enable the bEnableExternalBackupTarget setting."
-msgstr "Trong quá trình khôi phục, các bản sao lưu bên ngoài đã bị tắt. Nếu bạn muốn tiếp tục sao lưu tự động, bạn cần phải bật thủ công lại cài đặt bEnableExternalBackupTarget."
-
-#: 
 msgid "The previous integrity check passed. All system file hashes match the expected values."
 msgstr "Lần kiểm tra tính toàn vẹn trước đã thành công. Tất cả các mã băm của tệp hệ thống đều khớp với các giá trị mong đợi."
 
@@ -7919,10 +7692,6 @@ msgstr "Danh sách các phân loại được phân tách bằng dấu phẩy s�
 #: 
 msgid "MailChimp is not configured"
 msgstr "Mailchimp không được cấu hình"
-
-#: 
-msgid "Please update the MailChimp API key in:"
-msgstr "Vui lòng cập nhật khóa API MailChimp trong:"
 
 #. Context: locales
 #: 
@@ -8294,20 +8063,8 @@ msgid "Address is required"
 msgstr "Yêu cầu nhập địa chỉ"
 
 #: 
-msgid "Base URL is required"
-msgstr "Yêu cầu URL cơ sở"
-
-#: 
 msgid "City is required"
 msgstr "Yêu cầu tên thành phố"
-
-#: 
-msgid "Database name is required"
-msgstr "Yêu cầu tên cơ sở dữ liệu"
-
-#: 
-msgid "Database server hostname or IP address is required (e.g., localhost or 127.0.0.1)"
-msgstr "Yêu cầu tên máy chủ hoặc địa chỉ IP (ví dụ: localhost hoặc 127.0.0.1)"
 
 #: 
 msgid "Database server port is required (e.g., 3306)"

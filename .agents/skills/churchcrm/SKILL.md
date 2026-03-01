@@ -38,6 +38,7 @@ Project-specific skills for AI agents and developers working on ChurchCRM. Each 
 | [Webpack & TypeScript](./webpack-typescript.md) | Frontend bundling, React, asset management |
 | [UI Development](./ui-development.md) | General UI development practices |
 | [i18n & Localization](./i18n-localization.md) | Adding UI text, translations |
+| [AI Locale Translation](./locale-ai-translation.md) | Translating missing terms via Claude AI before a release |
 
 ## Security
 
@@ -88,6 +89,8 @@ Project-specific skills for AI agents and developers working on ChurchCRM. Each 
 | [Development Workflows](./development-workflows.md) | Setup, build, Docker management |
 | [Code Standards](./code-standards.md) | General coding, quality checks, PR reviews |
 | [Wiki Documentation](./wiki-documentation.md) | Complex documentation, admin guides |
+| [Release Notes](./release-notes.md) | Authoring GitHub release notes for any version type |
+| [Social Media Release](./social-media-release.md) | Generating platform posts for X, Facebook, Instagram, LinkedIn |
 
 ## Example Workflows
 
@@ -97,3 +100,5 @@ Project-specific skills for AI agents and developers working on ChurchCRM. Each 
 - **Add plugin**: `plugin-system.md` → `plugin-development.md` → `api-development.md` → `git-workflow.md`
 - **Optimize queries**: `performance-optimization.md` → `database-operations.md` → `service-layer.md`
 - **Add UI text**: `i18n-localization.md` → `frontend-development.md` → `git-workflow.md`
+- **Write release notes**: `release-notes.md` → `github-interaction.md`
+- **Publish a release**: `release-notes.md` → `social-media-release.md` → `github-interaction.md`

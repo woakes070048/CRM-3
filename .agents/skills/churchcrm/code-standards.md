@@ -338,6 +338,44 @@ gh pr view <number> --comments               # Human-readable view with all comm
 
 **DO NOT** use `github-pull-request_openPullRequest` or `github-pull-request_issue_fetch` tools for PR comments - these return incomplete comment data. Always use `gh` command for full review content.
 
+### Resolving Review Threads After Addressing Comments
+
+After pushing fixes for PR review comments, **always resolve the threads** using the GitHub GraphQL API:
+
+```bash
+# 1. Get inline comment thread IDs via GraphQL
+gh api graphql -f query='
+{
+  repository(owner: "OWNER", name: "REPO") {
+    pullRequest(number: NUMBER) {
+      reviewThreads(first: 20) {
+        nodes {
+          id
+          isResolved
+          comments(first: 1) {
+            nodes { databaseId body }
+          }
+        }
+      }
+    }
+  }
+}' --jq '.data.repository.pullRequest.reviewThreads.nodes[] | {id, resolved: .isResolved, preview: (.comments.nodes[0].body | .[0:60])}'
+
+# 2. Resolve each thread (replace THREAD_ID with each id from step 1)
+gh api graphql -f query='mutation { resolveReviewThread(input: {threadId: "THREAD_ID"}) { thread { id isResolved } } }'
+
+# 3. Post a follow-up PR comment summarising what was addressed
+gh pr comment NUMBER --body "## Follow-up changes pushed\n\n..."
+```
+
+**Workflow when user says "fix PR comments then push":**
+1. Fetch inline comments: `gh api repos/OWNER/REPO/pulls/NUMBER/comments`
+2. Implement all requested fixes
+3. Commit + push
+4. Get thread IDs via GraphQL (step 1 above)
+5. Resolve each thread (step 2 above)
+6. Post a summary comment on the PR (step 3 above)
+
 ## Files
 
 **Logger:** `src/ChurchCRM/Utils/LoggerUtils.php`

@@ -1869,14 +1869,6 @@ msgid "Assign starting at #"
 msgstr "Rendeljen kezdődnek #"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
-msgstr "A térkép nem jeleníthető meg hiányzó templomi szélességi vagy hosszúsági adatok miatt. Kérjük, frissítse a templom címét a beállítások menüben."
-
-#: 
-msgid "Google Map API key is not set. The Map will work for smaller set of locations. Please create a Key in the maps sections of the setting menu."
-msgstr "A Google Map API-kulcs nincs beállítva. A térkép csak korlátozott számú helyszín esetén fog működni. Kérjük, hozzon létre egy kulcsot a beállítások menü térkép szekciójában."
-
-#: 
 msgid "Member Role Change"
 msgstr "Tagállamok szerepe módosítása"
 
@@ -2374,14 +2366,6 @@ msgstr "Figyelmeztetés"
 #: 
 msgid "This property type is still being used by at least one property."
 msgstr "Ez a tulajdonság a típus is használják legalább egy tulajdonság."
-
-#: 
-msgid "If you delete this type, you will also remove all properties using"
-msgstr "Ha törli ezt a típust, akkor is eltávolítja az összes tulajdonságait"
-
-#: 
-msgid "it and lose any corresponding property assignments."
-msgstr "azt, és elveszíti minden megfelelő ingatlan feladatokat."
 
 #: 
 #, fuzzy
@@ -3755,10 +3739,6 @@ msgstr "Állítsa Igazra a szkennelt csekkek használatának engedélyezéséhez
 #: 
 msgid "Unit used to measure distance, miles or km."
 msgstr "A távolság mérésére használt mértékegység, mérföld vagy km."
-
-#: 
-msgid "Names of markers for Google Maps in order of classification"
-msgstr "A Google Maps jelölőinek nevei besorolási sorrendben"
 
 #: 
 msgid "Enable non-deductible payments"
@@ -6016,10 +5996,6 @@ msgid "Your Cart is Empty"
 msgstr "A kosara üres"
 
 #: 
-msgid "View on Map"
-msgstr "Megtekintés térképen"
-
-#: 
 msgid "Legend"
 msgstr "Jelmagyarázat"
 
@@ -6064,18 +6040,6 @@ msgid "The role could not be assigned."
 msgstr "A szerepkört nem sikerült hozzárendelni."
 
 #: 
-msgid "Bing map API requires a unique key"
-msgstr "A Bing térkép API-hoz egyedi kulcs szükséges"
-
-#: 
-msgid "Google Maps Zoom"
-msgstr "Google Térkép nagyítás"
-
-#: 
-msgid "Select GeoCoder Provider"
-msgstr "Válasszon GeoCoder szolgáltatót"
-
-#: 
 msgid "Your ChurchCRM account was locked."
 msgstr "Az Ön ChurchCRM fiókját zárolták."
 
@@ -6118,10 +6082,6 @@ msgstr "rendszerfelhasználó jelszavát az adminisztrátor megváltoztatta"
 #: 
 msgid "system user login reset"
 msgstr "rendszerfelhasználó bejelentkezése visszaállítva"
-
-#: 
-msgid "Missing Families? Update Family Latitude or Longitude now."
-msgstr "Hiányzó családok? Frissítse a család szélességi vagy hosszúsági koordinátáit most."
 
 #: 
 msgid "Families without Geo Info"
@@ -6200,18 +6160,6 @@ msgid "Time zone"
 msgstr "Időzóna"
 
 #: 
-msgid "OpenLP URL"
-msgstr "OpenLP URL"
-
-#: 
-msgid "OpenLP Username"
-msgstr "OpenLP felhasználónév"
-
-#: 
-msgid "OpenLP Password"
-msgstr "OpenLP jelszó"
-
-#: 
 msgid "KioskVisibilityTimestamp"
 msgstr "Kioszk láthatósági időbélyeg"
 
@@ -6222,10 +6170,6 @@ msgstr "Elfelejtett jelszó link megjelenítése/elrejtése a bejelentkezési k�
 #: 
 msgid "Backup"
 msgstr "Biztonsági mentés"
-
-#: 
-msgid "Integration"
-msgstr "Integráció"
 
 #: 
 msgid "Guardian(s) of"
@@ -6397,10 +6341,6 @@ msgstr "Indonéz - Indonézia"
 #: 
 msgid "records(s) successfully added to selected Group."
 msgstr "rekord(ok) sikeresen hozzáadva a kiválasztott csoporthoz."
-
-#: 
-msgid "To export to another For european CharSet use ;"
-msgstr "Más európai karakterkészletbe való exporthoz használjon pontosvesszőt (;)"
 
 #: 
 msgid "For defining the date in Date-Picker, per default : yyyy-mm-dd, In French : dd/mm/yyyy for example."
@@ -6959,10 +6899,6 @@ msgid "Links"
 msgstr "Linkek"
 
 #: 
-msgid "Show custom links on the left menu."
-msgstr "Egyéni linkek megjelenítése a bal menüben."
-
-#: 
 msgid "Enable Sunday School left menu."
 msgstr "Az iskolai baloldali menü engedélyezése vasárnap."
 
@@ -6989,10 +6925,6 @@ msgstr "Engedélyezett funkciók"
 #: 
 msgid "Validation Error"
 msgstr "Validációs hiba"
-
-#: 
-msgid "Link Not found"
-msgstr "Link nem található"
 
 #: 
 msgid "Email Functions"
@@ -7033,10 +6965,6 @@ msgstr "A felhasználónak Rekordok törlése engedéllyel kell rendelkeznie"
 #: 
 msgid "ChurchCRM Central Notifications URL"
 msgstr "ChurchCRM központi értesítések URL-je"
-
-#: 
-msgid "Follow us on"
-msgstr "Kövessen minket a"
 
 #: 
 msgid "invalid event type id"
@@ -7083,10 +7011,6 @@ msgid "Updated People"
 msgstr "Frissített emberek"
 
 #: 
-msgid "Custom Menus"
-msgstr "Egyéni menük"
-
-#: 
 msgid "User must have Manage Groups permission"
 msgstr "A felhasználónak Csoportok kezelésének engedéllyel kell rendelkeznie"
 
@@ -7105,26 +7029,6 @@ msgstr "Nem törölheti magát"
 #: 
 msgid "The role could not be found."
 msgstr "A szerep nem található."
-
-#: 
-msgid "Add Menu"
-msgstr "Menü hozzáadása"
-
-#: 
-msgid "Menu Name"
-msgstr "Menü neve"
-
-#: 
-msgid "Link Address"
-msgstr "Link címe"
-
-#: 
-msgid "Start with http:// or https://"
-msgstr "Kezdje http:// vagy https:// -vel"
-
-#: 
-msgid "Menus"
-msgstr "Menük"
 
 #: 
 msgid "is disabled"
@@ -7239,10 +7143,6 @@ msgstr "Észt"
 #: 
 msgid "Error decoding signature definition file"
 msgstr "Hiba az aláírás definíciós fájl dekódolásakor"
-
-#: 
-msgid "Remote Backup Endpoint.  If WebDAV, this must be url encoded. "
-msgstr "Távoli biztonsági mentési végpont. Ha WebDAV, ezt URL-kódolni kell."
 
 #: 
 msgid "Age Histogram"
@@ -7444,28 +7344,12 @@ msgid "LastName, FirstName MiddleName"
 msgstr "Vezetéknév, Keresztnév KözépsőNév"
 
 #: 
-msgid "Manage 2 Factor Authentication"
-msgstr "Kétlépcsős azonosítás kezelése"
-
-#: 
 msgid "Two Factor Status"
 msgstr "Kétlépcsős azonosítás állapota"
 
 #: 
 msgid "Please confirm disabling 2 Factor Auth for this user"
 msgstr "Kérjük, erősítse meg a kétlépcsős azonosítás letiltását ehhez a felhasználóhoz"
-
-#: 
-msgid "Please enter 2FA code"
-msgstr "Kérjük, adja meg a 2FA kódot"
-
-#: 
-msgid "2FA Code"
-msgstr "2FA kód"
-
-#: 
-msgid "2 Factor Authentication enrollment"
-msgstr "Kétlépcsős azonosítás regisztráció"
 
 #: 
 msgid "Unsupported Two Factor Authentication Configuration"
@@ -7494,10 +7378,6 @@ msgstr "Google Maps API kulcs a címek geokódolásához"
 #: 
 msgid "Send an email notifying users when their account has been deleted"
 msgstr "E-mail küldése a felhasználóknak, ha fiókjukat törölték"
-
-#: 
-msgid "Google Maps API Key used for rendering maps in browser"
-msgstr "Google Maps API kulcs a térképek megjelenítéséhez a böngészőben"
 
 #: 
 msgid "Incorrect password supplied for current user"
@@ -7543,11 +7423,6 @@ msgstr "betöltés"
 msgid "List not found"
 msgstr "A lista nem található"
 
-#. typo
-#: 
-msgid "List not in the list"
-msgstr "A lista nem szerepel a felsorolásban"
-
 #: 
 msgid "People not in"
 msgstr "Személyek, akik nincsenek benne"
@@ -7564,18 +7439,6 @@ msgstr "A közönség nem szerepel a ChurchCRM-ben"
 msgid "Web Server"
 msgstr "Webszerver"
 
-#: 
-msgid "List maintenance"
-msgstr "Lista karbantartása"
-
-#: 
-msgid "People not in list"
-msgstr "A listán nem szereplő személyek"
-
-#: 
-msgid "Audience not in the CRM"
-msgstr "A közönség nem szerepel a CRM-ben"
-
 #. Context: locales
 #: 
 msgid "Hebrew"
@@ -7584,10 +7447,6 @@ msgstr "Héber"
 #: 
 msgid "open rate"
 msgstr "megnyitási arány"
-
-#: 
-msgid "Not Subscribed "
-msgstr "Nincs feliratkozva "
 
 #: 
 msgid "Login Info"
@@ -7652,86 +7511,6 @@ msgstr "Szöveg"
 #: 
 msgid "Event Description"
 msgstr "Esemény leírása"
-
-#: 
-msgid "Enrolling your ChurchCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
-msgstr "A ChurchCRM felhasználói fiók kétlépcsős azonosításának bekapcsolása további védelmi réteget nyújt a fiókjához hozzáférni próbáló rosszindulatú szereplők ellen."
-
-#: 
-msgid "ChurchCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
-msgstr "A ChurchCRM kétlépcsős azonosítása bármely TOTP hitelesítő alkalmazást támogatja, így szabadon választhat a Microsoft Authenticator, a Google Authenticator, az Authy, a LastPass és mások közül."
-
-#: 
-msgid "When you sign in to ChurchCRM, you'll still enter your username and password like normal"
-msgstr "Amikor bejelentkezik a ChurchCRM-be, továbbra is a szokásos módon kell megadnia felhasználónevét és jelszavát."
-
-#: 
-msgid "However, you'll also need to supply a one-time code from your authenticator device to complete your login"
-msgstr "Azonban a bejelentkezés befejezéséhez meg kell adnia egy egyszeri kódot is a hitelesítő eszközéről."
-
-#: 
-msgid "After successfully entering both your credentials, and the one-time code, you'll be logged in as normal"
-msgstr "Miután sikeresen megadta a hitelesítő adatait és az egyszer használatos kódot, bejelentkezhet a szokott módon"
-
-#: 
-msgid "To prevent being locked out of your ChurchCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
-msgstr "Ahhoz, hogy ne zárja ki a ChurchCRM fiókjából, kérjük, győződjön meg arról, hogy készen áll a kétfaktoros regisztrációt befejezni a kezdés gombra kattintás előtt"
-
-#: 
-msgid "Beginning enrollment will invalidate any previously enrolled 2 factor devices and recovery codes."
-msgstr "A regisztrációs kezdés érvénytelen lesz bármely korábban regisztrált 2 faktoros eszközre és helyreállítási kódokra."
-
-#: 
-msgid "When you click next, you'll be prompted to scan a QR code to enroll your authenticator app."
-msgstr "Amikor a következő gombra kattint, a rendszer felszólítja a QR-kód beolvasására az authenticator alkalmazás regisztrálásához."
-
-#: 
-msgid "To confirm enrollment, you'll need to enter the code generated by your authenticator app"
-msgstr "A regisztráció megerősítéséhez meg kell adnia az authenticator alkalmazás által generált kódot"
-
-#: 
-msgid "After confirming app enrollment, single-use recovery codes will be generated and displayed."
-msgstr "Az alkalmazás regisztrációjának megerősítése után egy alkalommal használható helyreállítási kódok jönnek létre és jelennek meg."
-
-#: 
-msgid "Recovery codes can be used instead of a code generated from your authenticator app."
-msgstr "A helyreállítási kódok az authenticator alkalmazás által generált kód helyett használhatók."
-
-#: 
-msgid "Store these in a secure location"
-msgstr "Tárolt ezeket egy biztonságos helyen"
-
-#: 
-msgid "Begin Two Factor Authentication Enrollment"
-msgstr "Kétfaktoros hitelesítés regisztrációjának megkezdése"
-
-#: 
-msgid "2 Factor Authentication Secret"
-msgstr "2 faktoros hitelesítés titok"
-
-#: 
-msgid "Regenerate 2 Factor Authentication Secret"
-msgstr "2 faktoros hitelesítés titok újragenerálása"
-
-#: 
-msgid "Remove 2 Factor Authentication Secret"
-msgstr "2 faktoros hitelesítés titok eltávolítása"
-
-#: 
-msgid "Enter TOTP code to confirm enrollment"
-msgstr "Adja meg a TOTP-kódot a regisztráció megerősítéséhez"
-
-#: 
-msgid "2 Factor Authentication Enrollment Success"
-msgstr "2 faktoros hitelesítés regisztrációjának sikere"
-
-#: 
-msgid "Please store these recovery codes in a safe location"
-msgstr "Kérjük, tárolt ezeket a helyreállítási kódokat egy biztonságos helyen"
-
-#: 
-msgid "If you ever lose access to your newly enrolled authenticator app, you'll need to use a recovery code to gain access to your account"
-msgstr "Ha valaha is elveszíti az újonnan regisztrált authenticator alkalmazásához való hozzáférést, helyreállítási kódot kell használnia a fiók eléréséhez"
 
 #: 
 msgid "Help translate this project"
@@ -7962,10 +7741,6 @@ msgid "People who are configured to pay by credit card."
 msgstr "Azok az emberek, akik hitelkártyával vannak konfigurálva a fizetéshez."
 
 #: 
-msgid "As part of the restore, external backups have been disabled.  If you wish to continue automatic backups, you must manually re-enable the bEnableExternalBackupTarget setting."
-msgstr "A helyreállítás részeként a külső biztonsági másolatok letiltva voltak. Ha szeretné folytatni az automatikus biztonsági másolatokat, manuálisan újra kell engedélyeznie a bEnableExternalBackupTarget beállítást."
-
-#: 
 msgid "The previous integrity check passed. All system file hashes match the expected values."
 msgstr "Az előző integritásellenőrzés átment. Az összes rendszerfájl hash egyezik a várt értékekkel."
 
@@ -7976,10 +7751,6 @@ msgstr "Vesszővel elválasztott osztályozások listája, amelyeknek inaktívna
 #: 
 msgid "MailChimp is not configured"
 msgstr "A MailChimp nincs konfigurálva"
-
-#: 
-msgid "Please update the MailChimp API key in:"
-msgstr "Kérjük, frissítse a MailChimp API-kulcsot:"
 
 #. Context: locales
 #: 
@@ -8351,20 +8122,8 @@ msgid "Address is required"
 msgstr "A cím szükséges"
 
 #: 
-msgid "Base URL is required"
-msgstr "Az alap URL szükséges"
-
-#: 
 msgid "City is required"
 msgstr "A város szükséges"
-
-#: 
-msgid "Database name is required"
-msgstr "Az adatbázis neve szükséges"
-
-#: 
-msgid "Database server hostname or IP address is required (e.g., localhost or 127.0.0.1)"
-msgstr "Az adatbázis kiszolgáló gazdanév vagy IP-cím szükséges (például: localhost vagy 127.0.0.1)"
 
 #: 
 msgid "Database server port is required (e.g., 3306)"
@@ -11489,4 +11248,576 @@ msgstr "Szűrők Visszaállítása"
 #: 
 msgid "Show only people with photos"
 msgstr "Csak fotóval rendelkező személyek mutatása"
+
+#: 
+msgid "Checkout All"
+msgstr "Mindenki kicsekkolása"
+
+#: 
+msgid "Expected"
+msgstr "Várható"
+
+#: 
+msgid "Failed to delete kiosk"
+msgstr "A kiosk törlése sikertelen"
+
+#. Context: query_qry
+#: 
+msgid "Family Pledge by Fiscal Year"
+msgstr "Családi pénzügyi kötelezettségvállalás pénzügyi év szerint"
+
+#. Context: query_qry
+#: 
+msgid "Find Registered students"
+msgstr "Regisztrált tanulók keresése"
+
+#. Context: queryparameters_qrp
+#: 
+msgid "Fiscal Year."
+msgstr "Pénzügyi év."
+
+#. Context: queryparameters_qrp
+#: 
+msgid "Group of registered students"
+msgstr "Regisztrált tanulók csoportja"
+
+#: 
+msgid "Here"
+msgstr "Itt"
+
+#: 
+msgid "Invalid assignment type"
+msgstr "Érvénytelen hozzárendelési típus"
+
+#: 
+msgid "Invalid person ID"
+msgstr "Érvénytelen személy-azonosító"
+
+#: 
+msgid "Kiosk Registration Disabled"
+msgstr "Kiosk regisztráció letiltva"
+
+#: 
+msgid "Kiosk not found"
+msgstr "A kiosk nem található"
+
+#: 
+msgid "Link this event to a group for Kiosk check-in functionality. The group members will appear on the kiosk."
+msgstr "Csatolja ezt az eseményt egy csoporthoz a kiosk bejelentkezési funkcióhoz. A csoport tagjai megjelennek a kioskon."
+
+#: 
+msgid "Linked Group"
+msgstr "Csatolt csoport"
+
+#: 
+msgid "New kiosk device registration is currently disabled. Please contact your system administrator to enable kiosk registration."
+msgstr "Az új kiosk eszköz regisztrációja jelenleg le van tiltva. Kérem, lépjen kapcsolatba a rendszergazdával a kiosk regisztráció engedélyezéséhez."
+
+#: 
+msgid "No Group (Select for Kiosk Check-in)"
+msgstr "Nincs csoport (válasszon a kiosk bejelentkezéshez)"
+
+#: 
+msgid "No one checked in yet"
+msgstr "Még senki sem jelentkezett be"
+
+#: 
+msgid "Person not found"
+msgstr "A személy nem található"
+
+#: 
+msgid "Pickup Request"
+msgstr "Elviteli kérés"
+
+#: 
+msgid "Please proceed to the classroom as soon as possible."
+msgstr "Kérem, menjen a tanterembe a lehető leghamarabb."
+
+#. Context: query_qry
+#: 
+msgid "Pledge summary by family name for each fund for the selected fiscal year"
+msgstr "Kötelezettségvállalás összesítője családnév szerint, alaponként a kiválasztott pénzügyi évre"
+
+#. Context: query_qry
+#: 
+msgid "Registered students"
+msgstr "Regisztrált tanulók"
+
+#: 
+msgid "The teacher sent this alert at"
+msgstr "A tanár ezt a riasztást a következő időpontban küldte:"
+
+#: 
+msgid "This kiosk is best viewed on a tablet in landscape mode for optimal check-in experience."
+msgstr "Ez a kiosk vízszintes tájolású tableten jelenik meg a legjobban az optimális bejelentkezési élményhez."
+
+#: 
+msgid "Tip"
+msgstr "Tipp"
+
+#: 
+msgid "Try Again"
+msgstr "Próbálja újra"
+
+#: 
+msgid "Upcoming Birthdays"
+msgstr "Közelgő születésnapok"
+
+#: 
+msgid "Waiting to Check In"
+msgstr "Bejelentkezésre vár"
+
+#: 
+msgid "When enabled, new kiosk devices can register for 30 seconds."
+msgstr "Ha engedélyezve van, az új kiosk eszközök 30 másodpercig regisztrálhatnak."
+
+#: 
+msgid "Your child"
+msgstr "Az Ön gyermeke"
+
+#: 
+msgid "needs to be picked up from"
+msgstr "elviendő innen:"
+
+#: 
+msgid "their classroom"
+msgstr "a tantermükből"
+
+#: 
+msgid "All timezones match"
+msgstr "Minden időzóna egyezik"
+
+#: 
+msgid "Baseline"
+msgstr "Alapértelmezett"
+
+#: 
+msgid "Browser"
+msgstr "Böngésző"
+
+#: 
+msgid "Browser differs from system config - dates may display incorrectly for this user."
+msgstr "A böngésző eltér a rendszer konfigurációjától – a dátumok helytelenül jelenhetnek meg ennél a felhasználónál."
+
+#: 
+msgid "Cannot write to ChurchCRM installation directory. Please check that the web server has write permissions."
+msgstr "Nem lehet írni a ChurchCRM telepítési könyvtárába. Kérem, ellenőrizze, hogy a webszerver rendelkezik-e írási jogosultsággal."
+
+#: 
+msgid "Comparing timezones..."
+msgstr "Időzónák összehasonlítása..."
+
+#: 
+msgid "Destination directory does not exist. Please verify ChurchCRM is installed correctly."
+msgstr "A célkönyvtár nem létezik. Kérem, ellenőrizze, hogy a ChurchCRM megfelelően van-e telepítve."
+
+#: 
+msgid "Does not match system config"
+msgstr "Nem egyezik a rendszer konfigurációjával"
+
+#: 
+msgid "Downloaded release file is empty. This may be due to network issues or GitHub rate limiting. Please try again later."
+msgstr "A letöltött kiadási fájl üres. Ennek oka hálózati problémák vagy a GitHub korlátozása lehet. Kérem, próbálja meg újra később."
+
+#: 
+msgid "Extraction completed but upgrade files not found. The upgrade archive may be corrupted."
+msgstr "A kicsomagolás befejeződött, de a frissítési fájlok nem találhatók. Lehet, hogy a frissítési archívum sérült."
+
+#: 
+msgid "Failed to apply upgrade. Please check the server logs for details."
+msgstr "A frissítés alkalmazása sikertelen. A részletekért kérem, ellenőrizze a szerver naplóit."
+
+#: 
+msgid "Failed to create Upgrade directory. Please check file permissions."
+msgstr "A frissítési könyvtár létrehozása sikertelen. Kérem, ellenőrizze a fájljogosultságokat."
+
+#: 
+msgid "Failed to download the release file from GitHub after multiple attempts. Please check your server's internet connection and try again."
+msgstr "A kiadási fájl letöltése a GitHubról több kísérlet után sem sikerült. Kérem, ellenőrizze a szerver internetkapcsolatát, és próbálja újra."
+
+#: 
+msgid "Failed to extract upgrade archive. Please check disk space and file permissions."
+msgstr "A frissítési archívum kicsomagolása sikertelen. Kérem, ellenőrizze a lemezterületet és a fájljogosultságokat."
+
+#: 
+msgid "Failed to open upgrade archive. The downloaded file may be corrupted."
+msgstr "A frissítési archívum megnyitása sikertelen. A letöltött fájl sérült lehet."
+
+#: 
+msgid "Failed to save the downloaded release file. Please check disk space and permissions."
+msgstr "A letöltött kiadási fájl mentése sikertelen. Kérem, ellenőrizze a lemezterületet és a jogosultságokat."
+
+#: 
+msgid "Invalid date format in start parameter"
+msgstr "Érvénytelen dátumformátum a kezdési paraméterben"
+
+#: 
+msgid "Mismatch"
+msgstr "Eltérés"
+
+#: 
+msgid "Not set"
+msgstr "Nincs beállítva"
+
+#: 
+msgid "PHP Active"
+msgstr "PHP aktív"
+
+#: 
+msgid "Source directory does not exist. The upgrade archive may not have extracted correctly. Please check file permissions and disk space."
+msgstr "A forráskönyvtár nem létezik. Lehet, hogy a frissítési archívum nem csomagolódott ki megfelelően. Kérem, ellenőrizze a fájljogosultságokat és a lemezterületet."
+
+#: 
+msgid "System Config"
+msgstr "Rendszerkonfiguráció"
+
+#: 
+msgid "Timezone Information"
+msgstr "Időzóna-információ"
+
+#: 
+msgid "Timezone mismatch detected"
+msgstr "Időzóna-eltérés észlelve"
+
+#: 
+msgid "mismatch detected"
+msgstr "eltérés észlelve"
+
+#: 
+msgid "mismatches detected"
+msgstr "eltérés észlelve"
+
+#: 
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d óra"
+msgstr[1] "%d óra"
+
+#: 
+msgid "About WebDAV Backups"
+msgstr "A WebDAV biztonsági mentésekről"
+
+#: 
+msgid "Add Link"
+msgstr "Hivatkozás hozzáadása"
+
+#: 
+msgid "Add an extra layer of security to your account"
+msgstr "Adjon egy extra biztonsági réteget a fiókjához"
+
+#: 
+msgid "Add custom external links to the navigation menu."
+msgstr "Adjon egyéni külső hivatkozásokat a navigációs menühöz."
+
+#: 
+msgid "Allow Self-Signed Certificates"
+msgstr "Önaláírt tanúsítványok engedélyezése"
+
+#: 
+msgid "An error occurred processing the plugin request"
+msgstr "Hiba történt a bővítmény kérés feldolgozása során"
+
+#: 
+msgid "Are you sure you want to disable two-factor authentication? Your account will be less secure."
+msgstr "Biztosan le szeretné tiltani a kétfaktoros hitelesítést? A fiókja kevésbé lesz biztonságos."
+
+#: 
+msgid "As part of the restore, external backups have been disabled. If you wish to continue automatic backups, re-enable the External Backup plugin in Admin > Plugins."
+msgstr "A visszaállítás részeként a külső biztonsági mentések le lettek tiltva. Ha folytatni szeretné az automatikus biztonsági mentéseket, engedélyezze újra a Külső biztonsági mentés bővítményt az Admin > Bővítmények menüben."
+
+#: 
+msgid "Audiences"
+msgstr "Közönségek"
+
+#: 
+msgid "Authentication failed. Please check username and password."
+msgstr "A hitelesítés sikertelen. Kérem, ellenőrizze a felhasználónevet és a jelszót."
+
+#: 
+msgid "Auto-Backup Interval"
+msgstr "Automatikus biztonsági mentés időköze"
+
+#: 
+msgid "Automatically backup your ChurchCRM database to external cloud storage via WebDAV."
+msgstr "Automatikusan mentse el a ChurchCRM adatbázisát külső felhőalapú tárhelyre WebDAV-on keresztül."
+
+#: 
+msgid "Avg Click Rate"
+msgstr "Átlagos kattintási arány"
+
+#: 
+msgid "Avg Open Rate"
+msgstr "Átlagos megnyitási arány"
+
+#: 
+msgid "Back to Dashboard"
+msgstr "Vissza az irányítópultra"
+
+#: 
+msgid "Backup created but failed to copy to remote server"
+msgstr "A biztonsági mentés létrejött, de a másolás a távoli szerverre sikertelen"
+
+#: 
+msgid "Backup to WebDAV Now"
+msgstr "Biztonsági mentés WebDAV-ra most"
+
+#: 
+msgid "Before You Start"
+msgstr "Mielőtt elkezdené"
+
+#: 
+msgid "Browser language preference detected"
+msgstr "Böngésző nyelvi beállítása észlelve"
+
+#: 
+msgid "CRM Members Not Subscribed"
+msgstr "Nem feliratkozott CRM-tagok"
+
+#: 
+msgid "Campaigns Sent"
+msgstr "Elküldött kampányok"
+
+#: 
+msgid "Can't scan?"
+msgstr "Nem tud beolvasni?"
+
+#: 
+msgid "Change Your Locale"
+msgstr "Nyelvi beállítás módosítása"
+
+#: 
+msgid "ChurchCRM supports a plugin architecture for extending functionality."
+msgstr "A ChurchCRM bővítményalapú architektúrát támogat a funkcionalitás kiterjesztéséhez."
+
+#: 
+msgid "Cleaned"
+msgstr "Megtisztítva"
+
+#: 
+msgid "Click the button below to test your WebDAV connection settings."
+msgstr "Kattintson az alábbi gombra a WebDAV kapcsolati beállítások teszteléséhez."
+
+#: 
+msgid "Community Plugins"
+msgstr "Közösségi bővítmények"
+
+#: 
+msgid "Community plugins"
+msgstr "Közösségi bővítmények"
+
+#: 
+msgid "Configure External Backup"
+msgstr "Külső biztonsági mentés konfigurálása"
+
+#: 
+msgid "Configure MailChimp"
+msgstr "MailChimp konfigurálása"
+
+#: 
+msgid "Configure these settings in the"
+msgstr "Konfigurálja ezeket a beállításokat a következőben:"
+
+#: 
+msgid "Configure this plugin to automatically backup your ChurchCRM database to WebDAV-compatible cloud storage services like Nextcloud, ownCloud, or any WebDAV server. Backups are encrypted during transfer using HTTPS."
+msgstr "Konfigurálja ezt a bővítményt a ChurchCRM adatbázis automatikus mentéséhez WebDAV-kompatibilis felhőalapú tárolási szolgáltatásokra, mint a Nextcloud, az ownCloud vagy bármely WebDAV-szerver. A biztonsági mentések átvitel során HTTPS-sel titkosítva vannak."
+
+#: 
+msgid "Configured"
+msgstr "Konfigurálva"
+
+#: 
+msgid "Confirm with a code from your authenticator app"
+msgstr "Erősítse meg a hitelesítő alkalmazás kódjával"
+
+#: 
+msgid "Connected"
+msgstr "Csatlakozva"
+
+#: 
+msgid "Connection failed"
+msgstr "A kapcsolat sikertelen"
+
+#: 
+msgid "Connection failed with HTTP code"
+msgstr "A kapcsolat sikertelen a következő HTTP-kóddal:"
+
+#: 
+msgid "Connection successful! WebDAV endpoint is accessible."
+msgstr "A kapcsolat sikeres! A WebDAV végpont elérhető."
+
+#: 
+msgid "Connection test failed"
+msgstr "A kapcsolatteszt sikertelen"
+
+#: 
+msgid "Core Plugins"
+msgstr "Alapbővítmények"
+
+#: 
+msgid "Core plugins"
+msgstr "Alapbővítmények"
+
+#: 
+msgid "Create a backup now and upload it to your WebDAV server."
+msgstr "Hozzon létre most egy biztonsági mentést, és töltse fel a WebDAV-szerverére."
+
+#: 
+msgid "Create an Audience in MailChimp"
+msgstr "Hozzon létre közönséget a MailChimpben"
+
+#: 
+msgid "Custom"
+msgstr "Egyéni"
+
+#: 
+msgid "Custom Menu Links"
+msgstr "Egyéni menühivatkozások"
+
+#: 
+msgid "Default Image Style"
+msgstr "Alapértelmezett képstílus"
+
+#: 
+msgid "Default List ID"
+msgstr "Alapértelmezett listaazonosító"
+
+#: 
+msgid "Disable"
+msgstr "Letiltás"
+
+#: 
+msgid "Disable Plugin"
+msgstr "Bővítmény letiltása"
+
+#: 
+msgid "Disable Two-Factor Authentication"
+msgstr "Kétfaktoros hitelesítés letiltása"
+
+#: 
+msgid "Dismiss"
+msgstr "Bezárás"
+
+#: 
+msgid "Done"
+msgstr "Kész"
+
+#: 
+msgid "E.164 format, e.g., +14155551234"
+msgstr "E.164 formátum, pl. +14155551234"
+
+#: 
+msgid "Each plugin requires a"
+msgstr "Minden bővítményhez szükséges egy"
+
+#: 
+msgid "Each time you sign in, you'll need to confirm with a code from your authenticator app"
+msgstr "Minden bejelentkezéskor meg kell erősítenie a hitelesítő alkalmazás kódjával"
+
+#: 
+msgid "Email Addresses"
+msgstr "E-mail-címek"
+
+#: 
+msgid "Enable"
+msgstr "Engedélyezés"
+
+#: 
+msgid "Enable External Backup Plugin"
+msgstr "Külső biztonsági mentés bővítmény engedélyezése"
+
+#: 
+msgid "Enable Plugin"
+msgstr "Bővítmény engedélyezése"
+
+#: 
+msgid "Enable Two-Factor Authentication"
+msgstr "Kétfaktoros hitelesítés engedélyezése"
+
+#: 
+msgid "Enable the External Backup plugin for WebDAV cloud storage."
+msgstr "Engedélyezze a külső biztonsági mentés bővítményt a WebDAV felhőalapú tároláshoz."
+
+#: 
+msgid "Enable this only for local network servers with self-signed SSL certificates. Disables certificate verification."
+msgstr "Csak helyi hálózati szerverekhez engedélyezze önaláírt SSL-tanúsítványokkal. Letiltja a tanúsítvány-ellenőrzést."
+
+#: 
+msgid "Endpoint URL"
+msgstr "Végpont URL"
+
+#: 
+msgid "Enter the 6-digit code from your authenticator app"
+msgstr "Adja meg a 6 jegyű kódot a hitelesítő alkalmazásból"
+
+#: 
+msgid "Enter your username and password as usual"
+msgstr "Adja meg felhasználónevét és jelszavát a szokásos módon"
+
+#: 
+msgid "External Backup"
+msgstr "Külső biztonsági mentés"
+
+#: 
+msgid "External Backup (WebDAV)"
+msgstr "Külső biztonsági mentés (WebDAV)"
+
+#: 
+msgid "External Backup Settings"
+msgstr "Külső biztonsági mentés beállításai"
+
+#: 
+msgid "External Backup plugin is enabled but not configured."
+msgstr "A külső biztonsági mentés bővítmény engedélyezve van, de nincs konfigurálva."
+
+#: 
+msgid "External Backup plugin is not configured. Please configure WebDAV settings in the plugin."
+msgstr "A külső biztonsági mentés bővítmény nincs konfigurálva. Kérem, konfigurálja a WebDAV beállításokat a bővítményben."
+
+#: 
+msgid "External Backup plugin is not enabled. Please enable and configure it in Plugin Management."
+msgstr "A külső biztonsági mentés bővítmény nincs engedélyezve. Kérem, engedélyezze és konfigurálja a bővítménykezelőben."
+
+#: 
+msgid "Failed to create link"
+msgstr "A hivatkozás létrehozása sikertelen"
+
+#: 
+msgid "Failed to delete link"
+msgstr "A hivatkozás törlése sikertelen"
+
+#: 
+msgid "Failed to disable plugin"
+msgstr "A bővítmény letiltása sikertelen"
+
+#: 
+msgid "Failed to enable plugin"
+msgstr "A bővítmény engedélyezése sikertelen"
+
+#: 
+msgid "Failed to get plugin details"
+msgstr "A bővítmény részleteinek lekérdezése sikertelen"
+
+#: 
+msgid "Failed to list plugins"
+msgstr "A bővítmények listázása sikertelen"
+
+#: 
+msgid "Failed to reset settings"
+msgstr "A beállítások visszaállítása sikertelen"
+
+#: 
+msgid "Failed to send SMS"
+msgstr "Az SMS küldése sikertelen"
+
+#: 
+msgid "Family Status"
+msgstr "Család állapota"
+
+#: 
+msgid "Family not found"
+msgstr "A család nem található"
+
+#: 
+msgid "Find in MailChimp: Audience > Settings > Audience name and defaults > Audience ID"
+msgstr "Keresés a MailChimpben: Közönség > Beállítások > Közönség neve és alapértékek > Közönségazonosító"
 

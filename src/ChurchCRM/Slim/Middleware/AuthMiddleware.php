@@ -48,7 +48,14 @@ class AuthMiddleware implements MiddlewareInterface
                 // since /background operations do not connotate user activity.
 
                 // User with an active browser session is still authenticated.
-                // don't really need to do anything here...
+                // For browser requests (non-background), enforce any required redirect steps (e.g. forced password change).
+                // Use a PSR-15 response redirect rather than calling ensureAuthentication() which exits via header().
+                if ($this->isBrowserRequest($request) && !$this->isPath($request, 'background')) {
+                    $result = AuthenticationManager::getAuthenticationProvider()->validateUserSessionIsActive(true);
+                    if ($result->nextStepURL !== null) {
+                        return (new Response())->withStatus(302)->withHeader('Location', $result->nextStepURL);
+                    }
+                }
             } else {
                 $logger = LoggerUtils::getAppLogger();
                 $logger->warning('No authenticated user or session', [
@@ -73,12 +80,10 @@ class AuthMiddleware implements MiddlewareInterface
 
     private function isPath(ServerRequestInterface $request, string $pathPart): bool
     {
+        // explode produces an empty string at index 0 for paths starting with '/',
+        // so use in_array to check if the segment exists anywhere in the path
         $pathAry = explode('/', $request->getUri()->getPath());
-        if ($pathAry[0] === $pathPart) {
-            return true;
-        }
-
-        return false;
+        return in_array($pathPart, $pathAry, true);
     }
 
     /**

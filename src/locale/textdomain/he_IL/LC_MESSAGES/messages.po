@@ -1829,14 +1829,6 @@ msgid "Assign starting at #"
 msgstr "הקצה החל מ-#"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
-msgstr "לא ניתן להציג את המפה עקב חסרים בקו רוחב או קו אורך של המוסד. אנא עדכן את כתובת המוסד בתפריט ההגדרות."
-
-#: 
-msgid "Google Map API key is not set. The Map will work for smaller set of locations. Please create a Key in the maps sections of the setting menu."
-msgstr "מפתח ה-API של מפת גוגל לא מוגדר. המפה תעבוד עבור קבוצה קטנה יותר של מיקומים. אנא צור מפתח במקטעי המפות בתפריט ההגדרות."
-
-#: 
 msgid "Member Role Change"
 msgstr "שינוי תפקיד חבר"
 
@@ -2325,14 +2317,6 @@ msgstr "אזהרה"
 #: 
 msgid "This property type is still being used by at least one property."
 msgstr "סוג מאפיין זה עדיין בשימוש על ידי לפחות מאפיין אחד."
-
-#: 
-msgid "If you delete this type, you will also remove all properties using"
-msgstr "אם תמחק סוג זה, תמחק גם את כל המאפיינים המשתמשים"
-
-#: 
-msgid "it and lose any corresponding property assignments."
-msgstr "בו ותאבד את כל הקצאות המאפיינים המתאימות."
 
 #: 
 msgid "Please confirm deletion of this Property Type"
@@ -3674,10 +3658,6 @@ msgstr "הגדר כ-true כדי לאפשר שימוש בצ'קים סרוקים"
 #: 
 msgid "Unit used to measure distance, miles or km."
 msgstr "יחידת המידה למרחק, מיילים או ק\"מ"
-
-#: 
-msgid "Names of markers for Google Maps in order of classification"
-msgstr "שמות הסמנים ב-Google Maps לפי סדר הסיווג"
 
 #: 
 msgid "Enable non-deductible payments"
@@ -5943,10 +5923,6 @@ msgid "Your Cart is Empty"
 msgstr "העגלה שלך ריקה"
 
 #: 
-msgid "View on Map"
-msgstr "הצג במפה"
-
-#: 
 msgid "Legend"
 msgstr "מקרא"
 
@@ -5991,18 +5967,6 @@ msgid "The role could not be assigned."
 msgstr "לא ניתן היה לשייך את התפקיד."
 
 #: 
-msgid "Bing map API requires a unique key"
-msgstr "API של מפות Bing דורש מפתח ייחודי"
-
-#: 
-msgid "Google Maps Zoom"
-msgstr "זום במפות גוגל"
-
-#: 
-msgid "Select GeoCoder Provider"
-msgstr "בחר ספק GeoCoder"
-
-#: 
 msgid "Your ChurchCRM account was locked."
 msgstr "חשבון ה-ChurchCRM שלך ננעל."
 
@@ -6045,10 +6009,6 @@ msgstr "סיסמת משתמש המערכת שונתה על ידי מנהל"
 #: 
 msgid "system user login reset"
 msgstr "איפוס התחברות משתמש מערכת"
-
-#: 
-msgid "Missing Families? Update Family Latitude or Longitude now."
-msgstr "משפחות חסרות? עדכן את קו הרוחב או האורך של המשפחה עכשיו."
 
 #: 
 msgid "Families without Geo Info"
@@ -6127,18 +6087,6 @@ msgid "Time zone"
 msgstr "אזור זמן"
 
 #: 
-msgid "OpenLP URL"
-msgstr "כתובת OpenLP"
-
-#: 
-msgid "OpenLP Username"
-msgstr "שם משתמש OpenLP"
-
-#: 
-msgid "OpenLP Password"
-msgstr "סיסמת OpenLP"
-
-#: 
 msgid "KioskVisibilityTimestamp"
 msgstr "חותמת זמן נראות קיוסק"
 
@@ -6149,10 +6097,6 @@ msgstr "הצג/הסתר קישור סיסמה אבודה במסך ההתחברו
 #: 
 msgid "Backup"
 msgstr "גיבוי"
-
-#: 
-msgid "Integration"
-msgstr "אינטגרציה"
 
 #: 
 msgid "Guardian(s) of"
@@ -6324,10 +6268,6 @@ msgstr "Indonesian - Indonesia"
 #: 
 msgid "records(s) successfully added to selected Group."
 msgstr "הרשומה(ות) נוספה בהצלחה לקבוצה הנבחרת."
-
-#: 
-msgid "To export to another For european CharSet use ;"
-msgstr "לייצוא לאחר עבור קידוד אירופאי השתמש ב-;"
 
 #: 
 msgid "For defining the date in Date-Picker, per default : yyyy-mm-dd, In French : dd/mm/yyyy for example."
@@ -6888,10 +6828,6 @@ msgid "Links"
 msgstr "קישורים"
 
 #: 
-msgid "Show custom links on the left menu."
-msgstr "הצג קישורים מותאמים אישית בתפריט השמאלי."
-
-#: 
 msgid "Enable Sunday School left menu."
 msgstr "הפעל תפריט שמאלי של בית ספר ראשון."
 
@@ -6918,10 +6854,6 @@ msgstr "תכונות מופעלות"
 #: 
 msgid "Validation Error"
 msgstr "שגיאת אימות"
-
-#: 
-msgid "Link Not found"
-msgstr "הקישור לא נמצא"
 
 #: 
 msgid "Email Functions"
@@ -6962,10 +6894,6 @@ msgstr "המשתמש חייב להיות בעל הרשאת מחיקת רשומו
 #: 
 msgid "ChurchCRM Central Notifications URL"
 msgstr "כתובת התראות מרכזיות של ChurchCRM"
-
-#: 
-msgid "Follow us on"
-msgstr "עקבו אחרינו ב-"
 
 #: 
 msgid "invalid event type id"
@@ -7014,10 +6942,6 @@ msgid "Updated People"
 msgstr "אנשים מעודכנים"
 
 #: 
-msgid "Custom Menus"
-msgstr "תפריטים מותאמים אישית"
-
-#: 
 msgid "User must have Manage Groups permission"
 msgstr "על המשתמש להיות בעל הרשאת ניהול קבוצות"
 
@@ -7036,26 +6960,6 @@ msgstr "לא ניתן למחוק את עצמך"
 #: 
 msgid "The role could not be found."
 msgstr "לא ניתן היה למצוא את התפקיד."
-
-#: 
-msgid "Add Menu"
-msgstr "הוסף תפריט"
-
-#: 
-msgid "Menu Name"
-msgstr "שם התפריט"
-
-#: 
-msgid "Link Address"
-msgstr "כתובת קישור"
-
-#: 
-msgid "Start with http:// or https://"
-msgstr "התחל עם http:// או https://"
-
-#: 
-msgid "Menus"
-msgstr "תפריטים"
 
 #: 
 msgid "is disabled"
@@ -7170,10 +7074,6 @@ msgstr "אסטונית"
 #: 
 msgid "Error decoding signature definition file"
 msgstr "שגיאה בפענוח קובץ הגדרות חתימה"
-
-#: 
-msgid "Remote Backup Endpoint.  If WebDAV, this must be url encoded. "
-msgstr "נקודת קצה לגיבוי מרוחק. אם זה WebDAV, חייב להיות מקודד URL."
 
 #: 
 msgid "Age Histogram"
@@ -7376,28 +7276,12 @@ msgid "LastName, FirstName MiddleName"
 msgstr "שם משפחה, שם פרטי שם אמצעי"
 
 #: 
-msgid "Manage 2 Factor Authentication"
-msgstr "ניהול אימות דו-שלבי"
-
-#: 
 msgid "Two Factor Status"
 msgstr "מצב אימות דו-שלבי"
 
 #: 
 msgid "Please confirm disabling 2 Factor Auth for this user"
 msgstr "אנא אשר ביטול אימות דו-שלבי למשתמש זה"
-
-#: 
-msgid "Please enter 2FA code"
-msgstr "אנא הזן קוד אימות דו-שלבי"
-
-#: 
-msgid "2FA Code"
-msgstr "קוד אימות דו-שלבי"
-
-#: 
-msgid "2 Factor Authentication enrollment"
-msgstr "הרשמה לאימות דו-שלבי"
 
 #: 
 msgid "Unsupported Two Factor Authentication Configuration"
@@ -7426,10 +7310,6 @@ msgstr "מפתח API של Google Maps המשמש לקידוד גיאוגרפי �
 #: 
 msgid "Send an email notifying users when their account has been deleted"
 msgstr "שלח הודעת דוא\"ל למשתמשים כאשר החשבון שלהם נמחק"
-
-#: 
-msgid "Google Maps API Key used for rendering maps in browser"
-msgstr "מפתח API של Google Maps המשמש להצגת מפות בדפדפן"
 
 #: 
 msgid "Incorrect password supplied for current user"
@@ -7475,11 +7355,6 @@ msgstr "טוען"
 msgid "List not found"
 msgstr "הרשימה לא נמצאה"
 
-#. typo
-#: 
-msgid "List not in the list"
-msgstr "רשימה לא נמצאת ברשימה"
-
 #: 
 msgid "People not in"
 msgstr "אנשים לא נמצאים"
@@ -7496,18 +7371,6 @@ msgstr "קהל לא נמצא ב-ChurchCRM"
 msgid "Web Server"
 msgstr "Web Server (שרת אינטרנט)"
 
-#: 
-msgid "List maintenance"
-msgstr "תחזוקת רשימה"
-
-#: 
-msgid "People not in list"
-msgstr "אנשים לא ברשימה"
-
-#: 
-msgid "Audience not in the CRM"
-msgstr "קהל לא ב-CRM"
-
 #. Context: locales
 #: 
 msgid "Hebrew"
@@ -7516,10 +7379,6 @@ msgstr "עברית"
 #: 
 msgid "open rate"
 msgstr "שיעור פתיחה"
-
-#: 
-msgid "Not Subscribed "
-msgstr "לא מנוי"
 
 #: 
 msgid "Login Info"
@@ -7584,86 +7443,6 @@ msgstr "טקסט"
 #: 
 msgid "Event Description"
 msgstr "תיאור אירוע"
-
-#: 
-msgid "Enrolling your ChurchCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
-msgstr "הרשמת אימות דו-שלבי לחשבון משתמש ChurchCRM שלך מספקת שכבת הגנה נוספת נגד גורמים זדוניים המנסים לגשת לחשבונך."
-
-#: 
-msgid "ChurchCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
-msgstr "אימות דו-שלבי ChurchCRM תומך בכל אפליקציית אימות TOTP, כך שאתה חופשי לבחור בין Microsoft Authenticator, Google Authenticator, Authy, LastPass ואחרים"
-
-#: 
-msgid "When you sign in to ChurchCRM, you'll still enter your username and password like normal"
-msgstr "כאשר אתה נכנס ל-ChurchCRM, אתה עדיין תזין את שם המשתמש והסיסמה שלך כרגיל"
-
-#: 
-msgid "However, you'll also need to supply a one-time code from your authenticator device to complete your login"
-msgstr "עם זאת, אתה גם תצטרך לספק קוד חד-פעמי ממכשיר האימות שלך כדי להשלים את התחברותך"
-
-#: 
-msgid "After successfully entering both your credentials, and the one-time code, you'll be logged in as normal"
-msgstr "לאחר שתזין בהצלחה את פרטי התחברותך ואת הקוד החד-פעמי, אתה תתחבר כרגיל"
-
-#: 
-msgid "To prevent being locked out of your ChurchCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
-msgstr "כדי למנוע הגבלת גישה לחשבון ChurchCRM שלך, אנא ודא שאתה מוכן להשלים את הרשמת אימות דו-שלבי לפני לחיצה על התחל"
-
-#: 
-msgid "Beginning enrollment will invalidate any previously enrolled 2 factor devices and recovery codes."
-msgstr "תחילת הרשמה תבטל כל מכשירי אימות דו-שלבי וקודי התאוששות שנרשמו בעבר."
-
-#: 
-msgid "When you click next, you'll be prompted to scan a QR code to enroll your authenticator app."
-msgstr "כשתלחץ על הבא, תתבקש לסרוק קוד QR כדי לרשום את אפליקציית האימות שלך"
-
-#: 
-msgid "To confirm enrollment, you'll need to enter the code generated by your authenticator app"
-msgstr "כדי לאשר את הרישום, תצטרך להזין את הקוד שנוצר על ידי אפליקציית האימות שלך"
-
-#: 
-msgid "After confirming app enrollment, single-use recovery codes will be generated and displayed."
-msgstr "לאחר אישור רישום האפליקציה, יווצרו ויוצגו קודי שחזור לשימוש חד פעמי"
-
-#: 
-msgid "Recovery codes can be used instead of a code generated from your authenticator app."
-msgstr "ניתן להשתמש בקודי שחזור במקום קוד שנוצר מאפליקציית האימות שלך"
-
-#: 
-msgid "Store these in a secure location"
-msgstr "שמור אותם במקום בטוח"
-
-#: 
-msgid "Begin Two Factor Authentication Enrollment"
-msgstr "התחל את הרשמת אימות דו-שלבי"
-
-#: 
-msgid "2 Factor Authentication Secret"
-msgstr "סוד אימות דו-שלבי"
-
-#: 
-msgid "Regenerate 2 Factor Authentication Secret"
-msgstr "יצירה מחדש של סוד אימות דו-שלבי"
-
-#: 
-msgid "Remove 2 Factor Authentication Secret"
-msgstr "הסרת סוד אימות דו-שלבי"
-
-#: 
-msgid "Enter TOTP code to confirm enrollment"
-msgstr "הזן קוד TOTP כדי לאשר הרשמה"
-
-#: 
-msgid "2 Factor Authentication Enrollment Success"
-msgstr "הרשמת אימות דו-שלבי בוצעה בהצלחה"
-
-#: 
-msgid "Please store these recovery codes in a safe location"
-msgstr "אנא שמור את קודי ההתאוששות האלה במקום בטוח"
-
-#: 
-msgid "If you ever lose access to your newly enrolled authenticator app, you'll need to use a recovery code to gain access to your account"
-msgstr "אם אתה איבדת גישה לאפליקציית האימות החדשה שלך, אתה תצטרך להשתמש בקוד התאוששות כדי לגשת לחשבונך"
 
 #: 
 msgid "Help translate this project"
@@ -7894,10 +7673,6 @@ msgid "People who are configured to pay by credit card."
 msgstr "אנשים שמוגדרים לשלם בכרטיס אשראי."
 
 #: 
-msgid "As part of the restore, external backups have been disabled.  If you wish to continue automatic backups, you must manually re-enable the bEnableExternalBackupTarget setting."
-msgstr "כחלק מהשחזור, גיבויים חיצוניים נוטרלו. אם אתה רוצה להמשיך בגיבויים אוטומטיים, אתה חייב להפעיל מחדש את הגדרת bEnableExternalBackupTarget."
-
-#: 
 msgid "The previous integrity check passed. All system file hashes match the expected values."
 msgstr "בדיקת השלמות הקודמת עברה. כל ההאשים של קבצי המערכת תואמים את הערכים הצפויים."
 
@@ -7908,10 +7683,6 @@ msgstr "רשימה מופרדת פסיקים של סיווגים שצריכים 
 #: 
 msgid "MailChimp is not configured"
 msgstr "MailChimp אינו מוגדר"
-
-#: 
-msgid "Please update the MailChimp API key in:"
-msgstr "אנא עדכן את מפתח ה-API של MailChimp ב:"
 
 #. Context: locales
 #: 
@@ -8283,20 +8054,8 @@ msgid "Address is required"
 msgstr "כתובת היא שדה חובה"
 
 #: 
-msgid "Base URL is required"
-msgstr "כתובת URL בסיסית היא שדה חובה"
-
-#: 
 msgid "City is required"
 msgstr "עיר היא שדה חובה"
-
-#: 
-msgid "Database name is required"
-msgstr "שם מסד הנתונים הוא שדה חובה"
-
-#: 
-msgid "Database server hostname or IP address is required (e.g., localhost or 127.0.0.1)"
-msgstr "שם שרת מסד הנתונים או כתובת ה-IP נדרשים (למשל, localhost או 127.0.0.1)"
 
 #: 
 msgid "Database server port is required (e.g., 3306)"
@@ -11421,4 +11180,1236 @@ msgstr "אפס מסננים"
 #: 
 msgid "Show only people with photos"
 msgstr "הצג רק אנשים עם תמונות"
+
+#: 
+msgid "Checkout All"
+msgstr "תשלום לכולם"
+
+#: 
+msgid "Expected"
+msgstr "צפוי"
+
+#: 
+msgid "Failed to delete kiosk"
+msgstr "מחיקת הקיוסק נכשלה"
+
+#. Context: query_qry
+#: 
+msgid "Family Pledge by Fiscal Year"
+msgstr "התחייבות משפחתית לפי שנת כספים"
+
+#. Context: query_qry
+#: 
+msgid "Find Registered students"
+msgstr "חפש תלמידים רשומים"
+
+#. Context: queryparameters_qrp
+#: 
+msgid "Fiscal Year."
+msgstr "שנת כספים."
+
+#. Context: queryparameters_qrp
+#: 
+msgid "Group of registered students"
+msgstr "קבוצת תלמידים רשומים"
+
+#: 
+msgid "Here"
+msgstr "כאן"
+
+#: 
+msgid "Invalid assignment type"
+msgstr "סוג הקצאה לא תקין"
+
+#: 
+msgid "Invalid person ID"
+msgstr "מזהה אדם לא תקין"
+
+#: 
+msgid "Kiosk Registration Disabled"
+msgstr "רישום הקיוסק מושבת"
+
+#: 
+msgid "Kiosk not found"
+msgstr "הקיוסק לא נמצא"
+
+#: 
+msgid "Link this event to a group for Kiosk check-in functionality. The group members will appear on the kiosk."
+msgstr "קשר אירוע זה לקבוצה לצורך פונקציית צ'ק-אין בקיוסק. חברי הקבוצה יופיעו בקיוסק."
+
+#: 
+msgid "Linked Group"
+msgstr "קבוצה מקושרת"
+
+#: 
+msgid "New kiosk device registration is currently disabled. Please contact your system administrator to enable kiosk registration."
+msgstr "רישום מכשיר קיוסק חדש מושבת כרגע. אנא פנה למנהל המערכת כדי להפעיל את רישום הקיוסק."
+
+#: 
+msgid "No Group (Select for Kiosk Check-in)"
+msgstr "אין קבוצה (בחר לצ'ק-אין בקיוסק)"
+
+#: 
+msgid "No one checked in yet"
+msgstr "עדיין אף אחד לא עשה צ'ק-אין"
+
+#: 
+msgid "Person not found"
+msgstr "האדם לא נמצא"
+
+#: 
+msgid "Pickup Request"
+msgstr "בקשת איסוף"
+
+#: 
+msgid "Please proceed to the classroom as soon as possible."
+msgstr "אנא פנה לכיתה בהקדם האפשרי."
+
+#. Context: query_qry
+#: 
+msgid "Pledge summary by family name for each fund for the selected fiscal year"
+msgstr "סיכום התחייבויות לפי שם משפחה עבור כל קרן לשנת הכספים שנבחרה"
+
+#. Context: query_qry
+#: 
+msgid "Registered students"
+msgstr "תלמידים רשומים"
+
+#: 
+msgid "The teacher sent this alert at"
+msgstr "המורה שלח התראה זו ב-"
+
+#: 
+msgid "This kiosk is best viewed on a tablet in landscape mode for optimal check-in experience."
+msgstr "הקיוסק מוצג בצורה הטובה ביותר על טאבלט במצב לרוחב לחוויית צ'ק-אין מיטבית."
+
+#: 
+msgid "Tip"
+msgstr "טיפ"
+
+#: 
+msgid "Try Again"
+msgstr "נסה שוב"
+
+#: 
+msgid "Upcoming Birthdays"
+msgstr "ימי הולדת קרובים"
+
+#: 
+msgid "Waiting to Check In"
+msgstr "ממתין לצ'ק-אין"
+
+#: 
+msgid "When enabled, new kiosk devices can register for 30 seconds."
+msgstr "כאשר מופעל, מכשירי קיוסק חדשים יכולים להירשם למשך 30 שניות."
+
+#: 
+msgid "Your child"
+msgstr "ילדך"
+
+#: 
+msgid "needs to be picked up from"
+msgstr "צריך להיאסף מ-"
+
+#: 
+msgid "their classroom"
+msgstr "הכיתה שלו"
+
+#: 
+msgid "All timezones match"
+msgstr "כל אזורי הזמן תואמים"
+
+#: 
+msgid "Baseline"
+msgstr "קו בסיס"
+
+#: 
+msgid "Browser"
+msgstr "דפדפן"
+
+#: 
+msgid "Browser differs from system config - dates may display incorrectly for this user."
+msgstr "הדפדפן שונה מתצורת המערכת - תאריכים עלולים להוצג בצורה שגויה עבור משתמש זה."
+
+#: 
+msgid "Cannot write to ChurchCRM installation directory. Please check that the web server has write permissions."
+msgstr "לא ניתן לכתוב לתיקיית ההתקנה של ChurchCRM. אנא ודא שלשרת האינטרנט יש הרשאות כתיבה."
+
+#: 
+msgid "Comparing timezones..."
+msgstr "משווה אזורי זמן..."
+
+#: 
+msgid "Destination directory does not exist. Please verify ChurchCRM is installed correctly."
+msgstr "תיקיית היעד אינה קיימת. אנא ודא ש-ChurchCRM מותקן כראוי."
+
+#: 
+msgid "Does not match system config"
+msgstr "אינו תואם לתצורת המערכת"
+
+#: 
+msgid "Downloaded release file is empty. This may be due to network issues or GitHub rate limiting. Please try again later."
+msgstr "קובץ הגרסה שהורד ריק. ייתכן שהדבר נובע מבעיות רשת או הגבלת קצב GitHub. אנא נסה שוב מאוחר יותר."
+
+#: 
+msgid "Extraction completed but upgrade files not found. The upgrade archive may be corrupted."
+msgstr "החילוץ הושלם אך קבצי השדרוג לא נמצאו. ייתכן שארכיון השדרוג פגום."
+
+#: 
+msgid "Failed to apply upgrade. Please check the server logs for details."
+msgstr "החלת השדרוג נכשלה. אנא בדוק את יומני השרת לפרטים."
+
+#: 
+msgid "Failed to create Upgrade directory. Please check file permissions."
+msgstr "יצירת תיקיית השדרוג נכשלה. אנא בדוק הרשאות קבצים."
+
+#: 
+msgid "Failed to download the release file from GitHub after multiple attempts. Please check your server's internet connection and try again."
+msgstr "הורדת קובץ הגרסה מ-GitHub נכשלה לאחר מספר ניסיונות. אנא בדוק את חיבור האינטרנט של השרת ונסה שוב."
+
+#: 
+msgid "Failed to extract upgrade archive. Please check disk space and file permissions."
+msgstr "חילוץ ארכיון השדרוג נכשל. אנא בדוק שטח דיסק והרשאות קבצים."
+
+#: 
+msgid "Failed to open upgrade archive. The downloaded file may be corrupted."
+msgstr "פתיחת ארכיון השדרוג נכשלה. הקובץ שהורד עשוי להיות פגום."
+
+#: 
+msgid "Failed to save the downloaded release file. Please check disk space and permissions."
+msgstr "שמירת קובץ הגרסה שהורד נכשלה. אנא בדוק שטח דיסק והרשאות."
+
+#: 
+msgid "Invalid date format in start parameter"
+msgstr "פורמט תאריך לא חוקי בפרמטר ההתחלה"
+
+#: 
+msgid "Mismatch"
+msgstr "אי-התאמה"
+
+#: 
+msgid "Not set"
+msgstr "לא מוגדר"
+
+#: 
+msgid "PHP Active"
+msgstr "PHP פעיל"
+
+#: 
+msgid "Source directory does not exist. The upgrade archive may not have extracted correctly. Please check file permissions and disk space."
+msgstr "תיקיית המקור אינה קיימת. ייתכן שארכיון השדרוג לא חולץ כראוי. אנא בדוק הרשאות קבצים ושטח דיסק."
+
+#: 
+msgid "System Config"
+msgstr "תצורת מערכת"
+
+#: 
+msgid "Timezone Information"
+msgstr "מידע על אזור הזמן"
+
+#: 
+msgid "Timezone mismatch detected"
+msgstr "זוהתה אי-התאמה באזור הזמן"
+
+#: 
+msgid "mismatch detected"
+msgstr "זוהתה אי-התאמה"
+
+#: 
+msgid "mismatches detected"
+msgstr "זוהו אי-התאמות"
+
+#: 
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "שעה %d"
+msgstr[1] "%d שעות"
+
+#: 
+msgid "About WebDAV Backups"
+msgstr "אודות גיבויי WebDAV"
+
+#: 
+msgid "Add Link"
+msgstr "הוסף קישור"
+
+#: 
+msgid "Add an extra layer of security to your account"
+msgstr "הוסף שכבת אבטחה נוספת לחשבונך"
+
+#: 
+msgid "Add custom external links to the navigation menu."
+msgstr "הוסף קישורים חיצוניים מותאמים אישית לתפריט הניווט."
+
+#: 
+msgid "Allow Self-Signed Certificates"
+msgstr "אפשר אישורים חתומים עצמאית"
+
+#: 
+msgid "An error occurred processing the plugin request"
+msgstr "אירעה שגיאה בעיבוד בקשת התוסף"
+
+#: 
+msgid "Are you sure you want to disable two-factor authentication? Your account will be less secure."
+msgstr "האם אתה בטוח שברצונך לבטל את האימות הדו-שלבי? חשבונך יהיה פחות מאובטח."
+
+#: 
+msgid "As part of the restore, external backups have been disabled. If you wish to continue automatic backups, re-enable the External Backup plugin in Admin > Plugins."
+msgstr "כחלק מהשחזור, גיבויים חיצוניים הושבתו. אם ברצונך להמשיך גיבויים אוטומטיים, הפעל מחדש את תוסף הגיבוי החיצוני בניהול > תוספים."
+
+#: 
+msgid "Audiences"
+msgstr "קהלים"
+
+#: 
+msgid "Authentication failed. Please check username and password."
+msgstr "האימות נכשל. אנא בדוק שם משתמש וסיסמה."
+
+#: 
+msgid "Auto-Backup Interval"
+msgstr "מרווח גיבוי אוטומטי"
+
+#: 
+msgid "Automatically backup your ChurchCRM database to external cloud storage via WebDAV."
+msgstr "גבה אוטומטית את מסד הנתונים של ChurchCRM לאחסון ענן חיצוני באמצעות WebDAV."
+
+#: 
+msgid "Avg Click Rate"
+msgstr "שיעור קליקים ממוצע"
+
+#: 
+msgid "Avg Open Rate"
+msgstr "שיעור פתיחות ממוצע"
+
+#: 
+msgid "Back to Dashboard"
+msgstr "חזרה ללוח הבקרה"
+
+#: 
+msgid "Backup created but failed to copy to remote server"
+msgstr "הגיבוי נוצר אך העתקתו לשרת המרוחק נכשלה"
+
+#: 
+msgid "Backup to WebDAV Now"
+msgstr "גבה ל-WebDAV עכשיו"
+
+#: 
+msgid "Before You Start"
+msgstr "לפני שתתחיל"
+
+#: 
+msgid "Browser language preference detected"
+msgstr "זוהתה העדפת שפת דפדפן"
+
+#: 
+msgid "CRM Members Not Subscribed"
+msgstr "חברי CRM שאינם מנויים"
+
+#: 
+msgid "Campaigns Sent"
+msgstr "קמפיינים שנשלחו"
+
+#: 
+msgid "Can't scan?"
+msgstr "לא מצליח לסרוק?"
+
+#: 
+msgid "Change Your Locale"
+msgstr "שנה את ההגדרות האזוריות"
+
+#: 
+msgid "ChurchCRM supports a plugin architecture for extending functionality."
+msgstr "ChurchCRM תומך בארכיטקטורת תוספים להרחבת פונקציונליות."
+
+#: 
+msgid "Cleaned"
+msgstr "נוקה"
+
+#: 
+msgid "Click the button below to test your WebDAV connection settings."
+msgstr "לחץ על הכפתור למטה כדי לבדוק את הגדרות חיבור WebDAV."
+
+#: 
+msgid "Community Plugins"
+msgstr "תוספי קהילה"
+
+#: 
+msgid "Community plugins"
+msgstr "תוספי קהילה"
+
+#: 
+msgid "Configure External Backup"
+msgstr "הגדר גיבוי חיצוני"
+
+#: 
+msgid "Configure MailChimp"
+msgstr "הגדר MailChimp"
+
+#: 
+msgid "Configure these settings in the"
+msgstr "הגדר הגדרות אלו ב-"
+
+#: 
+msgid "Configure this plugin to automatically backup your ChurchCRM database to WebDAV-compatible cloud storage services like Nextcloud, ownCloud, or any WebDAV server. Backups are encrypted during transfer using HTTPS."
+msgstr "הגדר תוסף זה לגיבוי אוטומטי של מסד הנתונים של ChurchCRM לשירותי אחסון ענן התואמים ל-WebDAV כגון Nextcloud, ownCloud, או כל שרת WebDAV. הגיבויים מוצפנים במהלך ההעברה באמצעות HTTPS."
+
+#: 
+msgid "Configured"
+msgstr "מוגדר"
+
+#: 
+msgid "Confirm with a code from your authenticator app"
+msgstr "אשר עם קוד מאפליקציית האימות שלך"
+
+#: 
+msgid "Connected"
+msgstr "מחובר"
+
+#: 
+msgid "Connection failed"
+msgstr "החיבור נכשל"
+
+#: 
+msgid "Connection failed with HTTP code"
+msgstr "החיבור נכשל עם קוד HTTP"
+
+#: 
+msgid "Connection successful! WebDAV endpoint is accessible."
+msgstr "החיבור הצליח! נקודת הקצה של WebDAV נגישה."
+
+#: 
+msgid "Connection test failed"
+msgstr "בדיקת החיבור נכשלה"
+
+#: 
+msgid "Core Plugins"
+msgstr "תוספים מרכזיים"
+
+#: 
+msgid "Core plugins"
+msgstr "תוספים מרכזיים"
+
+#: 
+msgid "Create a backup now and upload it to your WebDAV server."
+msgstr "צור גיבוי עכשיו והעלה אותו לשרת WebDAV שלך."
+
+#: 
+msgid "Create an Audience in MailChimp"
+msgstr "צור קהל ב-MailChimp"
+
+#: 
+msgid "Custom"
+msgstr "מותאם אישית"
+
+#: 
+msgid "Custom Menu Links"
+msgstr "קישורי תפריט מותאמים אישית"
+
+#: 
+msgid "Default Image Style"
+msgstr "סגנון תמונה ברירת מחדל"
+
+#: 
+msgid "Default List ID"
+msgstr "מזהה רשימת ברירת מחדל"
+
+#: 
+msgid "Disable"
+msgstr "השבת"
+
+#: 
+msgid "Disable Plugin"
+msgstr "השבת תוסף"
+
+#: 
+msgid "Disable Two-Factor Authentication"
+msgstr "השבת אימות דו-שלבי"
+
+#: 
+msgid "Dismiss"
+msgstr "סגור"
+
+#: 
+msgid "Done"
+msgstr "סיום"
+
+#: 
+msgid "E.164 format, e.g., +14155551234"
+msgstr "פורמט E.164, לדוגמה: +14155551234"
+
+#: 
+msgid "Each plugin requires a"
+msgstr "כל תוסף דורש"
+
+#: 
+msgid "Each time you sign in, you'll need to confirm with a code from your authenticator app"
+msgstr "בכל כניסה תצטרך לאשר עם קוד מאפליקציית האימות שלך"
+
+#: 
+msgid "Email Addresses"
+msgstr "כתובות דוא\"ל"
+
+#: 
+msgid "Enable"
+msgstr "הפעל"
+
+#: 
+msgid "Enable External Backup Plugin"
+msgstr "הפעל תוסף גיבוי חיצוני"
+
+#: 
+msgid "Enable Plugin"
+msgstr "הפעל תוסף"
+
+#: 
+msgid "Enable Two-Factor Authentication"
+msgstr "הפעל אימות דו-שלבי"
+
+#: 
+msgid "Enable the External Backup plugin for WebDAV cloud storage."
+msgstr "הפעל את תוסף הגיבוי החיצוני לאחסון ענן WebDAV."
+
+#: 
+msgid "Enable this only for local network servers with self-signed SSL certificates. Disables certificate verification."
+msgstr "הפעל זאת רק עבור שרתי רשת מקומית עם אישורי SSL חתומים עצמאית. משבית את אימות האישור."
+
+#: 
+msgid "Endpoint URL"
+msgstr "כתובת URL של נקודת הקצה"
+
+#: 
+msgid "Enter the 6-digit code from your authenticator app"
+msgstr "הזן את הקוד בן 6 ספרות מאפליקציית האימות שלך"
+
+#: 
+msgid "Enter your username and password as usual"
+msgstr "הזן את שם המשתמש והסיסמה שלך כרגיל"
+
+#: 
+msgid "External Backup"
+msgstr "גיבוי חיצוני"
+
+#: 
+msgid "External Backup (WebDAV)"
+msgstr "גיבוי חיצוני (WebDAV)"
+
+#: 
+msgid "External Backup Settings"
+msgstr "הגדרות גיבוי חיצוני"
+
+#: 
+msgid "External Backup plugin is enabled but not configured."
+msgstr "תוסף הגיבוי החיצוני מופעל אך לא מוגדר."
+
+#: 
+msgid "External Backup plugin is not configured. Please configure WebDAV settings in the plugin."
+msgstr "תוסף הגיבוי החיצוני אינו מוגדר. אנא הגדר את הגדרות WebDAV בתוסף."
+
+#: 
+msgid "External Backup plugin is not enabled. Please enable and configure it in Plugin Management."
+msgstr "תוסף הגיבוי החיצוני אינו מופעל. אנא הפעל והגדר אותו בניהול התוספים."
+
+#: 
+msgid "Failed to create link"
+msgstr "יצירת הקישור נכשלה"
+
+#: 
+msgid "Failed to delete link"
+msgstr "מחיקת הקישור נכשלה"
+
+#: 
+msgid "Failed to disable plugin"
+msgstr "השבתת התוסף נכשלה"
+
+#: 
+msgid "Failed to enable plugin"
+msgstr "הפעלת התוסף נכשלה"
+
+#: 
+msgid "Failed to get plugin details"
+msgstr "אחזור פרטי התוסף נכשל"
+
+#: 
+msgid "Failed to list plugins"
+msgstr "רשימת התוספים נכשלה"
+
+#: 
+msgid "Failed to reset settings"
+msgstr "איפוס ההגדרות נכשל"
+
+#: 
+msgid "Failed to send SMS"
+msgstr "שליחת ה-SMS נכשלה"
+
+#: 
+msgid "Family Status"
+msgstr "מצב משפחתי"
+
+#: 
+msgid "Family not found"
+msgstr "המשפחה לא נמצאה"
+
+#: 
+msgid "Find in MailChimp: Audience > Settings > Audience name and defaults > Audience ID"
+msgstr "מצא ב-MailChimp: קהל > הגדרות > שם הקהל וברירות מחדל > מזהה קהל"
+
+#: 
+msgid "From Phone Number"
+msgstr "ממספר טלפון"
+
+#: 
+msgid "From dashboard.vonage.com"
+msgstr "מ-dashboard.vonage.com"
+
+#: 
+msgid "GA4 Measurement ID"
+msgstr "מזהה מדידה GA4"
+
+#: 
+msgid "Generate new code"
+msgstr "צור קוד חדש"
+
+#: 
+msgid "Get Started"
+msgstr "התחל"
+
+#: 
+msgid "Get your API key from MailChimp: Account Settings > Extras > API Keys"
+msgstr "קבל את מפתח ה-API שלך מ-MailChimp: הגדרות חשבון > תוספות > מפתחות API"
+
+#: 
+msgid "Have your authenticator app ready (Google Authenticator, Microsoft Authenticator, Authy, etc.)"
+msgstr "הכן את אפליקציית האימות שלך (Google Authenticator, Microsoft Authenticator, Authy וכו')"
+
+#: 
+msgid "Help"
+msgstr "עזרה"
+
+#: 
+msgid "Id"
+msgstr "מזהה"
+
+#: 
+msgid "Image shown when no Gravatar exists for the email address"
+msgstr "תמונה המוצגת כאשר אין Gravatar עבור כתובת הדוא\"ל"
+
+#: 
+msgid "Important"
+msgstr "חשוב"
+
+#: 
+msgid "Install plugins by placing them in"
+msgstr "התקן תוספים על ידי הנחתם ב-"
+
+#: 
+msgid "Invalid code. Please try again."
+msgstr "קוד לא חוקי. אנא נסה שוב."
+
+#: 
+msgid "Invalid endpoint URL. Must be a full URL starting with https:// (e.g., https://cloud.example.com/remote.php/dav/files/user/backups/)"
+msgstr "כתובת URL של נקודת הקצה אינה חוקית. חייבת להיות כתובת URL מלאה המתחילה ב-https:// (לדוגמה: https://cloud.example.com/remote.php/dav/files/user/backups/)"
+
+#: 
+msgid "Kiosk device not found"
+msgstr "מכשיר הקיוסק לא נמצא"
+
+#: 
+msgid "Last Backup"
+msgstr "גיבוי אחרון"
+
+#: 
+msgid "Last Campaign"
+msgstr "קמפיין אחרון"
+
+#: 
+msgid "Last Subscriber"
+msgstr "מנוי אחרון"
+
+#: 
+msgid "Last Successful Backup"
+msgstr "גיבוי מוצלח אחרון"
+
+#: 
+msgid "Last campaign"
+msgstr "קמפיין אחרון"
+
+#: 
+msgid "Link Name"
+msgstr "שם הקישור"
+
+#: 
+msgid "Link address cannot contain HTML tags"
+msgstr "כתובת הקישור אינה יכולה להכיל תגיות HTML"
+
+#: 
+msgid "Link address is required"
+msgstr "כתובת הקישור נדרשת"
+
+#: 
+msgid "Link must be a valid URL"
+msgstr "הקישור חייב להיות כתובת URL חוקית"
+
+#: 
+msgid "Link must start with http:// or https://"
+msgstr "הקישור חייב להתחיל ב-http:// או https://"
+
+#: 
+msgid "Link not found"
+msgstr "הקישור לא נמצא"
+
+#: 
+msgid "Loading recovery codes"
+msgstr "טוען קודי שחזור"
+
+#: 
+msgid "MailChimp"
+msgstr "MailChimp"
+
+#: 
+msgid "MailChimp API Key"
+msgstr "מפתח API של MailChimp"
+
+#: 
+msgid "MailChimp Dashboard"
+msgstr "לוח הבקרה של MailChimp"
+
+#: 
+msgid "Manage Links"
+msgstr "נהל קישורים"
+
+#: 
+msgid "Manage Two-Factor Authentication"
+msgstr "נהל אימות דו-שלבי"
+
+#: 
+msgid "Manual Backup"
+msgstr "גיבוי ידני"
+
+#: 
+msgid "Menu Links"
+msgstr "קישורי תפריט"
+
+#: 
+msgid "Menu name cannot contain HTML tags"
+msgstr "שם התפריט אינו יכול להכיל תגיות HTML"
+
+#: 
+msgid "Menu name is required"
+msgstr "שם התפריט נדרש"
+
+#: 
+msgid "Menu name must be 50 characters or less"
+msgstr "שם התפריט חייב להיות עד 50 תווים"
+
+#: 
+msgid "Menu name must be at least 2 characters"
+msgstr "שם התפריט חייב להכיל לפחות 2 תווים"
+
+#: 
+msgid "Must start with http:// or https://"
+msgstr "חייב להתחיל ב-http:// או https://"
+
+#: 
+msgid "Needs Configuration"
+msgstr "נדרשת הגדרה"
+
+#: 
+msgid "Never"
+msgstr "לעולם לא"
+
+#: 
+msgid "No Audiences Found"
+msgstr "לא נמצאו קהלים"
+
+#: 
+msgid "No backups recorded"
+msgstr "לא נרשמו גיבויים"
+
+#: 
+msgid "No community plugins installed"
+msgstr "לא מותקנים תוספי קהילה"
+
+#: 
+msgid "No core plugins found"
+msgstr "לא נמצאו תוספים מרכזיים"
+
+#: 
+msgid "No settings provided"
+msgstr "לא סופקו הגדרות"
+
+#: 
+msgid "Not Configured"
+msgstr "לא מוגדר"
+
+#: 
+msgid "Not in CRM"
+msgstr "לא ב-CRM"
+
+#: 
+msgid "One-Time Code"
+msgstr "קוד חד-פעמי"
+
+#: 
+msgid "Open MailChimp"
+msgstr "פתח MailChimp"
+
+#: 
+msgid "Open your authenticator app and scan this QR code"
+msgstr "פתח את אפליקציית האימות שלך וסרוק את קוד ה-QR הזה"
+
+#: 
+msgid "OpenLP Server URL"
+msgstr "כתובת שרת OpenLP"
+
+#: 
+msgid "Optional - only required if OpenLP authentication is enabled"
+msgstr "אופציונלי - נדרש רק אם אימות OpenLP מופעל"
+
+#: 
+msgid "Phone number and message required"
+msgstr "מספר טלפון והודעה נדרשים"
+
+#: 
+msgid "Please configure endpoint, username, and password first."
+msgstr "אנא הגדר תחילה נקודת קצה, שם משתמש וסיסמה."
+
+#: 
+msgid "Please configure the WebDAV settings before creating a remote backup."
+msgstr "אנא הגדר את הגדרות WebDAV לפני יצירת גיבוי מרוחק."
+
+#: 
+msgid "Please configure the WebDAV settings before testing the connection."
+msgstr "אנא הגדר את הגדרות WebDAV לפני בדיקת החיבור."
+
+#: 
+msgid "Please configure your MailChimp API key to use this integration."
+msgstr "אנא הגדר את מפתח ה-API של MailChimp שלך כדי להשתמש בשילוב זה."
+
+#: 
+msgid "Please enter a link name (2-50 characters)"
+msgstr "אנא הזן שם קישור (2-50 תווים)"
+
+#: 
+msgid "Please try again"
+msgstr "אנא נסה שוב"
+
+#: 
+msgid "Plugin Development"
+msgstr "פיתוח תוספים"
+
+#: 
+msgid "Plugin Help"
+msgstr "עזרה לתוסף"
+
+#: 
+msgid "Plugin Management"
+msgstr "ניהול תוספים"
+
+#: 
+msgid "Plugin Settings"
+msgstr "הגדרות תוסף"
+
+#: 
+msgid "Plugin cannot be disabled because other plugins depend on it"
+msgstr "לא ניתן להשבית את התוסף מכיוון שתוספים אחרים תלויים בו"
+
+#: 
+msgid "Plugin cannot be enabled due to dependency or version requirements"
+msgstr "לא ניתן להפעיל את התוסף עקב דרישות תלות או גרסה"
+
+#: 
+msgid "Plugin disabled successfully"
+msgstr "התוסף הושבת בהצלחה"
+
+#: 
+msgid "Plugin enabled successfully"
+msgstr "התוסף הופעל בהצלחה"
+
+#: 
+msgid "Plugin failed to load"
+msgstr "טעינת התוסף נכשלה"
+
+#: 
+msgid "Plugin not found"
+msgstr "התוסף לא נמצא"
+
+#: 
+msgid "Plugins"
+msgstr "תוספים"
+
+#: 
+msgid "Print"
+msgstr "הדפס"
+
+#: 
+msgid "Recipients and message required"
+msgstr "נמענים והודעה נדרשים"
+
+#: 
+msgid "Recovery Codes"
+msgstr "קודי שחזור"
+
+#: 
+msgid "Remote backup failed. Check server logs for details."
+msgstr "הגיבוי המרוחק נכשל. בדוק יומני שרת לפרטים."
+
+#: 
+msgid "SMS sent"
+msgstr "SMS נשלח"
+
+#: 
+msgid "Save these recovery codes in a safe location. You can use them to access your account if you lose access to your authenticator app."
+msgstr "שמור קודי שחזור אלה במקום בטוח. תוכל להשתמש בהם לגישה לחשבונך אם תאבד גישה לאפליקציית האימות שלך."
+
+#: 
+msgid "Scan QR Code"
+msgstr "סרוק קוד QR"
+
+#: 
+msgid "Secure"
+msgstr "מאובטח"
+
+#: 
+msgid "Set Up Authenticator"
+msgstr "הגדר אפליקציית אימות"
+
+#: 
+msgid "Settings reset successfully"
+msgstr "ההגדרות אופסו בהצלחה"
+
+#: 
+msgid "Setup Complete"
+msgstr "ההגדרה הושלמה"
+
+#: 
+msgid "Shipped with ChurchCRM."
+msgstr "מגיע עם ChurchCRM."
+
+#: 
+msgid "Sign In"
+msgstr "התחבר"
+
+#: 
+msgid "Some settings could not be reset"
+msgstr "חלק מההגדרות לא ניתן לאפס"
+
+#: 
+msgid "Some settings could not be saved"
+msgstr "חלק מההגדרות לא ניתן לשמור"
+
+#: 
+msgid "Subscribers"
+msgstr "מנויים"
+
+#: 
+msgid "Subscribers Not in CRM"
+msgstr "מנויים שאינם במערכת"
+
+#: 
+msgid "Test Connection"
+msgstr "בדוק חיבור"
+
+#: 
+msgid "Test WebDAV Connection"
+msgstr "בדוק חיבור WebDAV"
+
+#: 
+msgid "These links appear in the \"Links\" menu in the navigation sidebar when this plugin is enabled."
+msgstr "קישורים אלה מופיעים בתפריט \"קישורים\" בסרגל הניווט כאשר תוסף זה מופעל."
+
+#: 
+msgid "These people are subscribed to your MailChimp audience but do not exist in ChurchCRM. Consider adding them to your database or removing them from MailChimp."
+msgstr "אנשים אלה מנויים לקהל MailChimp שלך אך אינם קיימים ב-ChurchCRM. שקול להוסיפם למסד הנתונים שלך או להסירם מ-MailChimp."
+
+#: 
+msgid "These people exist in ChurchCRM with email addresses but are not subscribed to this MailChimp audience. Consider inviting them to subscribe."
+msgstr "אנשים אלה קיימים ב-ChurchCRM עם כתובות דוא\"ל אך אינם מנויים לקהל MailChimp זה. שקול להזמינם להירשם."
+
+#: 
+msgid "Third-party extensions."
+msgstr "הרחבות צד שלישי."
+
+#: 
+msgid "This will replace any previously enrolled 2FA methods"
+msgstr "פעולה זו תחליף כל שיטות 2FA שנרשמו בעבר"
+
+#: 
+msgid "Total Campaigns"
+msgstr "סך הקמפיינים"
+
+#: 
+msgid "Total Subscribers"
+msgstr "סך המנויים"
+
+#: 
+msgid "Two Factor Enrollment Error"
+msgstr "שגיאת רישום דו-גורמי"
+
+#: 
+msgid "Two-factor authentication has been disabled"
+msgstr "אימות דו-גורמי הושבת"
+
+#: 
+msgid "Two-factor authentication is one of the best ways to protect your account. We strongly recommend keeping it enabled."
+msgstr "אימות דו-גורמי הוא אחת הדרכים הטובות ביותר להגן על חשבונך. אנו ממליצים בחום להשאירו מופעל."
+
+#: 
+msgid "URL to your OpenLP server (e.g., http://192.168.1.100:4316)"
+msgstr "כתובת URL לשרת OpenLP שלך (למשל, http://192.168.1.100:4316)"
+
+#: 
+msgid "Unable to load"
+msgstr "לא ניתן לטעון"
+
+#: 
+msgid "Unsubscribed"
+msgstr "בוטל המנוי"
+
+#: 
+msgid "Use a different account"
+msgstr "השתמש בחשבון אחר"
+
+#: 
+msgid "Value is configured"
+msgstr "הערך מוגדר"
+
+#: 
+msgid "Value is set - leave blank to keep current"
+msgstr "הערך מוגדר - השאר ריק לשמירת הנוכחי"
+
+#: 
+msgid "Verify & Sign In"
+msgstr "אמת והתחבר"
+
+#: 
+msgid "Verify Code"
+msgstr "אמת קוד"
+
+#: 
+msgid "Verifying"
+msgstr "מאמת"
+
+#: 
+msgid "Vonage API Key"
+msgstr "מפתח API של Vonage"
+
+#: 
+msgid "Vonage API Secret"
+msgstr "סוד API של Vonage"
+
+#: 
+msgid "WebDAV Configuration"
+msgstr "הגדרת WebDAV"
+
+#: 
+msgid "WebDAV Connection"
+msgstr "חיבור WebDAV"
+
+#: 
+msgid "WebDAV backups are not correctly configured. Please ensure endpoint, username, and password are set."
+msgstr "גיבויי WebDAV אינם מוגדרים כראוי. אנא ודא שנקודת קצה, שם משתמש וסיסמה מוגדרים."
+
+#: 
+msgid "WebDAV endpoint URL is required."
+msgstr "כתובת URL של נקודת קצה WebDAV נדרשת."
+
+#: 
+msgid "WebDAV password is required."
+msgstr "סיסמת WebDAV נדרשת."
+
+#: 
+msgid "WebDAV username is required."
+msgstr "שם משתמש WebDAV נדרש."
+
+#: 
+msgid "You can also use backup recovery codes if you lose access to your app"
+msgstr "תוכל גם להשתמש בקודי שחזור גיבוי אם תאבד גישה לאפליקציה שלך"
+
+#: 
+msgid "You can now use your authenticator app to sign in. Each code is valid for 30 seconds."
+msgstr "כעת תוכל להשתמש באפליקציית האימות שלך להתחברות. כל קוד תקף ל-30 שניות."
+
+#: 
+msgid "You'll receive backup codes that can be used if you lose access to your app"
+msgstr "תקבל קודי גיבוי שניתן להשתמש בהם אם תאבד גישה לאפליקציה שלך"
+
+#: 
+msgid "Your GA4 Measurement ID (G-XXXXXXXXXX)"
+msgstr "מזהה מדידה GA4 שלך (G-XXXXXXXXXX)"
+
+#: 
+msgid "Your MailChimp account does not have any audiences (lists) configured."
+msgstr "לחשבון MailChimp שלך אין קהלים (רשימות) מוגדרים."
+
+#: 
+msgid "Your account is now protected"
+msgstr "חשבונך מוגן כעת"
+
+#: 
+msgid "Your account is protected"
+msgstr "חשבונך מוגן"
+
+#: 
+msgid "Your authenticator app has been successfully enrolled"
+msgstr "אפליקציית האימות שלך נרשמה בהצלחה"
+
+#: 
+msgid "Your browser language preference differs from your ChurchCRM locale"
+msgstr "העדפת השפה של הדפדפן שלך שונה מהלוקאל של ChurchCRM שלך"
+
+#: 
+msgid "e.g., Church Website"
+msgstr "למשל, אתר הכנסייה"
+
+#: 
+msgid "manifest."
+msgstr "מניפסט."
+
+#: 
+msgid "subscribers"
+msgstr "מנויים"
+
+#: 
+msgid "API Key is required."
+msgstr "מפתח API נדרש."
+
+#: 
+msgid "Cannot connect to OpenLP at %s. Check the server URL and that OpenLP is running."
+msgstr "לא ניתן להתחבר ל-OpenLP בכתובת %s. בדוק את כתובת השרת ושה-OpenLP פועל."
+
+#: 
+msgid "Cannot connect to OpenLP at %s. Server returned HTTP %d."
+msgstr "לא ניתן להתחבר ל-OpenLP בכתובת %s. השרת החזיר HTTP %d."
+
+#: 
+msgid "Congregation Map"
+msgstr "מפת הקהילה"
+
+#: 
+msgid "Congregation Map — Setup Required"
+msgstr "מפת הקהילה — נדרשת הגדרה"
+
+#: 
+msgid "Connected to MailChimp! Account: %s (%d subscribers)"
+msgstr "מחובר ל-MailChimp! חשבון: %s (%d מנויים)"
+
+#: 
+msgid "Connected to OpenLP server successfully."
+msgstr "החיבור לשרת OpenLP הצליח."
+
+#: 
+msgid "Connected to OpenLP! Version: %s"
+msgstr "מחובר ל-OpenLP! גרסה: %s"
+
+#: 
+msgid "Connected! Account balance: €%.2f. Ready to send SMS."
+msgstr "מחובר! יתרת חשבון: ‎€%.2f. מוכן לשליחת SMS."
+
+#: 
+msgid "Could not connect to MailChimp. Please check your API key."
+msgstr "לא ניתן להתחבר ל-MailChimp. אנא בדוק את מפתח ה-API שלך."
+
+#: 
+msgid "Failed to connect to OpenLP server."
+msgstr "החיבור לשרת OpenLP נכשל."
+
+#: 
+msgid "Get Directions"
+msgstr "קבל הוראות הגעה"
+
+#: 
+msgid "Include country code, e.g. +14155551234 (US) or +447911123456 (UK)"
+msgstr "כלול קוד מדינה, למשל +14155551234 (ארה\"ב) או +447911123456 (בריטניה)"
+
+#: 
+msgid "Invalid \"From Number\": \"%s\". Include the country code, e.g. +14155551234 (US) or +447911123456 (UK)."
+msgstr "\"מספר שולח\" לא חוקי: \"%s\". כלול קוד מדינה, למשל +14155551234 (ארה\"ב) או +447911123456 (בריטניה)."
+
+#: 
+msgid "Invalid API credentials. Please verify your API Key and API Secret."
+msgstr "אישורי API לא חוקיים. אנא אמת את מפתח ה-API וסוד ה-API שלך."
+
+#: 
+msgid "Invalid API key format. Check your MailChimp API key."
+msgstr "פורמט מפתח API לא חוקי. בדוק את מפתח ה-API של MailChimp שלך."
+
+#: 
+msgid "Invalid endpoint URL. Must be a full URL starting with https://"
+msgstr "כתובת URL של נקודת קצה לא חוקית. חייבת להיות כתובת URL מלאה המתחילה ב-https://"
+
+#: 
+msgid "Invalid server URL format."
+msgstr "פורמט כתובת URL של שרת לא חוקי."
+
+#: 
+msgid "MailChimp connection failed."
+msgstr "החיבור ל-MailChimp נכשל."
+
+#: 
+msgid "Map Zoom Level"
+msgstr "רמת הזום של המפה"
+
+#: 
+msgid "Missing families? Update coordinates to include them on the map."
+msgstr "חסרות משפחות? עדכן קואורדינטות כדי לכלול אותן במפה."
+
+#: 
+msgid "Missing required settings: %s"
+msgstr "הגדרות נדרשות חסרות: %s"
+
+#: 
+msgid "Person has no family"
+msgstr "לאדם אין משפחה"
+
+#: 
+msgid "Plugin not found or not active"
+msgstr "התוסף לא נמצא או לא פעיל"
+
+#: 
+msgid "Server URL is required."
+msgstr "כתובת URL של שרת נדרשת."
+
+#: 
+msgid "This plugin does not support connection testing."
+msgstr "תוסף זה אינו תומך בבדיקת חיבור."
+
+#: 
+msgid "Unable to display map: church address has not been geocoded yet."
+msgstr "לא ניתן להציג מפה: כתובת הכנסייה טרם קיבלה גיאו-קידוד."
+
+#: 
+msgid "Update church address in Settings."
+msgstr "עדכן את כתובת הכנסייה בהגדרות."
+
+#: 
+msgid "Username and password are required."
+msgstr "שם משתמש וסיסמה נדרשים."
+
+#: 
+msgid "Validation failed: %s"
+msgstr "האימות נכשל: %s"
+
+#: 
+msgid "Vonage server error. Please try again later."
+msgstr "שגיאת שרת Vonage. אנא נסה שוב מאוחר יותר."
+
+#: 
+msgid "WebDAV Endpoint URL is required."
+msgstr "כתובת URL של נקודת קצה WebDAV נדרשת."
+
+#: 
+msgid "Are you sure you want to permanently delete this pledge record?"
+msgstr "האם אתה בטוח שברצונך למחוק לצמיתות את רשומת ההתחייבות הזו?"
+
+#: 
+msgid "Cancel and Return to Family View"
+msgstr "בטל וחזור לתצוגת המשפחה"
+
+#: 
+msgid "If you delete this type, you will also remove all properties using it and lose any corresponding property assignments."
+msgstr "אם תמחק סוג זה, תסיר גם את כל המאפיינים המשתמשים בו ותאבד את כל הקצאות המאפיינים המתאימות."
+
+#: 
+msgid "Move Donations to Selected Family"
+msgstr "העבר תרומות למשפחה הנבחרת"
 

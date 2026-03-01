@@ -1830,14 +1830,6 @@ msgid "Assign starting at #"
 msgstr "ከ# ጀምሮ መድብ"
 
 #: 
-msgid "Unable to display map due to missing Church Latitude or Longitude. Please update the church Address in the settings menu."
-msgstr "በቤተክርስትያን ኬክሮስ ወይም ኬንትሮስ አለመገኘት ምክንያት ካርታ ማሳየት አልተቻለም። እባክዎ በቅንብሮች ምናሌ ውስጥ የቤተክርስቲያኑን አድራሻ ያዘምኑ።"
-
-#: 
-msgid "Google Map API key is not set. The Map will work for smaller set of locations. Please create a Key in the maps sections of the setting menu."
-msgstr "የጉግል ካርታ ኤፒአይ ቁልፍ አልተዘጋጀም። ካርታው ለአነስተኛ የቦታ ስብስብ ይሰራል። እባክዎ በቅንብሮች ምናሌው የካርታ ክፍሎች ውስጥ ቁልፍ ይፍጠሩ።"
-
-#: 
 msgid "Member Role Change"
 msgstr "የአባላት ሚና ለውጥ"
 
@@ -2326,14 +2318,6 @@ msgstr "ማስጥንቀቂያ"
 #: 
 msgid "This property type is still being used by at least one property."
 msgstr "ይህ የንብረት አይነት ቢያንስ በሆነ ንብረት ጥቅም ላይ ውልዋል"
-
-#: 
-msgid "If you delete this type, you will also remove all properties using"
-msgstr "ይህን አይነት ከሰረዝክ፣ አብረህ ይህን አይነት የሚጠቀሙ ንብረቶችን ትሰርዛለህ"
-
-#: 
-msgid "it and lose any corresponding property assignments."
-msgstr "ራሱ እና ሌሎች የንብረት ምደባዎች ታጣለህ"
 
 #: 
 msgid "Please confirm deletion of this Property Type"
@@ -3678,10 +3662,6 @@ msgstr "የተቃኙ ቼኮችን ለመጠቀም እውነትን ያቀናብ�
 #: 
 msgid "Unit used to measure distance, miles or km."
 msgstr "ርቀትን፣ ማይል ወይም ኪሜ ለመለካት የሚያገለግል ክፍል."
-
-#: 
-msgid "Names of markers for Google Maps in order of classification"
-msgstr "ለGoogle ካርታዎች የምደባ ቅደም ተከተል የጠቋሚዎች ስሞች"
 
 #: 
 msgid "Enable non-deductible payments"
@@ -5946,10 +5926,6 @@ msgid "Your Cart is Empty"
 msgstr "የእርስዎ ጋሪ ባዶ ነው"
 
 #: 
-msgid "View on Map"
-msgstr "በካርታው ላይ ይመልከቱ"
-
-#: 
 msgid "Legend"
 msgstr "መግለጫ"
 
@@ -5994,18 +5970,6 @@ msgid "The role could not be assigned."
 msgstr "ሚናው ሊመደብ አልቻለም"
 
 #: 
-msgid "Bing map API requires a unique key"
-msgstr "የBing ካርታ API ልዩ ቁልፍ ይፈልጋል"
-
-#: 
-msgid "Google Maps Zoom"
-msgstr "ጎግል ካርታዎች አጉላ"
-
-#: 
-msgid "Select GeoCoder Provider"
-msgstr "የጂኦኮደር አቅራቢን ይምረጡ"
-
-#: 
 msgid "Your ChurchCRM account was locked."
 msgstr "የChurchCRM መለያህ ተቆልፏል"
 
@@ -6048,10 +6012,6 @@ msgstr "የሲስተም ተጠቃሚ የይለፍ ቃል በአስተዳዳሪ �
 #: 
 msgid "system user login reset"
 msgstr "የሲስተም ተጠቃሚ መግቢያ ዳግም ማስጀመር"
-
-#: 
-msgid "Missing Families? Update Family Latitude or Longitude now."
-msgstr "ቤተሰቦች ጠፍተዋል? የቤተሰብ ኬክሮስ ወይም ኬንትሮስ አሁን ያዘምኑ"
 
 #: 
 msgid "Families without Geo Info"
@@ -6130,18 +6090,6 @@ msgid "Time zone"
 msgstr "አለማቀፋዊ የጊዜ ክልል"
 
 #: 
-msgid "OpenLP URL"
-msgstr "OpenLP URL"
-
-#: 
-msgid "OpenLP Username"
-msgstr "OpenLP የተጠቃሚ ስም"
-
-#: 
-msgid "OpenLP Password"
-msgstr "OpenLP የይለፍ ቃል"
-
-#: 
 msgid "KioskVisibilityTimestamp"
 msgstr "የኪዮስክ ቪዚቢሊቲ የጊዜ ልጥፍ"
 
@@ -6152,10 +6100,6 @@ msgstr "የጠፋ የይለፍ ቃል ማገናኛን በመግቢያ ገጹ ላ
 #: 
 msgid "Backup"
 msgstr "ምትክ"
-
-#: 
-msgid "Integration"
-msgstr "ውህደት"
 
 #: 
 msgid "Guardian(s) of"
@@ -6328,10 +6272,6 @@ msgstr "ኢንዶኔዥያ - ኢንዶኔዥያ"
 #: 
 msgid "records(s) successfully added to selected Group."
 msgstr "መዝገቦች(ዎች) በተሳካ ሁኔታ ወደተመረጠው ቡድን ታክለዋል።"
-
-#: 
-msgid "To export to another For european CharSet use ;"
-msgstr "ወደ ሌላ ለመላክ ለአውሮፓ CharSet አጠቃቀም;"
 
 #: 
 msgid "For defining the date in Date-Picker, per default : yyyy-mm-dd, In French : dd/mm/yyyy for example."
@@ -6894,10 +6834,6 @@ msgid "Links"
 msgstr "ማስፈንጠሪያ"
 
 #: 
-msgid "Show custom links on the left menu."
-msgstr "በግራ ምናሌው ላይ ብጁ አገናኞችን አሳይ"
-
-#: 
 msgid "Enable Sunday School left menu."
 msgstr "የሰንበት ትምህርት ቤት የግራ ምናሌን አንቃ"
 
@@ -6924,10 +6860,6 @@ msgstr "ዝርዝሮችን አንቃ"
 #: 
 msgid "Validation Error"
 msgstr "የማገናዘብ ስህተት"
-
-#: 
-msgid "Link Not found"
-msgstr "ማስፈንጠሪያ አልተገኘም"
 
 #: 
 msgid "Email Functions"
@@ -6968,11 +6900,6 @@ msgstr "ተጠቃሚው መዝገቦችን የማጥፋት ፈቃድ ሊኖረ�
 #: 
 msgid "ChurchCRM Central Notifications URL"
 msgstr "ChurchCRM ማዕከላዊ ማሳወቂያዎች URL"
-
-#: 
-#, fuzzy
-msgid "Follow us on"
-msgstr "በትዊተር ላይ ይከታተሉን"
 
 #: 
 msgid "invalid event type id"
@@ -7021,10 +6948,6 @@ msgid "Updated People"
 msgstr "የዘመኑ ሰዎች "
 
 #: 
-msgid "Custom Menus"
-msgstr "የተስተካከሉ ምርጫዎች "
-
-#: 
 msgid "User must have Manage Groups permission"
 msgstr "ተጠቃሚው ቡድኖችን የማስተዳደር ፈቃድ ሊኖረው ይገባል "
 
@@ -7043,26 +6966,6 @@ msgstr "እራሶን መሰረዝ አይችሉም"
 #: 
 msgid "The role could not be found."
 msgstr "ምርጫው ሊገኝ አልቻለም "
-
-#: 
-msgid "Add Menu"
-msgstr "የምርጫ  ዝርዝር ይጨምሩ"
-
-#: 
-msgid "Menu Name"
-msgstr "የምርጫ ዝርዝር ስም "
-
-#: 
-msgid "Link Address"
-msgstr "አገናኝ አድራሻ "
-
-#: 
-msgid "Start with http:// or https://"
-msgstr "http:// ወይም https:// ብለው ይጀምሩ "
-
-#: 
-msgid "Menus"
-msgstr "የምርጫ ዝርዝር "
 
 #: 
 msgid "is disabled"
@@ -7179,10 +7082,6 @@ msgstr "ኢስቶኒያን"
 #: 
 msgid "Error decoding signature definition file"
 msgstr "የፊርማ ፊቺ ፋይልን የመግለጽ ስህተት "
-
-#: 
-msgid "Remote Backup Endpoint.  If WebDAV, this must be url encoded. "
-msgstr "የርቀት የምትኩ  መጨረሻ ነጥብ። WebDAV ከሆነ፣ ይህ ዩአርኤል መደበቅ አለበት።"
 
 #: 
 msgid "Age Histogram"
@@ -7389,28 +7288,12 @@ msgid "LastName, FirstName MiddleName"
 msgstr "የአያት ስም ፣ የመጀመሪያ ስም መካከለኛ ስም"
 
 #: 
-msgid "Manage 2 Factor Authentication"
-msgstr "ባለ 2 ፋክተር ማረጋገጫን አስተዳድር"
-
-#: 
 msgid "Two Factor Status"
 msgstr "ባለሁለት ደረጃ ሁኔታ"
 
 #: 
 msgid "Please confirm disabling 2 Factor Auth for this user"
 msgstr "እባክዎን ለዚህ ተጠቃሚ 2 Factor Auth ማሰናከልዎን ያረጋግጡ"
-
-#: 
-msgid "Please enter 2FA code"
-msgstr "እባክዎ 2FA ኮድ ያስገቡ"
-
-#: 
-msgid "2FA Code"
-msgstr "2ኤፍኤ ኮድ"
-
-#: 
-msgid "2 Factor Authentication enrollment"
-msgstr "2 የምክንያት ማረጋገጫ ምዝገባ"
 
 #: 
 msgid "Unsupported Two Factor Authentication Configuration"
@@ -7441,10 +7324,6 @@ msgstr "\n"
 msgid "Send an email notifying users when their account has been deleted"
 msgstr "\n"
 "መለያቸው ሲሰረዝ ለተጠቃሚዎች የሚያሳውቅ ኢሜይል ይላኩ።"
-
-#: 
-msgid "Google Maps API Key used for rendering maps in browser"
-msgstr "የጉግል ካርታዎች ኤፒአይ ቁልፍ በአሳሽ ውስጥ ካርታዎችን ለመስራት ይጠቅማል"
 
 #: 
 msgid "Incorrect password supplied for current user"
@@ -7493,13 +7372,6 @@ msgstr "በመጫን ላይ"
 msgid "List not found"
 msgstr "ዝርዝር አልተገኘም።"
 
-#. typo
-#: 
-#, fuzzy
-msgid "List not in the list"
-msgstr "\n"
-"ዝርዝር በዝርዝሩ ውስጥ አይደለም።"
-
 #: 
 msgid "People not in"
 msgstr "ሰዎች አልገቡም።"
@@ -7516,18 +7388,6 @@ msgstr "ታዳሚዎች በቤተክርስቲያን CRM ውስጥ አይደሉ�
 msgid "Web Server"
 msgstr "የድር አገልጋይ"
 
-#: 
-msgid "List maintenance"
-msgstr "የጥገና ዝርዝር"
-
-#: 
-msgid "People not in list"
-msgstr "በዝርዝሩ ውስጥ የሌሉ ሰዎች"
-
-#: 
-msgid "Audience not in the CRM"
-msgstr "በCRM ውስጥ የሌሉ ታዳሚዎች "
-
 #. Context: locales
 #: 
 msgid "Hebrew"
@@ -7536,10 +7396,6 @@ msgstr "ዕብራይስጥ"
 #: 
 msgid "open rate"
 msgstr "የመክፍት ፍጥነት"
-
-#: 
-msgid "Not Subscribed "
-msgstr "አልተመዘገበም።"
 
 #: 
 msgid "Login Info"
@@ -7605,89 +7461,6 @@ msgstr "\n"
 #: 
 msgid "Event Description"
 msgstr "የክስተት መግለጫ"
-
-#: 
-msgid "Enrolling your ChurchCRM user account in Two Factor Authention provides an additional layer of defense against bad actors trying to access your account."
-msgstr "የChurchCRM ተጠቃሚ መለያዎን በሁለት ፋክተር ማረጋገጫ መመዝገብ መለያዎን ለመክፈት ከሚሞክሩ ያልተገቡ ሰዎች ተጨማሪ የመከላከል አቅም ይሰጣል።"
-
-#: 
-msgid "ChurchCRM Two factor supports any TOTP authenticator app, so you're free to choose between Microsoft Authenticator, Google Authenticator, Authy, LastPass, and others"
-msgstr "ChurchCRM Two factor ማንኛውንም የTOTP አረጋጋጭ መተግበሪያን ይደግፋል፣ ስለዚህ በማይክሮሶፍት አረጋጋጭ፣ Google አረጋጋጭ፣ Authy፣ LastPass እና ሌሎች መካከል መምረጥ ይችላሉ፡፡"
-
-#: 
-msgid "When you sign in to ChurchCRM, you'll still enter your username and password like normal"
-msgstr "ወደ ChurchCRM ሲገቡ ሁልጊዜ የእርስዎን የተጠቃሚ ስም እና የይለፍ ቃል እንደተለመደው ያስገባሉ።"
-
-#: 
-msgid "However, you'll also need to supply a one-time code from your authenticator device to complete your login"
-msgstr "ነገር ግን፣ መግቢያዎን ለማጠናቀቅ በተጨማሪ የአንድ ጊዜ ኮድ ከአረጋጋጭ መሣሪያዎ ማቅረብ ያስፈልግዎታል"
-
-#: 
-msgid "After successfully entering both your credentials, and the one-time code, you'll be logged in as normal"
-msgstr "ሁለቱንም ምስክርነቶችዎን እና የአንድ ጊዜ ኮድ በተሳካ ሁኔታ ካስገቡ በኋላ፣ መደበኛው ሆነው መግባት ይችላሉ፡፡"
-
-#: 
-msgid "To prevent being locked out of your ChurchCRM account, please ensure you're ready to complete two factor enrollment before clicking begin"
-msgstr "ከChurchCRM መለያዎ መቆለፍንና መዉጣትን ለመከላከል፣ እባክዎን ጀምርን ከመጫኖ በፊት የሁለት ደረጃ ምዝገባን ለማጠናቀቅ ዝግጁ መሆንዎን ያረጋግጡ።"
-
-#: 
-msgid "Beginning enrollment will invalidate any previously enrolled 2 factor devices and recovery codes."
-msgstr "መጀመሪያ መመዝገብ ቀደም ሲል የተመዘገቡ ባለ 2 \n"
-"ምክንያት መሳሪያዎችን እና የመልሶ ማግኛ ኮዶችን ዋጋ ያጠፋል።"
-
-#: 
-msgid "When you click next, you'll be prompted to scan a QR code to enroll your authenticator app."
-msgstr "ቀጣይን ሲጫኑ፣ የእርስዎን አረጋጋጭ መተግበሪያ ለመመዝገብ የQR ኮድ እንዲቃኙ ይጠየቃሉ።"
-
-#: 
-msgid "To confirm enrollment, you'll need to enter the code generated by your authenticator app"
-msgstr "መመዝገቡን ለማረጋገጥ በአረጋጋጭ መተግበሪያዎ የተሠጦትን ኮድ ማስገባት ያስፈልግዎታል"
-
-#: 
-msgid "After confirming app enrollment, single-use recovery codes will be generated and displayed."
-msgstr "የመተግበሪያ ምዝገባን ካረጋገጡ በኋላ፣ አንድ ጊዜ ጥቅም ላይ የሚውሉ የመልሶ ማግኛ ኮዶች ይወጣሉ እና ይታያሉ"
-
-#: 
-msgid "Recovery codes can be used instead of a code generated from your authenticator app."
-msgstr "ከእርስዎ አረጋጋጭ መተግበሪያ ከሚሠጦት ኮድ ይልቅ የመልሶ ማግኛ ኮዶችን መጠቀም ይቻላል።"
-
-#: 
-msgid "Store these in a secure location"
-msgstr "እነዚህን ደህንነቱ በተጠበቀ ቦታ ያስቀምጡ"
-
-#: 
-msgid "Begin Two Factor Authentication Enrollment"
-msgstr "\n"
-"የሁለት ደረጃ ማረጋገጫ ምዝገባን ጀምር"
-
-#: 
-msgid "2 Factor Authentication Secret"
-msgstr "2 ምክንያት ማረጋገጫ ምስጢር"
-
-#: 
-msgid "Regenerate 2 Factor Authentication Secret"
-msgstr "የ 2 ፋክተር ማረጋገጫ ሚስጥርን ያድሱ"
-
-#: 
-msgid "Remove 2 Factor Authentication Secret"
-msgstr "ባለ 2 የማረጋገጫ ሚስጥር አስወግድ"
-
-#: 
-msgid "Enter TOTP code to confirm enrollment"
-msgstr "ምዝገባውን ለማረጋገጥ የTOTP ኮድ ያስገቡ"
-
-#: 
-msgid "2 Factor Authentication Enrollment Success"
-msgstr "2 የምክንያት ማረጋገጫ የምዝገባ ስኬት"
-
-#: 
-msgid "Please store these recovery codes in a safe location"
-msgstr "\n"
-"እባክዎ እነዚህን የመልሶ ማግኛ ኮዶች ደህንነቱ በተጠበቀ ቦታ ያስቀምጡ"
-
-#: 
-msgid "If you ever lose access to your newly enrolled authenticator app, you'll need to use a recovery code to gain access to your account"
-msgstr "አዲስ የተመዘገቡትን አረጋጋጭ መተግበሪያ ካጡ መለያዎን ለማደስ የመልሶ ማግኛ ኮድ መጠቀም ያስፈልግዎታል"
 
 #: 
 msgid "Help translate this project"
@@ -7919,10 +7692,6 @@ msgid "People who are configured to pay by credit card."
 msgstr "በክሬዲት ካርድ እንዲከፍሉ የተዋቀሩ ሰዎች።"
 
 #: 
-msgid "As part of the restore, external backups have been disabled.  If you wish to continue automatic backups, you must manually re-enable the bEnableExternalBackupTarget setting."
-msgstr "እንደ መልሶ ማግኛው አካል የውጭ መጠባበቂያዎች ተሰናክለዋል። አውቶማቲክ መጠባበቂያዎችን መቀጠል ከፈለጉ 'bEnableExternalBackupTarget' ቅንብሩን እራስዎ እንደገና ማግበር አለብዎት።"
-
-#: 
 msgid "The previous integrity check passed. All system file hashes match the expected values."
 msgstr "ያለፈው የታማኝነት ፍተሻ አልፏል። ሁሉም የሥርዓት ፋይል ሃሾች ከሚጠበቁት እሴቶች ጋር ይዛመዳሉ።"
 
@@ -7933,10 +7702,6 @@ msgstr "ቦዝነው መታየት ያለባቸው በኮማ የተለዩ የም�
 #: 
 msgid "MailChimp is not configured"
 msgstr "MailChimp አልተዋቀረም"
-
-#: 
-msgid "Please update the MailChimp API key in:"
-msgstr "እባክዎን የ MailChimp API ቁልፍን እዚህ ያዘምኑ፡"
 
 #. Context: locales
 #: 
@@ -8308,20 +8073,8 @@ msgid "Address is required"
 msgstr "አድራሻ ያስፈልጋል"
 
 #: 
-msgid "Base URL is required"
-msgstr "Base URL ያስፈልጋል"
-
-#: 
 msgid "City is required"
 msgstr "ከተማ ያስፈልጋል"
-
-#: 
-msgid "Database name is required"
-msgstr "የዳታቤዝ ስም ያስፈልጋል"
-
-#: 
-msgid "Database server hostname or IP address is required (e.g., localhost or 127.0.0.1)"
-msgstr "የዳታቤዝ አገልጋይ ስም ወይም IP አድራሻ ያስፈልጋል (ለምሳሌ localhost ወይም 127.0.0.1)"
 
 #: 
 msgid "Database server port is required (e.g., 3306)"
@@ -11446,4 +11199,1236 @@ msgstr "ማጣሪያዎችን ዳግም አስጀምር"
 #: 
 msgid "Show only people with photos"
 msgstr "ፎቶ ያላቸውን ሰዎች ብቻ አሳይ"
+
+#: 
+msgid "Checkout All"
+msgstr "ሁሉንም ወጪ ፍቀድ"
+
+#: 
+msgid "Expected"
+msgstr "የሚጠበቅ"
+
+#: 
+msgid "Failed to delete kiosk"
+msgstr "ኪዮስክን መሰረዝ አልተሳካም"
+
+#. Context: query_qry
+#: 
+msgid "Family Pledge by Fiscal Year"
+msgstr "የቤተሰብ ቃል ኪዳን በፊስካል ዓመት"
+
+#. Context: query_qry
+#: 
+msgid "Find Registered students"
+msgstr "የተመዘገቡ ተማሪዎችን ፈልግ"
+
+#. Context: queryparameters_qrp
+#: 
+msgid "Fiscal Year."
+msgstr "ፊስካል ዓመት።"
+
+#. Context: queryparameters_qrp
+#: 
+msgid "Group of registered students"
+msgstr "የተመዘገቡ ተማሪዎች ቡድን"
+
+#: 
+msgid "Here"
+msgstr "እዚህ"
+
+#: 
+msgid "Invalid assignment type"
+msgstr "ልክ ያልሆነ የምደባ ዓይነት"
+
+#: 
+msgid "Invalid person ID"
+msgstr "ልክ ያልሆነ የሰው ID"
+
+#: 
+msgid "Kiosk Registration Disabled"
+msgstr "የኪዮስክ ምዝገባ ተሰናክሏል"
+
+#: 
+msgid "Kiosk not found"
+msgstr "ኪዮስክ አልተገኘም"
+
+#: 
+msgid "Link this event to a group for Kiosk check-in functionality. The group members will appear on the kiosk."
+msgstr "ይህን ዝግጅት ለኪዮስክ ቼክ-ኢን ተግባር ከቡድን ጋር ያገናኙ። የቡድኑ አባላት በኪዮስኩ ላይ ይታያሉ።"
+
+#: 
+msgid "Linked Group"
+msgstr "የተገናኘ ቡድን"
+
+#: 
+msgid "New kiosk device registration is currently disabled. Please contact your system administrator to enable kiosk registration."
+msgstr "አዲስ የኪዮስክ መሳሪያ ምዝገባ በአሁን ሰዓት ተሰናክሏል። ኪዮስክ ምዝገባን ለማንቃት የሥርዓት አስተዳዳሪዎን ያነጋግሩ።"
+
+#: 
+msgid "No Group (Select for Kiosk Check-in)"
+msgstr "ቡድን የለም (ለኪዮስክ ቼክ-ኢን ይምረጡ)"
+
+#: 
+msgid "No one checked in yet"
+msgstr "እስካሁን ማንም አልተመዘገበም"
+
+#: 
+msgid "Person not found"
+msgstr "ሰው አልተገኘም"
+
+#: 
+msgid "Pickup Request"
+msgstr "የመውሰጃ ጥያቄ"
+
+#: 
+msgid "Please proceed to the classroom as soon as possible."
+msgstr "እባክዎ በተቻለ ፍጥነት ወደ ክፍሉ ይሂዱ።"
+
+#. Context: query_qry
+#: 
+msgid "Pledge summary by family name for each fund for the selected fiscal year"
+msgstr "ለተመረጠው ፊስካል ዓመት ለእያንዳንዱ ፈንድ በቤተሰብ ስም የቃል ኪዳን ማጠቃለያ"
+
+#. Context: query_qry
+#: 
+msgid "Registered students"
+msgstr "የተመዘገቡ ተማሪዎች"
+
+#: 
+msgid "The teacher sent this alert at"
+msgstr "አስተማሪው ይህን ማሳወቂያ የላኩት"
+
+#: 
+msgid "This kiosk is best viewed on a tablet in landscape mode for optimal check-in experience."
+msgstr "ይህ ኪዮስክ ጥሩ የቼክ-ኢን ልምድ ለማግኘት ታብሌት ላይ አግድም ሁኔታ ሲታይ ይሻላል።"
+
+#: 
+msgid "Tip"
+msgstr "ምክር"
+
+#: 
+msgid "Try Again"
+msgstr "እንደገና ሞክር"
+
+#: 
+msgid "Upcoming Birthdays"
+msgstr "የሚመጡ የልደት ቀናት"
+
+#: 
+msgid "Waiting to Check In"
+msgstr "ለቼክ-ኢን እየጠበቀ"
+
+#: 
+msgid "When enabled, new kiosk devices can register for 30 seconds."
+msgstr "ሲነቃ፣ አዲስ የኪዮስክ መሳሪያዎች ለ30 ሰኮንዶች መመዝገብ ይችላሉ።"
+
+#: 
+msgid "Your child"
+msgstr "ልጅዎ"
+
+#: 
+msgid "needs to be picked up from"
+msgstr "ከዚህ ቦታ መወሰድ አለበት"
+
+#: 
+msgid "their classroom"
+msgstr "ክፍሉ"
+
+#: 
+msgid "All timezones match"
+msgstr "ሁሉም የጊዜ ዞኖች ይዛመዳሉ"
+
+#: 
+msgid "Baseline"
+msgstr "መሠረት"
+
+#: 
+msgid "Browser"
+msgstr "አሳሽ"
+
+#: 
+msgid "Browser differs from system config - dates may display incorrectly for this user."
+msgstr "አሳሽ ከሥርዓት ውቅር ይለያሉ - ቀኖቹ ለዚህ ተጠቃሚ በተሳሳተ መልኩ ሊታዩ ይችላሉ።"
+
+#: 
+msgid "Cannot write to ChurchCRM installation directory. Please check that the web server has write permissions."
+msgstr "ወደ ChurchCRM የተጫነ ማውጫ መፃፍ አይቻልም። ድረ-ገጽ አገልጋዩ የፃፍ ፍቃዶች እንዳሉት ያረጋግጡ።"
+
+#: 
+msgid "Comparing timezones..."
+msgstr "የጊዜ ዞኖችን በማነፃፀር..."
+
+#: 
+msgid "Destination directory does not exist. Please verify ChurchCRM is installed correctly."
+msgstr "የመድረሻ ማውጫ አይገኝም። ChurchCRM በትክክል መጫኑን ያረጋግጡ።"
+
+#: 
+msgid "Does not match system config"
+msgstr "ከሥርዓት ውቅር ጋር አይዛመድም"
+
+#: 
+msgid "Downloaded release file is empty. This may be due to network issues or GitHub rate limiting. Please try again later."
+msgstr "የተወረደው መልቀቂያ ፋይል ባዶ ነው። ይህ ምናልባት በኔትወርክ ችግር ወይም የGitHub ፍጥነት ገደብ ሊሆን ይችላል። ቆየት ብለው እንደገና ሞክሩ።"
+
+#: 
+msgid "Extraction completed but upgrade files not found. The upgrade archive may be corrupted."
+msgstr "ማውጣት ተጠናቀቀ ነገር ግን የማሻሻያ ፋይሎች አልተገኙም። የማሻሻያ ማህደሩ ሊበላሽ ይችላል።"
+
+#: 
+msgid "Failed to apply upgrade. Please check the server logs for details."
+msgstr "ማሻሻያን መተግበር አልተሳካም። ዝርዝሩ ለማወቅ የአገልጋዩ ምዝግብ ማስታወሻ ያረጋግጡ።"
+
+#: 
+msgid "Failed to create Upgrade directory. Please check file permissions."
+msgstr "የማሻሻያ ማውጫ መፍጠር አልተሳካም። የፋይል ፍቃዶቹን ያረጋግጡ።"
+
+#: 
+msgid "Failed to download the release file from GitHub after multiple attempts. Please check your server's internet connection and try again."
+msgstr "ከበርካታ ሙከራ በኋላ ከ GitHub የመልቀቂያ ፋይሉን ማውረድ አልተሳካም። የአገልጋዩዎ የኢንተርኔት ግንኙነት ያረጋግጡ እና እንደገና ሞክሩ።"
+
+#: 
+msgid "Failed to extract upgrade archive. Please check disk space and file permissions."
+msgstr "የማሻሻያ ማህደሩን ማውጣት አልተሳካም። የዲስክ ቦታ እና ፋይል ፍቃዶቹን ያረጋግጡ።"
+
+#: 
+msgid "Failed to open upgrade archive. The downloaded file may be corrupted."
+msgstr "የማሻሻያ ማህደሩን መክፈት አልተሳካም። የተወረደው ፋይል ሊበላሽ ይችላል።"
+
+#: 
+msgid "Failed to save the downloaded release file. Please check disk space and permissions."
+msgstr "የተወረደውን መልቀቂያ ፋይል ማስቀመጥ አልተሳካም። የዲስክ ቦታ እና ፍቃዶቹን ያረጋግጡ።"
+
+#: 
+msgid "Invalid date format in start parameter"
+msgstr "ልክ ያልሆነ የቀን ቅርፀት በጀምር ደንቦ"
+
+#: 
+msgid "Mismatch"
+msgstr "አለመዛመድ"
+
+#: 
+msgid "Not set"
+msgstr "አልተቀናበረም"
+
+#: 
+msgid "PHP Active"
+msgstr "PHP ንቁ"
+
+#: 
+msgid "Source directory does not exist. The upgrade archive may not have extracted correctly. Please check file permissions and disk space."
+msgstr "የምንጭ ማውጫ አይገኝም። የማሻሻያ ማህደሩ ትክክለኛ ሳይወጣ ሊቀር ይችላል። የፋይል ፍቃዶቹን እና ዲስክ ቦታ ያረጋግጡ።"
+
+#: 
+msgid "System Config"
+msgstr "የሥርዓት ውቅር"
+
+#: 
+msgid "Timezone Information"
+msgstr "የጊዜ ዞን መረጃ"
+
+#: 
+msgid "Timezone mismatch detected"
+msgstr "የጊዜ ዞን አለመዛመድ ተገኝቷል"
+
+#: 
+msgid "mismatch detected"
+msgstr "አለመዛመድ ተገኝቷል"
+
+#: 
+msgid "mismatches detected"
+msgstr "አለመዛመዶች ተገኝተዋል"
+
+#: 
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d ሰዓት"
+msgstr[1] "%d ሰዓቶች"
+
+#: 
+msgid "About WebDAV Backups"
+msgstr "ስለ WebDAV ምትኬ"
+
+#: 
+msgid "Add Link"
+msgstr "አገናኝ ጨምር"
+
+#: 
+msgid "Add an extra layer of security to your account"
+msgstr "ለሂሳብዎ ተጨማሪ የደህንነት ደረጃ ያክሉ"
+
+#: 
+msgid "Add custom external links to the navigation menu."
+msgstr "ወደ ዳሰሳ ምናሌ ብጁ ውጫዊ አገናኞችን ያክሉ።"
+
+#: 
+msgid "Allow Self-Signed Certificates"
+msgstr "ራስ-የተፈረሙ ሰርተፊኬቶችን ፍቀድ"
+
+#: 
+msgid "An error occurred processing the plugin request"
+msgstr "ፕለጊን ጥያቄ ሲሰናዳ ስህተት ተከስቷል"
+
+#: 
+msgid "Are you sure you want to disable two-factor authentication? Your account will be less secure."
+msgstr "ሁለት-ምክንያት ማረጋገጥን ማሰናከል ይፈልጋሉ? ሂሳብዎ ያነሰ ደህንነት ይኖረዋል።"
+
+#: 
+msgid "As part of the restore, external backups have been disabled. If you wish to continue automatic backups, re-enable the External Backup plugin in Admin > Plugins."
+msgstr "ወደነበሩ መመለስ አካል ሆኖ ውጫዊ ምትኬዎች ተሰናክለዋል። ራስ-ሰር ምትኬዎችን ለመቀጠል ፈልገው ከሆነ በ Admin > Plugins ውጫዊ ምትኬ ፕለጊን እንደገና ያንቁ።"
+
+#: 
+msgid "Audiences"
+msgstr "ተደራሲዎች"
+
+#: 
+msgid "Authentication failed. Please check username and password."
+msgstr "ማረጋገጥ አልተሳካም። የተጠቃሚ ስምና ፓስወርድ ያረጋግጡ።"
+
+#: 
+msgid "Auto-Backup Interval"
+msgstr "ራስ-ሰር ምትኬ ክፍተት"
+
+#: 
+msgid "Automatically backup your ChurchCRM database to external cloud storage via WebDAV."
+msgstr "የ ChurchCRM ዳታቤዝዎን በ WebDAV በኩል ወደ ውጫዊ ደመና ማከማቻ ራስ-ሰር ምትኬ ያስቀምጡ።"
+
+#: 
+msgid "Avg Click Rate"
+msgstr "አማካይ ጠቅ ምጣኔ"
+
+#: 
+msgid "Avg Open Rate"
+msgstr "አማካይ መክፈቻ ምጣኔ"
+
+#: 
+msgid "Back to Dashboard"
+msgstr "ወደ ዳሽቦርድ ተመለስ"
+
+#: 
+msgid "Backup created but failed to copy to remote server"
+msgstr "ምትኬ ተፈጥሯል ነገር ግን ወደ ሩቅ አገልጋዩ መቅዳት አልተሳካም"
+
+#: 
+msgid "Backup to WebDAV Now"
+msgstr "አሁን ወደ WebDAV ምትኬ ያስቀምጡ"
+
+#: 
+msgid "Before You Start"
+msgstr "ከመጀመርዎ በፊት"
+
+#: 
+msgid "Browser language preference detected"
+msgstr "የአሳሽ ቋንቋ ምርጫ ተገኝቷል"
+
+#: 
+msgid "CRM Members Not Subscribed"
+msgstr "ያልተመዘገቡ የ CRM አባላት"
+
+#: 
+msgid "Campaigns Sent"
+msgstr "የተላኩ ዘመቻዎች"
+
+#: 
+msgid "Can't scan?"
+msgstr "መቃኘት አይቻልም?"
+
+#: 
+msgid "Change Your Locale"
+msgstr "አካባቢዎን ይቀይሩ"
+
+#: 
+msgid "ChurchCRM supports a plugin architecture for extending functionality."
+msgstr "ChurchCRM ተግባሮችን ለማስፋፋት ፕለጊን አርክቴክቸርን ይደግፋል።"
+
+#: 
+msgid "Cleaned"
+msgstr "ተጸዳ"
+
+#: 
+msgid "Click the button below to test your WebDAV connection settings."
+msgstr "WebDAV ግንኙነት ቅንብሮችዎን ለመፈተሽ ከዚህ በታች ያለውን ቁልፍ ጠቅ ያድርጉ።"
+
+#: 
+msgid "Community Plugins"
+msgstr "የማህበረሰብ ፕለጊኖች"
+
+#: 
+msgid "Community plugins"
+msgstr "የማህበረሰብ ፕለጊኖች"
+
+#: 
+msgid "Configure External Backup"
+msgstr "ውጫዊ ምትኬ ያዋቅሩ"
+
+#: 
+msgid "Configure MailChimp"
+msgstr "MailChimp ያዋቅሩ"
+
+#: 
+msgid "Configure these settings in the"
+msgstr "እነዚህን ቅንብሮች ያዋቅሩ"
+
+#: 
+msgid "Configure this plugin to automatically backup your ChurchCRM database to WebDAV-compatible cloud storage services like Nextcloud, ownCloud, or any WebDAV server. Backups are encrypted during transfer using HTTPS."
+msgstr "ይህ ፕለጊን ወደ Nextcloud፣ ownCloud ወይም ማናቸውም WebDAV አገልጋይ ያሉ ደመና ማከማቻ አገልግሎቶች የ ChurchCRM ዳታቤዝዎን ራስ-ሰር ምትኬ እንዲያስቀምጥ ያዋቅሩ። ምትኬዎቹ በ HTTPS ዝውውር ወቅት ይደበቃሉ።"
+
+#: 
+msgid "Configured"
+msgstr "ተዋቅሯል"
+
+#: 
+msgid "Confirm with a code from your authenticator app"
+msgstr "ከማረጋገጫ ትግበራዎ ኮድ ያረጋግጡ"
+
+#: 
+msgid "Connected"
+msgstr "ተገናኝቷል"
+
+#: 
+msgid "Connection failed"
+msgstr "ግንኙነት አልተሳካም"
+
+#: 
+msgid "Connection failed with HTTP code"
+msgstr "ግንኙነት በ HTTP ኮድ አልተሳካም"
+
+#: 
+msgid "Connection successful! WebDAV endpoint is accessible."
+msgstr "ግንኙነት ተሳክቷል! WebDAV ጫፍ ደርሶ ይደርሳል።"
+
+#: 
+msgid "Connection test failed"
+msgstr "የግንኙነት ፈተና አልተሳካም"
+
+#: 
+msgid "Core Plugins"
+msgstr "ዋና ፕለጊኖች"
+
+#: 
+msgid "Core plugins"
+msgstr "ዋና ፕለጊኖች"
+
+#: 
+msgid "Create a backup now and upload it to your WebDAV server."
+msgstr "አሁን ምትኬ ፍጠር እና ወደ WebDAV አገልጋዩ ይጫኑ።"
+
+#: 
+msgid "Create an Audience in MailChimp"
+msgstr "በ MailChimp ተደራሲ ይፍጠሩ"
+
+#: 
+msgid "Custom"
+msgstr "ብጁ"
+
+#: 
+msgid "Custom Menu Links"
+msgstr "ብጁ ምናሌ አገናኞች"
+
+#: 
+msgid "Default Image Style"
+msgstr "ነባሪ ምስል ስልት"
+
+#: 
+msgid "Default List ID"
+msgstr "ነባሪ ዝርዝር ID"
+
+#: 
+msgid "Disable"
+msgstr "አሰናክል"
+
+#: 
+msgid "Disable Plugin"
+msgstr "ፕለጊን አሰናክል"
+
+#: 
+msgid "Disable Two-Factor Authentication"
+msgstr "ሁለት-ምክንያት ማረጋገጥ አሰናክል"
+
+#: 
+msgid "Dismiss"
+msgstr "አሰናብት"
+
+#: 
+msgid "Done"
+msgstr "ተጠናቅቋል"
+
+#: 
+msgid "E.164 format, e.g., +14155551234"
+msgstr "E.164 ቅርፀት፣ ለምሳሌ +14155551234"
+
+#: 
+msgid "Each plugin requires a"
+msgstr "እያንዳንዱ ፕለጊን ይፈልጋል"
+
+#: 
+msgid "Each time you sign in, you'll need to confirm with a code from your authenticator app"
+msgstr "ሲገቡ በሙሉ ከማረጋገጫ ትግበራዎ ኮድ ማረጋገጥ ያስፈልጋል"
+
+#: 
+msgid "Email Addresses"
+msgstr "የኢሜይል አድራሻዎች"
+
+#: 
+msgid "Enable"
+msgstr "አንቃ"
+
+#: 
+msgid "Enable External Backup Plugin"
+msgstr "ውጫዊ ምትኬ ፕለጊን አንቃ"
+
+#: 
+msgid "Enable Plugin"
+msgstr "ፕለጊን አንቃ"
+
+#: 
+msgid "Enable Two-Factor Authentication"
+msgstr "ሁለት-ምክንያት ማረጋገጥ አንቃ"
+
+#: 
+msgid "Enable the External Backup plugin for WebDAV cloud storage."
+msgstr "ለ WebDAV ደመና ማከማቻ ውጫዊ ምትኬ ፕለጊን ያንቁ።"
+
+#: 
+msgid "Enable this only for local network servers with self-signed SSL certificates. Disables certificate verification."
+msgstr "ይህን ለራስ-ሰርተፊኬቶች ላሉ የአካባቢ ኔትወርክ አገልጋዮች ብቻ ያንቁ። ሰርተፊኬት ማረጋገጥ ያሰናክላል።"
+
+#: 
+msgid "Endpoint URL"
+msgstr "የጫፍ URL"
+
+#: 
+msgid "Enter the 6-digit code from your authenticator app"
+msgstr "ከማረጋገጫ ትግበራዎ 6-አሃዝ ኮዱን ያስገቡ"
+
+#: 
+msgid "Enter your username and password as usual"
+msgstr "የተጠቃሚ ስምዎና ፓስወርድዎን እንደለመዱት ያስገቡ"
+
+#: 
+msgid "External Backup"
+msgstr "ውጫዊ ምትኬ"
+
+#: 
+msgid "External Backup (WebDAV)"
+msgstr "ውጫዊ ምትኬ (WebDAV)"
+
+#: 
+msgid "External Backup Settings"
+msgstr "የውጫዊ ምትኬ ቅንብሮች"
+
+#: 
+msgid "External Backup plugin is enabled but not configured."
+msgstr "የውጫዊ ምትኬ ፕለጊን ነቅቷል ግን አልተዋቀረም።"
+
+#: 
+msgid "External Backup plugin is not configured. Please configure WebDAV settings in the plugin."
+msgstr "የውጫዊ ምትኬ ፕለጊን አልተዋቀረም። እባክዎ ፕለጊኑ ውስጥ WebDAV ቅንብሮችን ያዋቅሩ።"
+
+#: 
+msgid "External Backup plugin is not enabled. Please enable and configure it in Plugin Management."
+msgstr "የውጫዊ ምትኬ ፕለጊን አልነቃም። እባክዎ ፕለጊን አስተዳደር ውስጥ ያንቁ እና ያዋቅሩ።"
+
+#: 
+msgid "Failed to create link"
+msgstr "አገናኝ መፍጠር አልተሳካም"
+
+#: 
+msgid "Failed to delete link"
+msgstr "አገናኝ መሰረዝ አልተሳካም"
+
+#: 
+msgid "Failed to disable plugin"
+msgstr "ፕለጊን ማሰናከል አልተሳካም"
+
+#: 
+msgid "Failed to enable plugin"
+msgstr "ፕለጊን ማንቃት አልተሳካም"
+
+#: 
+msgid "Failed to get plugin details"
+msgstr "የፕለጊን ዝርዝሮች ማግኘት አልተሳካም"
+
+#: 
+msgid "Failed to list plugins"
+msgstr "ፕለጊኖችን መዘርዘር አልተሳካም"
+
+#: 
+msgid "Failed to reset settings"
+msgstr "ቅንብሮችን ዳግም ማስጀመር አልተሳካም"
+
+#: 
+msgid "Failed to send SMS"
+msgstr "SMS መላክ አልተሳካም"
+
+#: 
+msgid "Family Status"
+msgstr "የቤተሰብ ሁኔታ"
+
+#: 
+msgid "Family not found"
+msgstr "ቤተሰብ አልተገኘም"
+
+#: 
+msgid "Find in MailChimp: Audience > Settings > Audience name and defaults > Audience ID"
+msgstr "በ MailChimp ፈልጉ: Audience > Settings > Audience name and defaults > Audience ID"
+
+#: 
+msgid "From Phone Number"
+msgstr "ከስልክ ቁጥር"
+
+#: 
+msgid "From dashboard.vonage.com"
+msgstr "ከ dashboard.vonage.com"
+
+#: 
+msgid "GA4 Measurement ID"
+msgstr "የGA4 መለኪያ ID"
+
+#: 
+msgid "Generate new code"
+msgstr "አዲስ ኮድ አዘጋጅ"
+
+#: 
+msgid "Get Started"
+msgstr "ጀምር"
+
+#: 
+msgid "Get your API key from MailChimp: Account Settings > Extras > API Keys"
+msgstr "ከ MailChimp API ቁልፍዎን ያግኙ: Account Settings > Extras > API Keys"
+
+#: 
+msgid "Have your authenticator app ready (Google Authenticator, Microsoft Authenticator, Authy, etc.)"
+msgstr "ማረጋገጫ ትግበራዎን ዝግጁ ያድርጉ (Google Authenticator, Microsoft Authenticator, Authy, ወዘተ.)"
+
+#: 
+msgid "Help"
+msgstr "እርዳታ"
+
+#: 
+msgid "Id"
+msgstr "IdentificationNumber"
+
+#: 
+msgid "Image shown when no Gravatar exists for the email address"
+msgstr "ለኢሜይሉ አድራሻ Gravatar ሲኖር ያልሆን ሥዕሉ"
+
+#: 
+msgid "Important"
+msgstr "አስፈላጊ"
+
+#: 
+msgid "Install plugins by placing them in"
+msgstr "ፕለጊኖችን ያዘዘዋቸውን በማስቀመጥ ጫን"
+
+#: 
+msgid "Invalid code. Please try again."
+msgstr "ልክ ያልሆነ ኮድ። እባክዎ እንደገና ሞክሩ።"
+
+#: 
+msgid "Invalid endpoint URL. Must be a full URL starting with https:// (e.g., https://cloud.example.com/remote.php/dav/files/user/backups/)"
+msgstr "ልክ ያልሆነ የጫፍ URL። ከ https:// ጋር የሚጀምር ሙሉ URL መሆን አለበት (ለምሳሌ https://cloud.example.com/remote.php/dav/files/user/backups/)"
+
+#: 
+msgid "Kiosk device not found"
+msgstr "የኪዮስክ መሳሪያ አልተገኘም"
+
+#: 
+msgid "Last Backup"
+msgstr "ያለፈ ምትኬ"
+
+#: 
+msgid "Last Campaign"
+msgstr "ያለፈ ዘመቻ"
+
+#: 
+msgid "Last Subscriber"
+msgstr "ያለፈ ምዝጋቢ"
+
+#: 
+msgid "Last Successful Backup"
+msgstr "ያለፈ ስኬታማ ምትኬ"
+
+#: 
+msgid "Last campaign"
+msgstr "ያለፈ ዘመቻ"
+
+#: 
+msgid "Link Name"
+msgstr "የአገናኝ ስም"
+
+#: 
+msgid "Link address cannot contain HTML tags"
+msgstr "የአገናኝ አድራሻ HTML ምልክቶች ሊኖሩት አይችሉም"
+
+#: 
+msgid "Link address is required"
+msgstr "የአገናኝ አድራሻ ያስፈልጋል"
+
+#: 
+msgid "Link must be a valid URL"
+msgstr "አገናኙ ልክ ያለ URL መሆን አለበት"
+
+#: 
+msgid "Link must start with http:// or https://"
+msgstr "አገናኙ ከ http:// ወይም https:// ጋር መጀመር አለበት"
+
+#: 
+msgid "Link not found"
+msgstr "አገናኝ አልተገኘም"
+
+#: 
+msgid "Loading recovery codes"
+msgstr "የማስተካከያ ኮዶችን እየጫነ"
+
+#: 
+msgid "MailChimp"
+msgstr "MailChimp"
+
+#: 
+msgid "MailChimp API Key"
+msgstr "የ MailChimp API ቁልፍ"
+
+#: 
+msgid "MailChimp Dashboard"
+msgstr "የ MailChimp ዳሽቦርድ"
+
+#: 
+msgid "Manage Links"
+msgstr "አገናኞችን አስተዳድር"
+
+#: 
+msgid "Manage Two-Factor Authentication"
+msgstr "ሁለት-ምክንያት ማረጋገጥ አስተዳድር"
+
+#: 
+msgid "Manual Backup"
+msgstr "ዘዴኛ ምትኬ"
+
+#: 
+msgid "Menu Links"
+msgstr "የምናሌ አገናኞች"
+
+#: 
+msgid "Menu name cannot contain HTML tags"
+msgstr "የምናሌ ስም HTML ምልክቶች ሊኖሩት አይችሉም"
+
+#: 
+msgid "Menu name is required"
+msgstr "የምናሌ ስም ያስፈልጋል"
+
+#: 
+msgid "Menu name must be 50 characters or less"
+msgstr "የምናሌ ስም 50 ፊደሎች ወይም ያነሰ መሆን አለበት"
+
+#: 
+msgid "Menu name must be at least 2 characters"
+msgstr "የምናሌ ስም ቢያንስ 2 ፊደሎች መሆን አለበት"
+
+#: 
+msgid "Must start with http:// or https://"
+msgstr "ከ http:// ወይም https:// ጋር መጀመር አለበት"
+
+#: 
+msgid "Needs Configuration"
+msgstr "ውቅር ያስፈልጋል"
+
+#: 
+msgid "Never"
+msgstr "አይቼ"
+
+#: 
+msgid "No Audiences Found"
+msgstr "ምንም ተደራሲ አልተገኘም"
+
+#: 
+msgid "No backups recorded"
+msgstr "ምንም ምትኬ አልተመዘገበም"
+
+#: 
+msgid "No community plugins installed"
+msgstr "ምንም የማህበረሰብ ፕለጊን አልተጫነም"
+
+#: 
+msgid "No core plugins found"
+msgstr "ምንም ዋና ፕለጊን አልተገኘም"
+
+#: 
+msgid "No settings provided"
+msgstr "ምንም ቅንብር አልተሰጠም"
+
+#: 
+msgid "Not Configured"
+msgstr "አልተዋቀረም"
+
+#: 
+msgid "Not in CRM"
+msgstr "በ CRM ውስጥ አይደለም"
+
+#: 
+msgid "One-Time Code"
+msgstr "አንድ-ጊዜ ኮድ"
+
+#: 
+msgid "Open MailChimp"
+msgstr "MailChimp ክፈት"
+
+#: 
+msgid "Open your authenticator app and scan this QR code"
+msgstr "ማረጋገጫ ትግበራዎን ክፈቱ እና ይህን QR ኮድ ቃኙ"
+
+#: 
+msgid "OpenLP Server URL"
+msgstr "የ OpenLP አገልጋይ URL"
+
+#: 
+msgid "Optional - only required if OpenLP authentication is enabled"
+msgstr "ዐማራጭ - ከ OpenLP ማረጋገጫ ከነቃ ብቻ ያስፈልጋል"
+
+#: 
+msgid "Phone number and message required"
+msgstr "ስልክ ቁጥር እና መልዕክት ያስፈልጋሉ"
+
+#: 
+msgid "Please configure endpoint, username, and password first."
+msgstr "እባክዎ ጫፍ፣ ስምና ፓስወርድ ቅድሚያ ያዋቅሩ።"
+
+#: 
+msgid "Please configure the WebDAV settings before creating a remote backup."
+msgstr "ሩቅ ምትኬ ከመፍጠርዎ በፊት WebDAV ቅንብሮችን ያዋቅሩ።"
+
+#: 
+msgid "Please configure the WebDAV settings before testing the connection."
+msgstr "ግንኙነቱን ከመፈተሽዎ በፊት WebDAV ቅንብሮችን ያዋቅሩ።"
+
+#: 
+msgid "Please configure your MailChimp API key to use this integration."
+msgstr "ይህን ውህደት ለመጠቀም የ MailChimp API ቁልፍዎን ያዋቅሩ።"
+
+#: 
+msgid "Please enter a link name (2-50 characters)"
+msgstr "እባክዎ የአገናኝ ስም ያስገቡ (2-50 ፊደሎች)"
+
+#: 
+msgid "Please try again"
+msgstr "እባክዎ እንደገና ሞክሩ"
+
+#: 
+msgid "Plugin Development"
+msgstr "የፕለጊን ልማት"
+
+#: 
+msgid "Plugin Help"
+msgstr "የፕለጊን እርዳታ"
+
+#: 
+msgid "Plugin Management"
+msgstr "የፕለጊን አስተዳደር"
+
+#: 
+msgid "Plugin Settings"
+msgstr "የፕለጊን ቅንብሮች"
+
+#: 
+msgid "Plugin cannot be disabled because other plugins depend on it"
+msgstr "ሌሎች ፕለጊኖች ስለሚወሰኑ ይህ ፕለጊን ማሰናከል አይቻልም"
+
+#: 
+msgid "Plugin cannot be enabled due to dependency or version requirements"
+msgstr "ምክንያት ወይም ስሪት መስፈርቶች ሳቢያ ፕለጊን ማንቃት አይቻልም"
+
+#: 
+msgid "Plugin disabled successfully"
+msgstr "ፕለጊን በተሳካ ሁኔታ ተሰናክሏል"
+
+#: 
+msgid "Plugin enabled successfully"
+msgstr "ፕለጊን በተሳካ ሁኔታ ነቅቷል"
+
+#: 
+msgid "Plugin failed to load"
+msgstr "ፕለጊን መጫን አልተሳካም"
+
+#: 
+msgid "Plugin not found"
+msgstr "ፕለጊን አልተገኘም"
+
+#: 
+msgid "Plugins"
+msgstr "ፕለጊኖች"
+
+#: 
+msgid "Print"
+msgstr "አትም"
+
+#: 
+msgid "Recipients and message required"
+msgstr "ተቀባዮችና መልዕክት ያስፈልጋሉ"
+
+#: 
+msgid "Recovery Codes"
+msgstr "የማስተካከያ ኮዶች"
+
+#: 
+msgid "Remote backup failed. Check server logs for details."
+msgstr "ሩቅ ምትኬ አልተሳካም። ዝርዝሩ ለማወቅ የአገልጋዩ ምዝግብ ያረጋግጡ።"
+
+#: 
+msgid "SMS sent"
+msgstr "SMS ተልኳል"
+
+#: 
+msgid "Save these recovery codes in a safe location. You can use them to access your account if you lose access to your authenticator app."
+msgstr "እነዚህን ማስተካከያ ኮዶች ደህንነቱ በተጠበቀ ቦታ ያስቀምጡ። ወደ ማረጋገጫ ትግበራዎ ያጡ ሆነ ሂሳብዎን ለመድረስ ሊጠቀሙዋቸው ይችላሉ።"
+
+#: 
+msgid "Scan QR Code"
+msgstr "QR ኮድ ቃኝ"
+
+#: 
+msgid "Secure"
+msgstr "ደህንነቱ የተጠበቀ"
+
+#: 
+msgid "Set Up Authenticator"
+msgstr "ማረጋገጫ ጫን"
+
+#: 
+msgid "Settings reset successfully"
+msgstr "ቅንብሮቹ በተሳካ ሁኔታ ዳግም ተጀምረዋል"
+
+#: 
+msgid "Setup Complete"
+msgstr "ጫናው ተጠናቅቋል"
+
+#: 
+msgid "Shipped with ChurchCRM."
+msgstr "ከ ChurchCRM ጋር ይጫናሉ።"
+
+#: 
+msgid "Sign In"
+msgstr "ይግቡ"
+
+#: 
+msgid "Some settings could not be reset"
+msgstr "ጥቂት ቅንብሮች ዳግም ሊጀምሩ አልቻሉም"
+
+#: 
+msgid "Some settings could not be saved"
+msgstr "ጥቂት ቅንብሮች ሊስቀምጡ አልቻሉም"
+
+#: 
+msgid "Subscribers"
+msgstr "ምዝጋቢዎች"
+
+#: 
+msgid "Subscribers Not in CRM"
+msgstr "በ CRM ያልሆኑ ምዝጋቢዎች"
+
+#: 
+msgid "Test Connection"
+msgstr "ግንኙነቱን ፈትሽ"
+
+#: 
+msgid "Test WebDAV Connection"
+msgstr "የ WebDAV ግንኙነቱን ፈትሽ"
+
+#: 
+msgid "These links appear in the \"Links\" menu in the navigation sidebar when this plugin is enabled."
+msgstr "ይህ ፕለጊን ሲነቃ እነዚህ አገናኞች በዳሰሳ ምናሌ ውስጥ \"አገናኞች\" ምናሌ ላይ ይታያሉ።"
+
+#: 
+msgid "These people are subscribed to your MailChimp audience but do not exist in ChurchCRM. Consider adding them to your database or removing them from MailChimp."
+msgstr "እነዚህ ሰዎች ወደ MailChimp ተደራሲዎ ተመዝግበዋል ነገር ግን ወደ ChurchCRM ውስጥ አይገኙም። ወደ ዳታቤዝዎ ማስጨመር ወይም ከ MailChimp ማስወጣት ሊያስቡ ይችላሉ።"
+
+#: 
+msgid "These people exist in ChurchCRM with email addresses but are not subscribed to this MailChimp audience. Consider inviting them to subscribe."
+msgstr "እነዚህ ሰዎች ወደ ChurchCRM ውስጥ ኢሜይሎች ጋር ይገኛሉ ነገር ግን ወደዚህ MailChimp ተደራሲ አልተመዘገቡም። ለምዝገባ ለመጋበዝ ሊያስቡ ይችላሉ።"
+
+#: 
+msgid "Third-party extensions."
+msgstr "የሶስተኛ ወገን ተጨማሪዎች።"
+
+#: 
+msgid "This will replace any previously enrolled 2FA methods"
+msgstr "ይህ ቀደም ሲል የተመዘገቡ 2FA ዘዴዎችን ይተካል"
+
+#: 
+msgid "Total Campaigns"
+msgstr "ጠቅላላ ዘመቻዎች"
+
+#: 
+msgid "Total Subscribers"
+msgstr "ጠቅላላ ምዝጋቢዎች"
+
+#: 
+msgid "Two Factor Enrollment Error"
+msgstr "ሁለት-ምክንያት ምዝገባ ስህተት"
+
+#: 
+msgid "Two-factor authentication has been disabled"
+msgstr "ሁለት-ምክንያት ማረጋገጥ ተሰናክሏል"
+
+#: 
+msgid "Two-factor authentication is one of the best ways to protect your account. We strongly recommend keeping it enabled."
+msgstr "ሁለት-ምክንያት ማረጋገጥ ሂሳብዎን ለመጠበቅ ከሚሻሉ መንገዶች አንዱ ነው። ነቅቶ እንዲቆይ ጠንካራ ምክር ይሰጣሉ።"
+
+#: 
+msgid "URL to your OpenLP server (e.g., http://192.168.1.100:4316)"
+msgstr "ወደ OpenLP አገልጋዩ URL (ለምሳሌ http://192.168.1.100:4316)"
+
+#: 
+msgid "Unable to load"
+msgstr "መጫን አልቻለም"
+
+#: 
+msgid "Unsubscribed"
+msgstr "ምዝገባ ተሰርዟል"
+
+#: 
+msgid "Use a different account"
+msgstr "ሌላ ሂሳብ ተጠቀም"
+
+#: 
+msgid "Value is configured"
+msgstr "ዋጋ ተዋቅሯል"
+
+#: 
+msgid "Value is set - leave blank to keep current"
+msgstr "ዋጋ ተቀናብሯል - አሁን ያለውን ለማቆየት ባዶ ትቱ"
+
+#: 
+msgid "Verify & Sign In"
+msgstr "አረጋጋ እና ግባ"
+
+#: 
+msgid "Verify Code"
+msgstr "ኮድ አረጋጋ"
+
+#: 
+msgid "Verifying"
+msgstr "እያረጋገጠ"
+
+#: 
+msgid "Vonage API Key"
+msgstr "የ Vonage API ቁልፍ"
+
+#: 
+msgid "Vonage API Secret"
+msgstr "የ Vonage API ምስጢር"
+
+#: 
+msgid "WebDAV Configuration"
+msgstr "የ WebDAV ውቅር"
+
+#: 
+msgid "WebDAV Connection"
+msgstr "የ WebDAV ግንኙነት"
+
+#: 
+msgid "WebDAV backups are not correctly configured. Please ensure endpoint, username, and password are set."
+msgstr "WebDAV ምትኬዎች በትክክል አልተዋቀሩም። የጫፍ፣ ስምና ፓስወርድ መቀናበሩን ያረጋግጡ።"
+
+#: 
+msgid "WebDAV endpoint URL is required."
+msgstr "የ WebDAV ጫፍ URL ያስፈልጋል።"
+
+#: 
+msgid "WebDAV password is required."
+msgstr "የ WebDAV ፓስወርድ ያስፈልጋል።"
+
+#: 
+msgid "WebDAV username is required."
+msgstr "የ WebDAV ስም ያስፈልጋል።"
+
+#: 
+msgid "You can also use backup recovery codes if you lose access to your app"
+msgstr "ትግበራዎን ካጡ ምትኬ ማስተካከያ ኮዶችንም መጠቀም ይችላሉ"
+
+#: 
+msgid "You can now use your authenticator app to sign in. Each code is valid for 30 seconds."
+msgstr "አሁን ማረጋገጫ ትግበራዎን ለመግባት መጠቀም ይችላሉ። እያንዳንዱ ኮድ ለ 30 ሰኮንዶች ትክክለኛ ነው።"
+
+#: 
+msgid "You'll receive backup codes that can be used if you lose access to your app"
+msgstr "ትግበራዎን ካጡ ሊጠቀሙዋቸው የሚችሉ ምትኬ ኮዶችን ይቀበላሉ"
+
+#: 
+msgid "Your GA4 Measurement ID (G-XXXXXXXXXX)"
+msgstr "የ GA4 መለኪያ IDዎ (G-XXXXXXXXXX)"
+
+#: 
+msgid "Your MailChimp account does not have any audiences (lists) configured."
+msgstr "የ MailChimp ሂሳብዎ ምንም ተደራሲዎች (ዝርዝሮች) ተዋቅሯቸው የሉም።"
+
+#: 
+msgid "Your account is now protected"
+msgstr "ሂሳብዎ አሁን ተጠብቋል"
+
+#: 
+msgid "Your account is protected"
+msgstr "ሂሳብዎ ተጠብቋል"
+
+#: 
+msgid "Your authenticator app has been successfully enrolled"
+msgstr "ማረጋገጫ ትግበራዎ በተሳካ ሁኔታ ተመዝግቧል"
+
+#: 
+msgid "Your browser language preference differs from your ChurchCRM locale"
+msgstr "የአሳሽ ቋንቋ ምርጫዎ ከ ChurchCRM አካባቢዎ ይለያሉ"
+
+#: 
+msgid "e.g., Church Website"
+msgstr "ለምሳሌ የቤተ ክርስቲያን ድርታ"
+
+#: 
+msgid "manifest."
+msgstr "ዝርዝር።"
+
+#: 
+msgid "subscribers"
+msgstr "ምዝጋቢዎች"
+
+#: 
+msgid "API Key is required."
+msgstr "API ቁልፍ ያስፈልጋል።"
+
+#: 
+msgid "Cannot connect to OpenLP at %s. Check the server URL and that OpenLP is running."
+msgstr "ወደ OpenLP በ %s ሊገናኝ አልቻለም። የአገልጋዩ URL እና OpenLP እየሄደ እንደሆነ ያረጋግጡ።"
+
+#: 
+msgid "Cannot connect to OpenLP at %s. Server returned HTTP %d."
+msgstr "ወደ OpenLP በ %s ሊገናኝ አልቻለም። አገልጋዩ HTTP %d ተመለሰ።"
+
+#: 
+msgid "Congregation Map"
+msgstr "የምዕመናን ካርታ"
+
+#: 
+msgid "Congregation Map — Setup Required"
+msgstr "የምዕመናን ካርታ — ውቅር ያስፈልጋል"
+
+#: 
+msgid "Connected to MailChimp! Account: %s (%d subscribers)"
+msgstr "ወደ MailChimp ተገናኝቷል! ሂሳብ: %s (%d ምዝጋቢዎች)"
+
+#: 
+msgid "Connected to OpenLP server successfully."
+msgstr "ወደ OpenLP አገልጋይ በተሳካ ሁኔታ ተገናኝቷል።"
+
+#: 
+msgid "Connected to OpenLP! Version: %s"
+msgstr "ወደ OpenLP ተገናኝቷል! ስሪት: %s"
+
+#: 
+msgid "Connected! Account balance: €%.2f. Ready to send SMS."
+msgstr "ተገናኝቷል! የሂሳብ ቀሪ: €%.2f. SMS ለመላክ ዝግጁ ነው።"
+
+#: 
+msgid "Could not connect to MailChimp. Please check your API key."
+msgstr "ወደ MailChimp ሊገናኝ አልቻለም። API ቁልፍዎን ያረጋግጡ።"
+
+#: 
+msgid "Failed to connect to OpenLP server."
+msgstr "ወደ OpenLP አገልጋይ ሊገናኝ አልቻለም።"
+
+#: 
+msgid "Get Directions"
+msgstr "ዓቅጣጫ ያግኙ"
+
+#: 
+msgid "Include country code, e.g. +14155551234 (US) or +447911123456 (UK)"
+msgstr "የሀገር ኮድ ያካትቱ፣ ለምሳሌ +14155551234 (አሜሪካ) ወይም +447911123456 (ዩኬ)"
+
+#: 
+msgid "Invalid \"From Number\": \"%s\". Include the country code, e.g. +14155551234 (US) or +447911123456 (UK)."
+msgstr "ልክ ያልሆነ \"ከቁጥር\": \"%s\"። የሀገር ኮድ ያካትቱ፣ ለምሳሌ +14155551234 (አሜሪካ) ወይም +447911123456 (ዩኬ)።"
+
+#: 
+msgid "Invalid API credentials. Please verify your API Key and API Secret."
+msgstr "ልክ ያልሆኑ API ማስረጃዎች። API ቁልፍዎና API ምስጢሩን ያረጋግጡ።"
+
+#: 
+msgid "Invalid API key format. Check your MailChimp API key."
+msgstr "ልክ ያልሆነ API ቁልፍ ቅርፀት። የ MailChimp API ቁልፍዎን ያረጋግጡ።"
+
+#: 
+msgid "Invalid endpoint URL. Must be a full URL starting with https://"
+msgstr "ልክ ያልሆነ የጫፍ URL። ከ https:// ጋር የሚጀምር ሙሉ URL መሆን አለበት"
+
+#: 
+msgid "Invalid server URL format."
+msgstr "ልክ ያልሆነ የአገልጋይ URL ቅርፀት።"
+
+#: 
+msgid "MailChimp connection failed."
+msgstr "ወደ MailChimp ሊገናኝ አልቻለም።"
+
+#: 
+msgid "Map Zoom Level"
+msgstr "የካርታ ዞም ደረጃ"
+
+#: 
+msgid "Missing families? Update coordinates to include them on the map."
+msgstr "ቤተሰቦች ይጎድሉ? ወደ ካርታ ለማካተት መናጋሪያ ያዘምኑ።"
+
+#: 
+msgid "Missing required settings: %s"
+msgstr "ያስፈልጉ ቅንብሮች ይጎድሉ: %s"
+
+#: 
+msgid "Person has no family"
+msgstr "ሰው ቤተሰብ የለውም"
+
+#: 
+msgid "Plugin not found or not active"
+msgstr "ፕለጊን አልተገኘም ወይም አልነቃም"
+
+#: 
+msgid "Server URL is required."
+msgstr "የአገልጋይ URL ያስፈልጋል።"
+
+#: 
+msgid "This plugin does not support connection testing."
+msgstr "ይህ ፕለጊን የግንኙነት ፈተናን አይደግፍም።"
+
+#: 
+msgid "Unable to display map: church address has not been geocoded yet."
+msgstr "ካርታ ማሳየት አልተቻለም: የቤተ ክርስቲያን አድራሻ እስካሁን አልተቀናበረም።"
+
+#: 
+msgid "Update church address in Settings."
+msgstr "የቤተ ክርስቲያን አድራሻ በቅንብሮች ያዘምኑ።"
+
+#: 
+msgid "Username and password are required."
+msgstr "ስምና ፓስወርድ ያስፈልጋሉ።"
+
+#: 
+msgid "Validation failed: %s"
+msgstr "ማረጋገጥ አልተሳካም: %s"
+
+#: 
+msgid "Vonage server error. Please try again later."
+msgstr "የ Vonage አገልጋይ ስህተት። ቆየት ብለው እንደገና ሞክሩ።"
+
+#: 
+msgid "WebDAV Endpoint URL is required."
+msgstr "የ WebDAV ጫፍ URL ያስፈልጋል።"
+
+#: 
+msgid "Are you sure you want to permanently delete this pledge record?"
+msgstr "ይህን ቃል ኪዳን ሪኮርድ ለዘለዓለም ሊሰርዙ ይፈልጋሉ?"
+
+#: 
+msgid "Cancel and Return to Family View"
+msgstr "ሰርዝ እና ወደ ቤተሰብ ዕይታ ተመለስ"
+
+#: 
+msgid "If you delete this type, you will also remove all properties using it and lose any corresponding property assignments."
+msgstr "ይህን ዓይነት ከሰረዙ ሁሉንም ባሕሪዎቹን ያስወግዳሉ እና ሁሉም ተዛማጅ ባሕሪ ምደቦች ይጠፋሉ።"
+
+#: 
+msgid "Move Donations to Selected Family"
+msgstr "ቁርባን ወደ ተመረጠው ቤተሰብ ቀይር"
 
