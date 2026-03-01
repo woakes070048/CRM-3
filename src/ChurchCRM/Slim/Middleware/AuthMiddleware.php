@@ -80,12 +80,10 @@ class AuthMiddleware implements MiddlewareInterface
 
     private function isPath(ServerRequestInterface $request, string $pathPart): bool
     {
+        // explode produces an empty string at index 0 for paths starting with '/',
+        // so use in_array to check if the segment exists anywhere in the path
         $pathAry = explode('/', $request->getUri()->getPath());
-        if ($pathAry[0] === $pathPart) {
-            return true;
-        }
-
-        return false;
+        return in_array($pathPart, $pathAry, true);
     }
 
     /**
