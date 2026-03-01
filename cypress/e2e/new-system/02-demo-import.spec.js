@@ -168,9 +168,11 @@ describe('02 - Demo Data Import', () => {
                 timeout: 30000
             }).then((response) => {
                 expect(response.status).to.equal(200);
-                expect(response.body).to.be.an('array');
-                expect(response.body.length).to.be.greaterThan(0);
-                cy.log(`Found ${response.body.length} deposit(s)`);
+                // /api/deposits returns { Deposits: [...] } (Propel collection format)
+                expect(response.body).to.have.property('Deposits');
+                expect(response.body.Deposits).to.be.an('array');
+                expect(response.body.Deposits.length).to.be.greaterThan(0);
+                cy.log(`Found ${response.body.Deposits.length} deposit(s)`);
             });
         });
 
@@ -181,25 +183,41 @@ describe('02 - Demo Data Import', () => {
                 timeout: 30000
             }).then((response) => {
                 expect(response.status).to.equal(200);
-                expect(response.body).to.be.an('array');
+                // /api/deposits returns { Deposits: [...] } (Propel collection format)
+                expect(response.body).to.have.property('Deposits');
+                expect(response.body.Deposits).to.be.an('array');
 
                 // Closed is stored as bool (false = open, true = closed)
-                const openDeposits = response.body.filter(d => !d.Closed);
+                const openDeposits = response.body.Deposits.filter(d => !d.Closed);
                 expect(openDeposits.length).to.be.greaterThan(0);
-                cy.log(`Found ${openDeposits.length} open deposit(s) out of ${response.body.length} total`);
+                cy.log(`Found ${openDeposits.length} open deposit(s) out of ${response.body.Deposits.length} total`);
             });
         });
 
         it('should have payments in the system after demo import', () => {
+            // Use /api/deposits/{id}/pledges instead of /api/payments/ because the
+            // payments endpoint filters by user ShowPayments setting (off by default)
             cy.request({
                 method: 'GET',
-                url: '/api/payments/',
+                url: '/api/deposits',
                 timeout: 30000
             }).then((response) => {
                 expect(response.status).to.equal(200);
-                expect(response.body).to.have.property('payments');
-                expect(response.body.payments.length).to.be.greaterThan(0);
-                cy.log(`Found ${response.body.payments.length} payment(s)`);
+                expect(response.body).to.have.property('Deposits');
+                const deposits = response.body.Deposits;
+                expect(deposits.length).to.be.greaterThan(0);
+
+                const depositId = deposits[0].Id;
+                return cy.request({
+                    method: 'GET',
+                    url: `/api/deposits/${depositId}/pledges`,
+                    timeout: 30000
+                });
+            }).then((pledgesResponse) => {
+                expect(pledgesResponse.status).to.equal(200);
+                expect(pledgesResponse.body).to.be.an('array');
+                expect(pledgesResponse.body.length).to.be.greaterThan(0);
+                cy.log(`Found ${pledgesResponse.body.length} payment(s) in deposit`);
             });
         });
 
