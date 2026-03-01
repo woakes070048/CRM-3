@@ -104,12 +104,12 @@ describe('03 - Backup and Restore', () => {
         it('should restore seed.sql file', () => {
             cy.visit('/admin/system/restore');
             
-            // The demo SQL file path (relative to cypress project root)
-            const demoSqlPath = 'cypress/data/seed.sql';
+            // The seed SQL file path (relative to cypress project root)
+            const seedSqlPath = 'cypress/data/seed.sql';
             
             // Use cy.selectFile to upload the file
             // The file input is hidden, so we need to force the action
-            cy.get('#restoreFile').selectFile(demoSqlPath, { force: true });
+            cy.get('#restoreFile').selectFile(seedSqlPath, { force: true });
             
             // File info should show
             cy.get('#fileInfo').should('be.visible');
