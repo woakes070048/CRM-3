@@ -35,5 +35,33 @@ Best practices
 - Keep secrets out of repo; use `cypress.env.json` or CI environment variables.
 - Ensure `cypress/videos/`, `cypress/screenshots/`, and `cypress/downloads/` are in `.gitignore`.
 
+Local setup (recommended)
+- Create a `cypress.env.json` in your local checkout (gitignored) to store non-secret test values:
+
+```json
+{
+  "admin.api.key": "REPLACE_ME",
+  "user.api.key": "REPLACE_ME",
+  "nofinance.api.key": "REPLACE_ME"
+}
+```
+
+- Override `baseUrl` for local runs by setting the `CYPRESS_BASE_URL` environment variable or by passing `--config` on the CLI. Examples:
+
+```bash
+# temporary override via env var
+CYPRESS_BASE_URL=http://localhost:8080 npm run test
+
+# or pass via CLI (explicit config-file)
+npx cypress run --config baseUrl=http://localhost:8080 --config-file cypress/configs/docker.config.ts
+```
+
+- Common developer commands:
+  - `npm run test` — run headless using the canonical Docker/CI config (good for quick verification)
+  - `npm run test:ui` — open the Cypress interactive runner (local debugging)
+  - `npm run cypress:open` / `npm run cypress:run` — shorthand for the canonical `cypress.config.ts` usage
+
+- Security: ensure `cypress.env.json` is added to your `.gitignore` and never committed.
+
 Contact
 If you need help migrating or reorganizing tests, open an issue or contact the QA maintainer.
