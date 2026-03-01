@@ -8,6 +8,8 @@ on:
       - 'src/api/routes/**'
       - 'src/admin/routes/api/**'
       - 'src/api/openapi/**'
+      - 'src/kiosk/routes/api/**'
+      - 'src/plugins/routes/api/**'
 
 jobs:
   generate-and-publish:
