@@ -136,7 +136,7 @@ ddev mysql                        # MySQL prompt (database: db, user: db, passwo
 ddev logs                         # Tail web server logs
 ddev exec npm run build:frontend  # Rebuild JS/CSS inside the container
 ddev exec npm run build:php       # Update Composer dependencies
-ddev import-db --file=demo/ChurchCRM-Database.sql  # Reset demo database
+ddev import-db --file=cypress/data/seed.sql  # Reset demo database
 ```
 
 #### DDEV Troubleshooting
@@ -147,7 +147,7 @@ ddev import-db --file=demo/ChurchCRM-Database.sql  # Reset demo database
 | Port 80/443 in use | DDEV uses its own router; conflicts are rare. Run `ddev poweroff && ddev start` |
 | Config.php not created | Run `ddev exec cp /var/www/html/.ddev/Config.ddev.php /var/www/html/src/Include/Config.php` |
 | Blank page / 500 error | Check logs: `ddev logs` or `ddev exec cat /var/www/html/src/logs/$(date +%Y-%m-%d)-php.log` |
-| Database empty | Re-import: `ddev import-db --file=demo/ChurchCRM-Database.sql` |
+| Database empty | Re-import: `ddev import-db --file=cypress/data/seed.sql` |
 | Node packages missing | Run `ddev setup-churchcrm` |
 | Composer packages missing | Run `ddev exec 'cd /var/www/html/src && composer install --no-dev'` |
 

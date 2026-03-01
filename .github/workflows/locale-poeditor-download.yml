@@ -90,15 +90,10 @@ jobs:
         fi
         echo "✅ POEditor token is configured"
 
-    - name: Create BuildConfig file
-      if: inputs.operation_mode != 'audit-only'
-      uses: jsdaniell/create-json@v1.2.3
-      with:
-        name: "BuildConfig.json"
-        json: '{"POEditor": { "id": "77079", "token": "${{ secrets.POEDITOR_TOKEN }}"}}'
-      
     - name: Download locales from POEditor
       if: inputs.operation_mode != 'audit-only'
+      env:
+        POEDITOR_TOKEN: ${{ secrets.POEDITOR_TOKEN }}
       run: |
         set -e  # Exit on any command failure
         echo "🌍 Downloading locales from POEditor..."

@@ -215,7 +215,7 @@ $buttonLabel = gettext('Add New Fund');
 | `cypress/e2e/api/` | API test suites |
 | `cypress/e2e/ui/` | UI test suites |
 | `docker/` | Docker Compose configs |
-| `demo/ChurchCRM-Database.sql` | Demo database dump - **NEVER edit manually** (auto-generated) |
+| `cypress/data/seed.sql` | Demo database dump - **NEVER edit manually** (auto-generated) |
 
 ## Development Best Practices
 

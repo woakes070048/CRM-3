@@ -7,7 +7,7 @@ services:
     env_file:
       - .env
     volumes:
-      - ../demo:/docker-entrypoint-initdb.d
+      - ../cypress/data:/docker-entrypoint-initdb.d
     hostname: crm-database
     healthcheck:
       test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]

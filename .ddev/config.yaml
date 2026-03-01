@@ -31,4 +31,4 @@ hooks:
     # Install PHP (Composer) dependencies if not already present
     - exec: "[ -f /var/www/html/src/vendor/autoload.php ] || (cd /var/www/html/src && composer install --no-dev --no-interaction)"
     # Import demo database on first start (when the database has no tables yet)
-    - exec: "mysql -udb -pdb -hdb db -e 'SHOW TABLES' | grep -q . && echo 'Database already populated.' || (echo 'Importing ChurchCRM demo database...' && mysql -udb -pdb -hdb db < /var/www/html/demo/ChurchCRM-Database.sql && echo 'Demo database imported.')"
+    - exec: "mysql -udb -pdb -hdb db -e 'SHOW TABLES' | grep -q . && echo 'Database already populated.' || (echo 'Importing ChurchCRM demo database...' && mysql -udb -pdb -hdb db < /var/www/html/cypress/data/seed.sql && echo 'Demo database imported.')"
