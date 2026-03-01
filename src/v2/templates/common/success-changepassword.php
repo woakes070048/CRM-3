@@ -2,6 +2,7 @@
 
 use ChurchCRM\dto\SystemURLs;
 
+$isForced = $isForced ?? false;
 $sPageTitle = gettext("Change Password") . ": " . $user->getFullName();
 if ($isForced) {
     require SystemURLs::getDocumentRoot() . '/Include/HeaderNotLoggedIn.php';
@@ -35,10 +36,10 @@ if ($isForced) {
     <div class="col-md-6">
         <div class="card card-success">
             <div class="card-header">
-                <h3 class="card-title"><?= gettext('Password Changed Successfully') ?></h3>
+                <h3 class="card-title"><?= sprintf(gettext('Password for %s Changed Successfully'), $user->getFullName()) ?></h3>
             </div>
             <div class="card-body">
-                <p><?= gettext('Your password has been updated.') ?></p>
+                <p><?= sprintf(gettext('The password for %s has been updated.'), $user->getFullName()) ?></p>
                 <a href="<?= SystemURLs::getRootPath() ?>/v2/dashboard" class="btn btn-success"><?= gettext('Go to Dashboard') ?></a>
             </div>
         </div>

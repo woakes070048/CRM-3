@@ -28,18 +28,18 @@ if ($isForced) {
             <form method="post" action="<?= SystemURLs::getRootPath() ?>/v2/user/current/changepassword" id="passwordChangeForm">
                 <?= CSRFUtils::getTokenInputField('user_change_password') ?>
                 <div class="input-group mb-3">
-                    <input type="password" name="OldPassword" id="OldPassword" class="form-control" placeholder="<?= gettext('Current Password') ?>" value="<?= $sOldPassword ?? '' ?>" autofocus>
+                    <input type="password" name="OldPassword" id="OldPassword" class="form-control" placeholder="<?= gettext('Current Password') ?>" autofocus>
                     <div class="input-group-append"><div class="input-group-text"><i class="fa fa-lock"></i></div></div>
                     <?php if (!empty($sOldPasswordError ?? '')): ?>
                         <span class="form-field-error"><?= $sOldPasswordError ?></span>
                     <?php endif; ?>
                 </div>
                 <div class="input-group mb-3">
-                    <input type="password" name="NewPassword1" id="NewPassword1" class="form-control" placeholder="<?= gettext('New Password') ?>" value="<?= $sNewPassword1 ?? '' ?>">
+                    <input type="password" name="NewPassword1" id="NewPassword1" class="form-control" placeholder="<?= gettext('New Password') ?>">
                     <div class="input-group-append"><div class="input-group-text"><i class="fa fa-key"></i></div></div>
                 </div>
                 <div class="input-group mb-3">
-                    <input type="password" name="NewPassword2" id="NewPassword2" class="form-control" placeholder="<?= gettext('Confirm New Password') ?>" value="<?= $sNewPassword2 ?? '' ?>">
+                    <input type="password" name="NewPassword2" id="NewPassword2" class="form-control" placeholder="<?= gettext('Confirm New Password') ?>">
                     <div class="input-group-append"><div class="input-group-text"><i class="fa fa-key"></i></div></div>
                     <?php if (!empty($sNewPasswordError ?? '')): ?>
                         <span class="form-field-error"><?= $sNewPasswordError ?></span>
@@ -68,15 +68,15 @@ if ($isForced) {
                 <div class="card-body">
                     <div class="form-group">
                         <label for="OldPassword"><?= gettext('Old Password') ?>:</label>
-                        <input type="password" name="OldPassword" id="OldPassword" class="form-control" value="<?= $sOldPassword ?? '' ?>" autofocus><span id="oldPasswordError" class="form-field-error"><?= $sOldPasswordError ?? '' ?></span>
+                        <input type="password" name="OldPassword" id="OldPassword" class="form-control" autofocus><span id="oldPasswordError" class="form-field-error"><?= $sOldPasswordError ?? '' ?></span>
                     </div>
                     <div class="form-group">
                             <label for="NewPassword1"><?= gettext('New Password') ?>:</label>
-                        <input type="password" name="NewPassword1" id="NewPassword1" class="form-control" value="<?= $sNewPassword1 ?? '' ?>">
+                        <input type="password" name="NewPassword1" id="NewPassword1" class="form-control">
                     </div>
                     <div class="form-group">
                         <label for="NewPassword2"><?= gettext('Confirm New Password') ?>:</label>
-                        <input type="password" name="NewPassword2" id="NewPassword2"  class="form-control" value="<?= $sNewPassword2 ?? '' ?>"><span id="NewPasswordError" class="form-field-error"><?= $sNewPasswordError ?? '' ?></span>
+                        <input type="password" name="NewPassword2" id="NewPassword2"  class="form-control"><span id="NewPasswordError" class="form-field-error"><?= $sNewPasswordError ?? '' ?></span>
                     </div>
                 </div>
 

@@ -48,9 +48,13 @@ class AuthMiddleware implements MiddlewareInterface
                 // since /background operations do not connotate user activity.
 
                 // User with an active browser session is still authenticated.
-                // For browser requests, enforce any required redirect steps (e.g. forced password change).
-                if ($this->isBrowserRequest($request)) {
-                    AuthenticationManager::ensureAuthentication();
+                // For browser requests (non-background), enforce any required redirect steps (e.g. forced password change).
+                // Use a PSR-15 response redirect rather than calling ensureAuthentication() which exits via header().
+                if ($this->isBrowserRequest($request) && !$this->isPath($request, 'background')) {
+                    $result = AuthenticationManager::getAuthenticationProvider()->validateUserSessionIsActive(true);
+                    if ($result->nextStepURL !== null) {
+                        return (new Response())->withStatus(302)->withHeader('Location', $result->nextStepURL);
+                    }
                 }
             } else {
                 $logger = LoggerUtils::getAppLogger();
