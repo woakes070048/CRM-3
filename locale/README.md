@@ -35,18 +35,22 @@ ChurchCRM uses [POEditor](https://poeditor.com) as the primary translation manag
 
 ### Setup Requirements
 
-1. **POEditor Project Configuration**
-   - Project ID and API token must be configured in `BuildConfig.json`
-   - See `BuildConfig.json.example` for structure
+1. **Environment Configuration**
+   - Copy `.env.example` to `.env` (or `.env.local` for local-only overrides)
+   - Set `POEDITOR_TOKEN` from your POEditor API access (https://poeditor.com/account/api)
+   - Database credentials default to `localhost/churchcrm/changeme` (works for both local dev and Docker)
 
-2. **BuildConfig.json Structure**
-   ```json
-   {
-     "POEditor": {
-       "id": "YOUR_PROJECT_ID",
-       "token": "YOUR_API_TOKEN"
-     }
-   }
+2. **.env Configuration**
+   ```bash
+   # Database (optional - defaults shown)
+   DB_HOST=localhost
+   DB_PORT=3306
+   DB_NAME=churchcrm
+   DB_USER=churchcrm
+   DB_PASSWORD=changeme
+   
+   # POEditor (required for locale:download)
+   POEDITOR_TOKEN=your_api_token_here
    ```
 
 ### POEditor Workflow
@@ -232,9 +236,9 @@ The system generates several runtime files:
    - Verify Gettext files exist in `textdomain/`
 
 2. **POEditor Sync Failures**
-   - Verify `BuildConfig.json` has correct API credentials
+   - Verify `POEDITOR_TOKEN` is set in `.env` file
    - Check network connectivity to POEditor API
-   - Ensure project ID matches your POEditor project
+   - Ensure token has proper POEditor API permissions
 
 3. **Term Extraction Errors**
    - Ensure `xgettext` is installed on system
