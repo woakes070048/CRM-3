@@ -3731,6 +3731,405 @@ paths:
       security:
         -
           ApiKeyAuth: []
+  /kiosk/api/devices:
+    get:
+      tags:
+        - Kiosk
+      summary: 'List all kiosk devices'
+      operationId: getKioskDevices
+      responses:
+        '200':
+          description: 'Kiosk device list'
+          content:
+            application/json:
+              schema:
+                properties:
+                  KioskDevices: { type: array, items: { properties: { Id: { type: integer }, Name: { type: string }, Accepted: { type: boolean } }, type: object } }
+                type: object
+        '401':
+          description: Unauthorized
+        '403':
+          description: 'Forbidden — Admin role required'
+      security:
+        -
+          ApiKeyAuth: []
+  /kiosk/api/allowRegistration:
+    post:
+      tags:
+        - Kiosk
+      summary: 'Open a 30-second kiosk registration window'
+      description: 'Allows a new kiosk device to register itself within the next 30 seconds.'
+      operationId: allowKioskRegistration
+      responses:
+        '200':
+          description: 'Registration window opened'
+          content:
+            application/json:
+              schema:
+                properties:
+                  visibleUntil: { type: string, format: date-time }
+                type: object
+        '401':
+          description: Unauthorized
+        '403':
+          description: 'Forbidden — Admin role required'
+      security:
+        -
+          ApiKeyAuth: []
+  '/kiosk/api/devices/{kioskId}/reload':
+    post:
+      tags:
+        - Kiosk
+      summary: 'Reload a kiosk device'
+      operationId: reloadKiosk
+      parameters:
+        -
+          name: kioskId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: 'Kiosk reload triggered'
+        '401':
+          description: Unauthorized
+        '403':
+          description: 'Forbidden — Admin role required'
+        '404':
+          description: 'Kiosk not found'
+      security:
+        -
+          ApiKeyAuth: []
+  '/kiosk/api/devices/{kioskId}/identify':
+    post:
+      tags:
+        - Kiosk
+      summary: 'Trigger identification signal on a kiosk device'
+      operationId: identifyKiosk
+      parameters:
+        -
+          name: kioskId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: 'Identification triggered'
+        '401':
+          description: Unauthorized
+        '403':
+          description: 'Forbidden — Admin role required'
+        '404':
+          description: 'Kiosk not found'
+      security:
+        -
+          ApiKeyAuth: []
+  '/kiosk/api/devices/{kioskId}/accept':
+    post:
+      tags:
+        - Kiosk
+      summary: 'Accept a pending kiosk device'
+      operationId: acceptKiosk
+      parameters:
+        -
+          name: kioskId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: 'Kiosk accepted'
+        '401':
+          description: Unauthorized
+        '403':
+          description: 'Forbidden — Admin role required'
+        '404':
+          description: 'Kiosk not found'
+      security:
+        -
+          ApiKeyAuth: []
+  '/kiosk/api/devices/{kioskId}/assignment':
+    post:
+      tags:
+        - Kiosk
+      summary: 'Set kiosk event assignment'
+      operationId: setKioskAssignment
+      parameters:
+        -
+          name: kioskId
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              properties:
+                assignmentType:
+                  description: 'Assignment type ID'
+                  type: integer
+                eventId:
+                  description: 'Event ID to assign (null to unassign)'
+                  type: integer
+                  nullable: true
+              type: object
+      responses:
+        '200':
+          description: 'Assignment updated'
+        '400':
+          description: 'Invalid assignment type'
+        '401':
+          description: Unauthorized
+        '403':
+          description: 'Forbidden — Admin role required'
+        '404':
+          description: 'Kiosk not found'
+      security:
+        -
+          ApiKeyAuth: []
+  '/kiosk/api/devices/{kioskId}':
+    delete:
+      tags:
+        - Kiosk
+      summary: 'Delete a kiosk device'
+      operationId: deleteKiosk
+      parameters:
+        -
+          name: kioskId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: 'Kiosk deleted'
+        '401':
+          description: Unauthorized
+        '403':
+          description: 'Forbidden — Admin role required'
+        '404':
+          description: 'Kiosk not found'
+        '500':
+          description: 'Error deleting kiosk'
+      security:
+        -
+          ApiKeyAuth: []
+  /plugins/api/plugins:
+    get:
+      tags:
+        - Plugins
+      summary: 'List all available plugins'
+      operationId: listPlugins
+      responses:
+        '200':
+          description: 'Plugin list'
+          content:
+            application/json:
+              schema:
+                properties:
+                  success: { type: boolean }
+                  data: { type: array, items: { type: object } }
+                type: object
+        '401':
+          description: Unauthorized
+        '403':
+          description: 'Forbidden — Admin role required'
+        '500':
+          description: 'Error listing plugins'
+      security:
+        -
+          ApiKeyAuth: []
+  '/plugins/api/plugins/{pluginId}':
+    get:
+      tags:
+        - Plugins
+      summary: 'Get plugin details'
+      operationId: getPlugin
+      parameters:
+        -
+          name: pluginId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'Plugin details'
+          content:
+            application/json:
+              schema:
+                properties:
+                  success: { type: boolean }
+                  data: { properties: { metadata: { type: object }, isActive: { type: boolean }, isConfigured: { type: boolean } }, type: object }
+                type: object
+        '401':
+          description: Unauthorized
+        '403':
+          description: 'Forbidden — Admin role required'
+        '404':
+          description: 'Plugin not found'
+      security:
+        -
+          ApiKeyAuth: []
+  '/plugins/api/plugins/{pluginId}/enable':
+    post:
+      tags:
+        - Plugins
+      summary: 'Enable a plugin'
+      operationId: enablePlugin
+      parameters:
+        -
+          name: pluginId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'Plugin enabled'
+        '400':
+          description: 'Plugin cannot be enabled (dependency or version issue)'
+        '401':
+          description: Unauthorized
+        '403':
+          description: 'Forbidden — Admin role required'
+        '500':
+          description: 'Error enabling plugin'
+      security:
+        -
+          ApiKeyAuth: []
+  '/plugins/api/plugins/{pluginId}/disable':
+    post:
+      tags:
+        - Plugins
+      summary: 'Disable a plugin'
+      operationId: disablePlugin
+      parameters:
+        -
+          name: pluginId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'Plugin disabled'
+        '400':
+          description: 'Plugin cannot be disabled (other plugins depend on it)'
+        '401':
+          description: Unauthorized
+        '403':
+          description: 'Forbidden — Admin role required'
+        '500':
+          description: 'Error disabling plugin'
+      security:
+        -
+          ApiKeyAuth: []
+  '/plugins/api/plugins/{pluginId}/settings':
+    post:
+      tags:
+        - Plugins
+      summary: 'Update plugin settings'
+      operationId: updatePluginSettings
+      parameters:
+        -
+          name: pluginId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              properties:
+                settings:
+                  description: 'Key-value map of settings to update'
+                  type: object
+              type: object
+      responses:
+        '200':
+          description: 'Settings updated'
+        '400':
+          description: 'No settings provided or plugin not found'
+        '401':
+          description: Unauthorized
+        '403':
+          description: 'Forbidden — Admin role required'
+        '404':
+          description: 'Plugin not found'
+      security:
+        -
+          ApiKeyAuth: []
+  '/plugins/api/plugins/{pluginId}/test':
+    post:
+      tags:
+        - Plugins
+      summary: 'Test plugin connection with provided settings'
+      description: 'Password fields may be omitted — the plugin falls back to its saved value.'
+      operationId: testPluginConnection
+      parameters:
+        -
+          name: pluginId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              properties:
+                settings:
+                  description: 'Settings to test with (partial override)'
+                  type: object
+              type: object
+      responses:
+        '200':
+          description: 'Connection successful'
+        '400':
+          description: 'Connection test failed'
+        '401':
+          description: Unauthorized
+        '403':
+          description: 'Forbidden — Admin role required'
+        '404':
+          description: 'Plugin not found or not active'
+      security:
+        -
+          ApiKeyAuth: []
+  '/plugins/api/plugins/{pluginId}/reset':
+    post:
+      tags:
+        - Plugins
+      summary: 'Reset all settings for a plugin'
+      operationId: resetPluginSettings
+      parameters:
+        -
+          name: pluginId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 'Settings reset'
+        '401':
+          description: Unauthorized
+        '403':
+          description: 'Forbidden — Admin role required'
+        '404':
+          description: 'Plugin not found'
+      security:
+        -
+          ApiKeyAuth: []
 components:
   securitySchemes:
     ApiKeyAuth:
@@ -3778,3 +4177,9 @@ tags:
   -
     name: Map
     description: 'Geographic map data'
+  -
+    name: Kiosk
+    description: 'Kiosk device management (Admin role required)'
+  -
+    name: Plugins
+    description: 'Plugin management (Admin role required)'
