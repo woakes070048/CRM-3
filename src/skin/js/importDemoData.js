@@ -224,7 +224,7 @@
                 <div class="form-check mb-2">
                   <input type="checkbox" class="form-check-input" id="includeDemoFinancial" checked>
                   <label class="form-check-label" for="includeDemoFinancial">
-                    ${i18next.t("Include financial data (donation funds, pledges, deposits)")}
+                    ${i18next.t("Include financial data (donation funds, pledges)")}
                   </label>
                 </div>
                 <div class="form-check mb-2">

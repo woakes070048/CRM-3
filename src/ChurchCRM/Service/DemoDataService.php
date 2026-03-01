@@ -792,7 +792,7 @@ class DemoDataService
                 $fund = new DonationFund();
                 $fund->setName($name);
                 $fund->setDescription($fd['description'] ?? '');
-                $fund->setActive($fd['active'] ? 'true' : 'false');
+                $fund->setActive(isset($fd['active']) ? ($fd['active'] ? 'true' : 'false') : 'true');
                 $fund->setOrder((int)($fd['order'] ?? 1));
                 $fund->save();
                 $fundMap[$name] = $fund->getId();
@@ -856,7 +856,8 @@ class DemoDataService
                 if (!$year) {
                     continue;
                 }
-                $fyId = $year - 1996;
+                // Pledge date is Jan 1; compute FYID respecting the configured fiscal year start month.
+                $fyId = $this->computeFiscalYearId($year, 1);
 
                 foreach ($family['pledges'] ?? [] as $pd) {
                     $fundName = $pd['fund'] ?? '';
@@ -866,6 +867,14 @@ class DemoDataService
                         continue;
                     }
                     try {
+                        $groupKey = hash('sha256', implode('|', [
+                            $familyId,
+                            $fundId,
+                            $fyId,
+                            $year,
+                            $schedule,
+                            (float)$pd['annual'],
+                        ]));
                         $pledge = new Pledge();
                         $pledge->setFamId($familyId);
                         $pledge->setFundId($fundId);
@@ -875,7 +884,7 @@ class DemoDataService
                         $pledge->setSchedule($schedule);
                         $pledge->setMethod('CHECK');
                         $pledge->setNondeductible(0.00);
-                        $pledge->setGroupKey('');
+                        $pledge->setGroupKey($groupKey);
                         $pledge->setPledgeOrPayment('Pledge');
                         $pledge->save();
                         $this->importResult['imported']['pledges']++;
@@ -901,8 +910,8 @@ class DemoDataService
      */
     private function createDepositForMonth(array $givingFamilies, array $fundMap, int $year, int $month, bool $closed): void
     {
-        $fyId        = $year - 1996;
-        $monthName   = date('F', mktime(0, 0, 0, $month, 1, $year));
+        $fyId      = $this->computeFiscalYearId($year, $month);
+        $monthName = date('F', mktime(0, 0, 0, $month, 1, $year));
         $firstSunday = $this->firstSundayOfMonth($year, $month);
         $depositDate = sprintf('%04d-%02d-%02d', $year, $month, $firstSunday);
 
@@ -955,6 +964,9 @@ class DemoDataService
                 $payDate = $passedSundays[$sundayIndex];
             }
 
+            // All fund-split rows for the same family on the same date share one GroupKey.
+            $paymentGroupKey = hash('sha256', implode('|', ['payment', $familyId, $payDate]));
+
             foreach ($family['payments'] ?? [] as $pd) {
                 $fundName = $pd['fund'] ?? '';
                 $fundId   = $fundMap[$fundName] ?? null;
@@ -971,7 +983,7 @@ class DemoDataService
                     $payment->setDepId($deposit->getId());
                     $payment->setMethod('CHECK');
                     $payment->setNondeductible(0.00);
-                    $payment->setGroupKey('');
+                    $payment->setGroupKey($paymentGroupKey);
                     $payment->setPledgeOrPayment('Payment');
                     $payment->save();
                     $this->importResult['imported']['payments']++;
@@ -993,6 +1005,23 @@ class DemoDataService
             'annual'    => $month === $paymentMonth,
             default     => false,
         };
+    }
+
+    /**
+     * Compute the ChurchCRM fiscal year ID for a given calendar year and month,
+     * respecting the configured iFYMonth setting. Mirrors FiscalYearUtils logic.
+     *
+     * FYID = year − 1996, plus 1 when the given month is at or after the FY start
+     * month (and the FY does not start in January).
+     */
+    private function computeFiscalYearId(int $year, int $month): int
+    {
+        $fyMonth = (int) SystemConfig::getValue('iFYMonth');
+        $fyId    = $year - 1996;
+        if ($month >= $fyMonth && $fyMonth > 1) {
+            $fyId += 1;
+        }
+        return $fyId;
     }
 
     /**
