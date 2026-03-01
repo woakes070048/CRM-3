@@ -16,9 +16,7 @@ use Slim\Views\PhpRenderer;
 
 // Device routes - these are accessed by kiosk devices themselves (not admins)
 // They use kiosk cookie authentication, not user authentication
-// Access the kiosk helper function from global scope
-$app->group('/device', function (RouteCollectorProxy $group): void {
-    $getKioskFromCookie = $GLOBALS['getKioskFromCookie'] ?? function () { return null; };
+$app->group('/device', function (RouteCollectorProxy $group) use ($getKioskFromCookie): void {
     $group->get('', function (Request $request, Response $response) {
         $renderer = new PhpRenderer(__DIR__ . '/../templates/kioskDevices/');
         $pageObjects = ['sRootPath' => $_SESSION['sRootPath']];
@@ -232,17 +230,11 @@ $app->group('/device', function (RouteCollectorProxy $group): void {
         }
 
         // Check if any notification method is configured
-        $openLpEnabled = false;
         $openLpPlugin = PluginManager::getPlugin('openlp');
-        if ($openLpPlugin !== null && $openLpPlugin->isConfigured()) {
-            $openLpEnabled = method_exists($openLpPlugin, 'isEnabled') ? $openLpPlugin->isEnabled() : true;
-        }
+        $openLpEnabled = $openLpPlugin !== null && $openLpPlugin->isEnabled() && $openLpPlugin->isConfigured();
 
-        $smsEnabled = false;
         $vonagePlugin = PluginManager::getPlugin('vonage');
-        if ($vonagePlugin !== null && $vonagePlugin->isConfigured()) {
-            $smsEnabled = method_exists($vonagePlugin, 'isEnabled') ? $vonagePlugin->isEnabled() : true;
-        }
+        $smsEnabled = $vonagePlugin !== null && $vonagePlugin->isEnabled() && $vonagePlugin->isConfigured();
 
         $notificationsEnabled = SystemConfig::hasValidMailServerSettings() ||
                                 $smsEnabled ||
@@ -263,7 +255,7 @@ $app->group('/device', function (RouteCollectorProxy $group): void {
         return $response->withAddedHeader('Content-type', $photo->getPhotoContentType());
     });
 
-    $group->post('/checkin', function (Request $request, Response $response) use ($getKioskFromCookie): Response {
+    $group->post('/checkoutAll', function (Request $request, Response $response) use ($getKioskFromCookie): Response {
         $kiosk = $getKioskFromCookie();
         if ($kiosk === null) {
             return SlimUtils::renderErrorJSON($response, gettext('Kiosk device not found'), [], 401);
