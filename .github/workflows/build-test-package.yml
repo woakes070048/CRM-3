@@ -119,6 +119,7 @@ jobs:
 
   test-root:
     needs: build
+    timeout-minutes: 30
     permissions:
       contents: read
     runs-on: ubuntu-latest
@@ -181,7 +182,7 @@ jobs:
 
     - name: Run Cypress Tests (Root Path)
       run: |
-        npm run test:root
+        npx cypress run --config-file cypress/configs/docker.config.ts
 
     - name: Collect Docker Logs on Failure
       if: failure()
@@ -219,6 +220,7 @@ jobs:
 
   test-subdir:
     needs: build
+    timeout-minutes: 30
     permissions:
       contents: read
     runs-on: ubuntu-latest
@@ -281,7 +283,7 @@ jobs:
 
     - name: Run Cypress Tests (Subdirectory Path)
       run: |
-        npm run test:subdir
+        CYPRESS_BASE_URL=http://127.0.0.1:8080/churchcrm/ npx cypress run --config-file cypress/configs/docker.config.ts
 
     - name: Collect Docker Logs on Failure
       if: failure()
@@ -319,6 +321,7 @@ jobs:
 
   test-new-system:
     needs: build
+    timeout-minutes: 30
     permissions:
       contents: read
     runs-on: ubuntu-latest
@@ -394,7 +397,7 @@ jobs:
 
     - name: Run Cypress Tests (Setup Wizard)
       run: |
-        npm run test:new-system
+        npx cypress run --config-file cypress/configs/new-system.config.ts
 
     - name: Collect Docker Logs on Failure
       if: failure()
@@ -432,6 +435,7 @@ jobs:
 
   test-new-system-subdir:
     needs: build
+    timeout-minutes: 30
     permissions:
       contents: read
     runs-on: ubuntu-latest
@@ -506,7 +510,7 @@ jobs:
 
     - name: Run Cypress Tests (Setup Wizard - Subdir)
       run: |
-        npm run test:new-system:subdir
+        CYPRESS_BASE_URL=http://127.0.0.1:8081/churchcrm/ npx cypress run --config-file cypress/configs/new-system.config.ts
 
     - name: Collect Docker Logs on Failure
       if: failure()
