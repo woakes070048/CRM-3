@@ -19,12 +19,14 @@ describe('03 - Backup and Restore', () => {
         password: 'changeme'
     };
 
-    // Helper function to login
+    // Helper function to login, handling forced password-change redirect on first login
     const loginAsAdmin = () => {
+        // Test 02 resets password back to 'changeme' after testing forced change
+        const password = adminCredentials.password;
         cy.visit('/login');
         cy.get('input[name=User]').type(adminCredentials.username);
-        cy.get('input[name=Password]').type(adminCredentials.password + '{enter}');
-        cy.url({ timeout: 15000 }).should('not.include', '/login');
+        cy.get('input[name=Password]').type(password + '{enter}');
+        cy.url({ timeout: 15000 }).should('not.include', '/session/begin');
     };
 
     describe('Step 6: Create Backup', () => {
@@ -104,12 +106,12 @@ describe('03 - Backup and Restore', () => {
         it('should restore seed.sql file', () => {
             cy.visit('/admin/system/restore');
             
-            // The seed SQL file path (relative to cypress project root)
-            const seedSqlPath = 'cypress/data/seed.sql';
+            // The demo SQL file path (relative to cypress project root)
+            const demoSqlPath = 'cypress/data/seed.sql';
             
             // Use cy.selectFile to upload the file
             // The file input is hidden, so we need to force the action
-            cy.get('#restoreFile').selectFile(seedSqlPath, { force: true });
+            cy.get('#restoreFile').selectFile(demoSqlPath, { force: true });
             
             // File info should show
             cy.get('#fileInfo').should('be.visible');
