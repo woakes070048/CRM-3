@@ -1,6 +1,7 @@
 import { defineConfig } from 'cypress'
 import { verifyDownloadTasks } from 'cy-verify-downloads';
 
+import base from './base.config'
 export default defineConfig({
   chromeWebSecurity: false,
   video: false,
@@ -47,10 +48,8 @@ export default defineConfig({
       });
       return config;
     },
-    baseUrl: 'http://localhost/',
-    specPattern: [
-      'cypress/e2e/api/**/*.spec.js',
-      'cypress/e2e/ui/**/*.spec.js'
-    ]
+    ...base.e2e,
+    baseUrl: process.env.CYPRESS_BASE_URL || base.e2e.baseUrl || 'http://localhost/',
+    specPattern: base.e2e.specPattern,
   },
 })

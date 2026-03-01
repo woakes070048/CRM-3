@@ -84,7 +84,7 @@
         "test:ui-only": "cp cypress/configs/docker.config.ts cypress.config.ts && node_modules/cypress/bin/cypress run --e2e --spec 'cypress/e2e/ui/**/*.spec.js'",
         "cypress:open": "npx cypress open --config-file cypress.config.ts",
         "cypress:run": "npx cypress run --config-file cypress.config.ts",
-        "cypress:run:ci": "npx cypress run --headless --config-file cypress/configs/ci.config.ts",
+        "cypress:run:ci": "npx cypress run --headless --config-file cypress/configs/docker.config.ts",
         "cypress:run:docker": "npx cypress run --config-file cypress/configs/docker.config.ts"
     },
     "dependencies": {
