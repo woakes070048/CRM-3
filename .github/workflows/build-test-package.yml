@@ -181,7 +181,7 @@ jobs:
 
     - name: Run Cypress Tests (Root Path)
       run: |
-        npm run test:root
+        npx cypress run --config-file cypress/configs/docker.config.ts
 
     - name: Collect Docker Logs on Failure
       if: failure()
@@ -281,7 +281,7 @@ jobs:
 
     - name: Run Cypress Tests (Subdirectory Path)
       run: |
-        npm run test:subdir
+        npx cypress run --config-file cypress/configs/subdir.config.ts
 
     - name: Collect Docker Logs on Failure
       if: failure()
@@ -394,7 +394,7 @@ jobs:
 
     - name: Run Cypress Tests (Setup Wizard)
       run: |
-        npm run test:new-system
+        npx cypress run --config-file cypress/configs/new-system.config.ts
 
     - name: Collect Docker Logs on Failure
       if: failure()
@@ -506,7 +506,7 @@ jobs:
 
     - name: Run Cypress Tests (Setup Wizard - Subdir)
       run: |
-        npm run test:new-system:subdir
+        npx cypress run --config-file cypress/configs/new-system.subdir.config.ts
 
     - name: Collect Docker Logs on Failure
       if: failure()
