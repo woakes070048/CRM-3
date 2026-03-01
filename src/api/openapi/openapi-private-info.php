@@ -11,10 +11,23 @@
  *
  * @OA\Server(
  *     url="https://{host}/api",
- *     description="Self-hosted ChurchCRM instance",
+ *     description="Self-hosted ChurchCRM API (/api)",
  *     @OA\ServerVariable(serverVariable="host", default="your-server.com", description="Your ChurchCRM server hostname")
  * )
- * @OA\Server(url="http://localhost/churchcrm/api", description="Local development")
+ * @OA\Server(
+ *     url="https://{host}/admin",
+ *     description="Self-hosted ChurchCRM Admin (/admin)",
+ *     @OA\ServerVariable(serverVariable="host", default="your-server.com", description="Your ChurchCRM server hostname")
+ * )
+ * @OA\Server(
+ *     url="https://{host}",
+ *     description="Self-hosted ChurchCRM root (for /kiosk and /plugins)",
+ *     @OA\ServerVariable(serverVariable="host", default="your-server.com", description="Your ChurchCRM server hostname")
+ * )
+ *
+ * @OA\Server(url="http://localhost/churchcrm/api", description="Local API development (/api)")
+ * @OA\Server(url="http://localhost/churchcrm/admin", description="Local Admin development (/admin)")
+ * @OA\Server(url="http://localhost/churchcrm", description="Local root development (for /kiosk and /plugins)")
  *
  * @OA\SecurityScheme(
  *     securityScheme="ApiKeyAuth",
