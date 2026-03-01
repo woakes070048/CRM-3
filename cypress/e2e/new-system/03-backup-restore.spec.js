@@ -19,12 +19,26 @@ describe('03 - Backup and Restore', () => {
         password: 'changeme'
     };
 
-    // Helper function to login
+    // Helper function to login, handling forced password-change redirect on first login
     const loginAsAdmin = () => {
+        const password = Cypress.env('newSystemAdminPassword') || adminCredentials.password;
         cy.visit('/login');
         cy.get('input[name=User]').type(adminCredentials.username);
-        cy.get('input[name=Password]').type(adminCredentials.password + '{enter}');
+        cy.get('input[name=Password]').type(password + '{enter}');
         cy.url({ timeout: 15000 }).should('not.include', '/login');
+
+        // Fresh-install admin has NeedPasswordChange=true; complete the forced form if needed
+        cy.url().then((url) => {
+            if (url.includes('/changepassword')) {
+                const newPassword = 'Cypress@01!';
+                cy.get('#OldPassword').type(password);
+                cy.get('#NewPassword1').type(newPassword);
+                cy.get('#NewPassword2').type(newPassword);
+                cy.get('button[type=submit]').click();
+                cy.contains('Password Changed', { timeout: 10000 }).should('be.visible');
+                Cypress.env('newSystemAdminPassword', newPassword);
+            }
+        });
     };
 
     describe('Step 6: Create Backup', () => {
@@ -102,6 +116,10 @@ describe('03 - Backup and Restore', () => {
         });
 
         it('should restore ChurchCRM-Database.sql file', () => {
+            // After restore the DB reverts to the demo SQL credentials (changeme, NeedPasswordChange=0).
+            // Clear the tracked password so subsequent loginAsAdmin() calls use 'changeme'.
+            Cypress.env('newSystemAdminPassword', null);
+
             cy.visit('/admin/system/restore');
             
             // The demo SQL file path (relative to cypress project root)
