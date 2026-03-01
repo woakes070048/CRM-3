@@ -44,4 +44,5 @@ cypress/screenshots
 cypress/videos
 cypress/downloads
 cypress.config.ts
+cypress.env.json
 
