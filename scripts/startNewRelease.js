@@ -160,7 +160,7 @@ async function updateDBVersion(dbFileName, newVersion, oldVersion) {
 }
 
 async function updateDBDemoSQL(newVersion, oldVersion) {
-    const demoSQLFile = "demo/ChurchCRM-Database.sql";
+    const demoSQLFile = "cypress/data/seed.sql";
     
     try {
         console.log(`Updating ${demoSQLFile} with new version entry...`);
