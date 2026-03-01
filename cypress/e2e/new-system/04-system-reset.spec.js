@@ -30,7 +30,7 @@ describe('04 - System Reset', () => {
         cy.get('input[name=User]', { timeout: 15000 }).type(adminCredentials.username);
         cy.get('input[name=Password]').type(password);
         cy.get('input[name=Password]').type('{enter}');
-        cy.url({ timeout: 30000 }).should('not.include', '/login');
+        cy.url({ timeout: 30000 }).should('not.include', '/session/begin');
         // Give the session time to establish
         cy.wait(1000);
 

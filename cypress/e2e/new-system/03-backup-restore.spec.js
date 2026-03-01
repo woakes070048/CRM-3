@@ -25,7 +25,7 @@ describe('03 - Backup and Restore', () => {
         cy.visit('/login');
         cy.get('input[name=User]').type(adminCredentials.username);
         cy.get('input[name=Password]').type(password + '{enter}');
-        cy.url({ timeout: 15000 }).should('not.include', '/login');
+        cy.url({ timeout: 15000 }).should('not.include', '/session/begin');
 
         // Fresh-install admin has NeedPasswordChange=true; complete the forced form if needed
         cy.url().then((url) => {

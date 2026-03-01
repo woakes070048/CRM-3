@@ -130,7 +130,7 @@ describe('01 - Setup Wizard', () => {
             cy.get('input[name=Password]').type(adminCredentials.password + '{enter}');
             
             // Should redirect away from login
-            cy.url({ timeout: 15000 }).should('not.include', '/login');
+            cy.url({ timeout: 15000 }).should('not.include', '/session/begin');
             
             // Should be on some page (dashboard or admin)
             cy.get('body').should('exist');
@@ -140,7 +140,7 @@ describe('01 - Setup Wizard', () => {
             cy.visit('/login');
             cy.get('input[name=User]').type(adminCredentials.username);
             cy.get('input[name=Password]').type(adminCredentials.password + '{enter}');
-            cy.url({ timeout: 15000 }).should('not.include', '/login');
+            cy.url({ timeout: 15000 }).should('not.include', '/session/begin');
             
             // Fresh system should show admin dashboard (no people yet)
             // The system may redirect to admin or v2/dashboard
@@ -157,7 +157,7 @@ describe('01 - Setup Wizard', () => {
             cy.visit('/login');
             cy.get('input[name=User]').type(adminCredentials.username);
             cy.get('input[name=Password]').type(adminCredentials.password + '{enter}');
-            cy.url({ timeout: 15000 }).should('not.include', '/login');
+            cy.url({ timeout: 15000 }).should('not.include', '/session/begin');
             
             // Check people API - should return mostly empty (only admin user)
             cy.request({
