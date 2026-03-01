@@ -47,11 +47,11 @@ Local setup (recommended)
 - Override `baseUrl` for local runs by setting the `CYPRESS_BASE_URL` environment variable or by passing `--config` on the CLI. Examples:
 
 ```bash
-# temporary override via env var
-CYPRESS_BASE_URL=http://localhost:8080 npm run test
+# temporary override via env var (e.g., for subdirectory installation)
+CYPRESS_BASE_URL=http://localhost:8080/churchcrm/ npm run test
 
 # or pass via CLI (explicit config-file)
-npx cypress run --config baseUrl=http://localhost:8080 --config-file cypress/configs/docker.config.ts
+npx cypress run --config baseUrl=http://localhost:8080/churchcrm/ --config-file cypress/configs/docker.config.ts
 ```
 
 - Common developer commands:

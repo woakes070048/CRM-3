@@ -417,8 +417,12 @@ cy.fixture('users.json').then((users) => {
 ```
 
 ### Environment & Config
-**Local:** Create `cypress.env.json` (gitignored) for test credentials.  
-**Override baseUrl:** `CYPRESS_BASE_URL=http://localhost:8080 npm run test`
+**Config files:** `cypress/configs/docker.config.ts` (CI/dev standard), `new-system.config.ts` (setup wizard)  
+**Baseurl override:** Use `CYPRESS_BASE_URL` env var to override baseUrl for any variant or installation path:
+```bash
+CYPRESS_BASE_URL=http://localhost:8080/churchcrm/ npm run test
+```
+**Local:** Create `cypress.env.json` (gitignored) for test credentials.
 
 ### npm Scripts (Learn These)
 - `npm run test` — Run full e2e suite headless  
