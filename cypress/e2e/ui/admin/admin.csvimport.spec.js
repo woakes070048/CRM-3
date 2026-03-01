@@ -14,7 +14,7 @@ describe(
         it("Verify CSV Import", () => {
             cy.visit("CSVImport.php");
             cy.get("#CSVFileChooser").selectFile(
-                "cypress/data/test_import.csv",
+                "cypress/fixtures/test_import.csv",
             );
             cy.get("#UploadCSVBtn").click();
             cy.contains("Total number of rows in the CSV file: 3");
