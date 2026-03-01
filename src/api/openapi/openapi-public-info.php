@@ -10,11 +10,12 @@
  * )
  *
  * @OA\Server(
- *     url="https://{host}/api",
+ *     url="{scheme}://{host}/api",
  *     description="Self-hosted ChurchCRM instance",
+ *     @OA\ServerVariable(serverVariable="scheme", enum={"https","http"}, default="https", description="Protocol (https for production, http for local)"),
  *     @OA\ServerVariable(serverVariable="host", default="your-server.com", description="Your ChurchCRM server hostname")
  * )
- * @OA\Server(url="http://localhost/churchcrm/api", description="Local development")
+ * @OA\Server(url="http://localhost/churchcrm/api", description="Local development (localhost)")
  *
  * @OA\Tag(name="Utility", description="Health check and CSP reporting")
  * @OA\Tag(name="Auth", description="Login and password reset")

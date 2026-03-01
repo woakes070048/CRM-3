@@ -10,24 +10,27 @@
  * )
  *
  * @OA\Server(
- *     url="https://{host}/api",
+ *     url="{scheme}://{host}/api",
  *     description="Self-hosted ChurchCRM API (/api)",
+ *     @OA\ServerVariable(serverVariable="scheme", enum={"https","http"}, default="https", description="Protocol (https for production, http for local)"),
  *     @OA\ServerVariable(serverVariable="host", default="your-server.com", description="Your ChurchCRM server hostname")
  * )
  * @OA\Server(
- *     url="https://{host}/admin",
+ *     url="{scheme}://{host}/admin",
  *     description="Self-hosted ChurchCRM Admin (/admin)",
+ *     @OA\ServerVariable(serverVariable="scheme", enum={"https","http"}, default="https", description="Protocol (https for production, http for local)"),
  *     @OA\ServerVariable(serverVariable="host", default="your-server.com", description="Your ChurchCRM server hostname")
  * )
  * @OA\Server(
- *     url="https://{host}",
+ *     url="{scheme}://{host}",
  *     description="Self-hosted ChurchCRM root (for /kiosk and /plugins)",
+ *     @OA\ServerVariable(serverVariable="scheme", enum={"https","http"}, default="https", description="Protocol (https for production, http for local)"),
  *     @OA\ServerVariable(serverVariable="host", default="your-server.com", description="Your ChurchCRM server hostname")
  * )
  *
- * @OA\Server(url="http://localhost/churchcrm/api", description="Local API development (/api)")
- * @OA\Server(url="http://localhost/churchcrm/admin", description="Local Admin development (/admin)")
- * @OA\Server(url="http://localhost/churchcrm", description="Local root development (for /kiosk and /plugins)")
+ * @OA\Server(url="http://localhost/churchcrm/api", description="Local development — API (/api)")
+ * @OA\Server(url="http://localhost/churchcrm/admin", description="Local development — Admin (/admin)")
+ * @OA\Server(url="http://localhost/churchcrm", description="Local development — root (for /kiosk and /plugins)")
  *
  * @OA\SecurityScheme(
  *     securityScheme="ApiKeyAuth",
